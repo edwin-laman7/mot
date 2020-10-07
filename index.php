@@ -1,5 +1,4 @@
 <?php include('header.php'); ?>
-<h1> hellooooooo</h1>
     <main>
       <!-- Main Banner Code -->
       <div class="orbit" role="region" aria-label="" data-orbit>
