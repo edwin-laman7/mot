@@ -216,8 +216,12 @@ h1, h2, h3, h4, h5, h6{
 
   .search-input{
     display: none;
-   
   } 
+
+  .mot-header span{
+    font-size: 12px;
+    width: 90px;
+  }
   
 }
 
@@ -406,7 +410,7 @@ h1, h2, h3, h4, h5, h6{
     width: 65%;
   }
   .mot-title{
-    width: 105px;
+    width: 90px;
   }
 
   .mot-header img{
@@ -415,7 +419,8 @@ h1, h2, h3, h4, h5, h6{
   }
   
   .mot-header span{
-    font-size: 16px;
+    font-size: 12px;
+    width: 90px;
   }
   
   .mot-header p{
@@ -463,10 +468,6 @@ h1, h2, h3, h4, h5, h6{
 
 
 }
-
-
-
-
 
 /* END HEADER STYLES */
   
