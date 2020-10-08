@@ -1,10 +1,6 @@
 let toggleNavStatus = false;
 
-
-
-
-// Activation for Sub-Menu-2
-var li_elements = document.querySelectorAll(".nav-sidebar li");
+var li_elements = document.querySelectorAll(".nav-sidebar ul li");
 var item_elements = document.querySelectorAll(".item");
 for (var i = 0; i < li_elements.length; i++) {
   li_elements[i].addEventListener("click", function() {
@@ -15,39 +11,39 @@ for (var i = 0; i < li_elements.length; i++) {
   });
 }
 
-
-//Toggle Menu Button
 function toggleNav(){
     let getSidebar = document.querySelector(".nav-sidebar");
-    let getMain = document.querySelector("main");
-    let getFooter = document.querySelector("footer");
-    if (toggleNavStatus === false) {
-        getSidebar.style.display = "block";
-        getSidebar.style.width = "100%";
-        getMain.style.display = "none";
-        getFooter.style.display = "none";
-        toggleNavStatus = true;
-        
-    }
+    let getSidebarMenu = document.querySelector(".menu");
+    let getToggleDarkMode = document.querySelector(".toggle-darkmode-font-size");
 
+    if (toggleNavStatus === false) {
+        getSidebar.style.width = "100%";
+        getSidebarMenu.style.display = "block";
+        getToggleDarkMode.style.display = "none";
+        toggleNavStatus = true;
+    }
     else if (toggleNavStatus === true) {
-        
         getSidebar.style.width = "0px";
-        getMain.style.display = "block";
-        getFooter.style.display = "block";
+        getSidebarMenu.style.display = "none";
+        getToggleDarkMode.style.display = "block";
         toggleNavStatus = false;
 
-        //Close sub-menu-2
-        var li_elements = document.querySelectorAll(".nav-sidebar li");
+        var li_elements = document.querySelectorAll(".nav-sidebar ul li");
         for (var i = 0; i < li_elements.length; i++) {
             li_elements.forEach(function(li) {
                 li.classList.remove("active-child-level2");
               })
         }
-        
-        
     }
 
+    // var x = document.getElementById("myDIV");
+    // if (x.innerHTML === "MENU") {
+    //   x.innerHTML = "CLOSE";
+    // } else {
+    //   x.innerHTML = "MENU";
+    // }
 }
+
+
 
 

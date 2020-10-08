@@ -16,90 +16,120 @@
   </head>
   <body>
     <header>
-      <!-- Navigation Bar Code -->
-      <!-- <nav>      
-        <div class="logo">
-          <img src="assets/icon/mot-logo.svg" alt="logo">
-          <span>MINISTRY OF TRANSPORT</span>
-        </div>
-          <label for="btn" class="icon">
-            <span class="fa fa-bars"></span>
-          </label>
-          <input type="checkbox" id="btn" onclick="toggleNav()">
-          <ul>
-            <div class="nav-sidebar">
-              <li>
-                <label for="btn-1" class="show">Aviation</label>
-                <input type="checkbox" id="btn-1">
-                <ul class="nav-sidebar-2">
-                  <li><a href="#">Infrastructure</a></li>
-                  <li><a href="#">Safety and Security</a></li>
-                  <li><a href="#">Operator & License</a></li>
-                  <li><a href="#">Development</a></li>
-                  <li><a href="#">Acts and Regulation</a></li>
-                  <li><a href="#">Agencies</a></li>
-                  <li><a href="#">Programmes</a></li>
-                  <li><a href="#">Reports and Stats</a></li>
-                </ul>
-              </li>
-              <li>
-                <label for="btn-2" class="show">Land</label>
-                <input type="checkbox" id="btn-2">
-                <ul class="nav-sidebar-2">
-                  <li><a href="#">Land Sub-Menu-1</a></li>
-                  <li><a href="#">Land Sub-Menu-2</a></li>
-                </ul>
-              </li>
-              <li>
-                <label for="btn-3" class="show">Maritime</label>
-                <input type="checkbox" id="btn-3">
-                <ul class="nav-sidebar-2">
-                  <li><a href="#">Maritime Sub-Menu-1</a></li>
-                  <li><a href="#">Maritime Sub-Menu-2</a></li>
-                </ul>
-              </li>
-              <li>
-                <label for="btn-4" class="show">Logistics</label>
-                <input type="checkbox" id="btn-4">
-                <ul class="nav-sidebar-2">
-                  <li><a href="#">Logistics Sub-Menu-1</a></li>
-                  <li><a href="#">Logistics Sub-Menu-2</a></li>
-                </ul>
-              </li>
-              <li>
-                <label for="btn-5" class="show">About</label>
-                <input type="checkbox" id="btn-5">
-                <ul class="nav-sidebar-2">
-                  <li><a href="#">About Sub-Menu-1</a></li>
-                  <li><a href="#">About Sub-Menu-2</a></li>
-                </ul>
-              </li>
-              <li>
-                <label for="btn-6" class="show">Media</label>
-                <input type="checkbox" id="btn-6">
-                <ul class="nav-sidebar-2">
-                  <li><a href="#">Media Sub-Menu-1</a></li>
-                  <li><a href="#">Media Sub-Menu-2</a></li>
-                </ul>
-              </li>
-              <li>
-                <label for="btn-7" class="show">Business</label>
-                <input type="checkbox" id="btn-7">
-                <ul class="nav-sidebar-2">
-                  <li><a href="#">Business Sub-Menu-1</a></li>
-                  <li><a href="#">Business Sub-Menu-2</a></li>
-                </ul>
-              </li>
-              <li>
-                <label for="btn-8" class="show">Feedback</label>
-                <input type="checkbox" id="btn-8">
-                <ul class="nav-sidebar-2">
-                  <li><a href="#">Feedback Sub-Menu-1</a></li>
-                  <li><a href="#">Feedback Sub-Menu-2</a></li>
-                </ul>
-              </li>
+      <div class="nav">
+        <div class="grid-container nav-main">
+          <div class="row">
+            <div class="column">
+              <div class="mot-header">
+                  <img src="assets/icon/mot-logo.svg" alt="">
+                  <div class="mot-title">
+                      <span>MINISTRY OF TRANSPORTATION</span>
+                      <p>OFFICIAL PORTAL</p>
+                  </div>
+              </div>
+              <div class="search-input-container">
+                  <input class="search-input" type="text" placeholder="">
+                </div>
+              <div class="btn-control">
+                <button class="btn-toggle-language">BM</button>
+                <button class="btn-toggle-nav" onclick="toggleNav()" id="myDIV"><img src="assets/icon/menu-line-icon.svg"> MENU</button>
+              </div>
             </div>
-          </ul>
+          </div>
         </div>
-      </nav> -->
+
+        <div class="nav-sidebar">
+          <div class="menu">
+            <ul>
+              <li class="item" id='aviation' >
+                <a href="#aviation" class="btn">Aviation</a>
+                <div class="nav-sidebar-2">
+                  <ul>
+                    <div class="smenu">
+                      <li><a href="#">Infrastructure</a></li>
+                      <li><a href="#">Safety and Security</a></li>
+                      <li><a href="#">Operator & License</a></li>
+                      <li><a href="#">Development</a></li>
+                      <li><a href="#">Acts and Regulation</a></li>
+                      <li><a href="#">Agencies</a></li>
+                      <li><a href="#">Programmes</a></li>
+                      <li><a href="#">Reports and Stats</a></li>
+                    </div>
+                  </ul>
+                </div>
+              </li>
+      
+              <li class="item" id="land">
+                <a href="#land" class="btn">Land</a>
+                <ul class="nav-sidebar-2">
+                  <div class="smenu">
+                    <li><a href="#">Land Sub-Menu-1</a></li>
+                    <li><a href="#">Land Sub-Menu-2</a></li>
+                  </div>
+                </ul>
+              </li>
+      
+              <li class="item" id="maritime">
+                <a href="#maritime" class="btn">Maritime</a>
+                <ul class="nav-sidebar-2">
+                  <div class="smenu">
+                    <li><a href="#">Maritime Sub-Menu-1</a></li>
+                    <li><a href="#">Maritime Sub-Menu-2</a></li>
+                  </div>
+                </ul>
+              </li>
+
+              <li class="item" id="logistics">
+                <a href="#logistics" class="btn">Logistics</a>
+                <ul class="nav-sidebar-2">
+                  <div class="smenu">
+                    <li><a href="#">Logistics Sub-Menu-1</a></li>
+                    <li><a href="#">Logistics Sub-Menu-2</a></li>
+                  </div>
+                </ul>
+              </li>
+
+              <li class="item" id="about">
+                <a href="#about" class="btn">About</a>
+                <ul class="nav-sidebar-2">
+                  <div class="smenu">
+                    <li><a href="#">About Sub-Menu-1</a></li>
+                    <li><a href="#">About Sub-Menu-2</a></li>
+                  </div>
+                </ul>
+              </li>
+
+              <li class="item" id="media">
+                <a href="#media" class="btn">Media</a>
+                <ul class="nav-sidebar-2">
+                  <div class="smenu">
+                    <li><a href="#">Media Sub-Menu-1</a></li>
+                    <li><a href="#">Media Sub-Menu-2</a></li>
+                  </div>
+                </ul>
+              </li>
+
+              <li class="item" id="business">
+                <a href="#business" class="btn">Business</a>
+                <ul class="nav-sidebar-2">
+                  <div class="smenu">
+                    <li><a href="#">Business Sub-Menu-1</a></li>
+                    <li><a href="#">Business Sub-Menu-2</a></li>
+                  </div>
+                </ul>
+              </li>
+
+              <li class="item" id="feedback">
+                <a href="#feedback" class="btn">Feedback</a>
+                <ul class="nav-sidebar-2">
+                  <div class="smenu">
+                    <li><a href="#">Feedback Sub-Menu-1</a></li>
+                    <li><a href="#">Feedback Sub-Menu-2</a></li>
+                  </div>
+                </ul>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
     </header>
