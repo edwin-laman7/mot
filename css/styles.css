@@ -76,7 +76,7 @@ h1, h2, h3, h4, h5, h6{
 .mot-header span{
   font-family: 'Open Sans', sans-serif;
   font-size: 24px;
-  font-weight: 600;
+  font-weight: 700;
 }
 
 .mot-header p{
@@ -217,14 +217,73 @@ h1, h2, h3, h4, h5, h6{
 
 @media all and (max-width: 768px){
 
-  .mot-logo{
-    color: #193B6A;
-    position: relative;
-    left: 5%;
-  }
 
   .nav-main{
-    height: 65px;
+    width: auto;
+    height: 58px;
+  }
+
+  .mot-header img{
+    width: 40px;
+    height: 29px;
+  }
+
+  .mot-title{
+
+  }
+  
+  .mot-header span{
+    font-size: 14px;
+  }
+  
+  .mot-header p{
+    display: none;
+  }
+
+  .search-input-container{
+    display: none;
+  }
+  
+  .search-input{
+    width: 274px;
+    height: 34px;
+    font-size: 14px;
+    background-color: transparent;
+    background-image: url("../assets/icon/search-icon.svg");
+    background-repeat: no-repeat;
+    background-position: 95% center;
+    border-radius: 20px;
+    border: 1px solid #707070;
+   
+  } 
+  
+  .btn-control{
+    margin-top: -35px;
+  }
+  
+  .btn-toggle-language{
+    color: #193B6A;
+    border-radius: 4px;
+    font-size: 15px;
+    padding: 10px;
+    cursor: pointer;
+    
+  }
+  
+  .btn-toggle-nav{
+    background-color: #193B6A;
+    color: white;
+    border-radius: 4px;
+    font-size: 8px;
+    cursor: pointer;
+    width: 92px;
+    height: 29px;
+    font-weight: 600;
+  }
+  
+  .nav-sidebar{
+    top: 58px;
+    padding-left: 0px;
   }
 
   .nav-sidebar ul{
@@ -239,6 +298,7 @@ h1, h2, h3, h4, h5, h6{
 
   .nav-sidebar-2{
     position: static;
+    padding-left: 0px;
     margin-top: 0px;
     height: 100%;
   }
@@ -259,13 +319,15 @@ h1, h2, h3, h4, h5, h6{
   }
   
   .menu{
-    width: 100%;
-    border-radius: 8px;
-    overflow: hidden;
-    padding: 0px;
+    /* width: 100%; */
+    /* border-radius: 8px; */
+    overflow-y: scroll;
+    padding: -10px;
+    margin-left: -20px;
+    height: 100%;
   }
   .item{
-    border-bottom: 1px solid #285696;
+    border: 1px solid #285696;
     overflow: hidden;
   }
   .btn{
@@ -293,6 +355,7 @@ h1, h2, h3, h4, h5, h6{
     overflow: hidden;
     transition: max-height 0.3s;
     max-height: 0;
+    margin-left: -20px;
   }
   .smenu li{
     border-bottom: 1px solid #285696;

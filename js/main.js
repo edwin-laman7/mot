@@ -17,6 +17,10 @@ function toggleNav(){
     let getToggleDarkMode = document.querySelector(".toggle-darkmode-font-size");
     let getNavMain = document.querySelector(".nav-main");
     let getMOTHeader = document.querySelector(".mot-header");
+    let getSearchContainer = document.querySelector(".search-input-container");
+    let getBtnTglLanguage = document.querySelector(".btn-toggle-language");
+    let getMainContent = document.querySelector("main");
+    let getFooter = document.querySelector("footer");
 
     if (toggleNavStatus === false) {
         getSidebar.style.width = "100%";
@@ -24,6 +28,10 @@ function toggleNav(){
         getToggleDarkMode.style.display = "none";
         getNavMain.style.backgroundColor =  "#193B6A"; 
         getMOTHeader.style.color =  "white"; 
+        getSearchContainer.style.visible =  "hidden"; 
+        getBtnTglLanguage.style.visible =  "hidden"; 
+        getMainContent.style.display =  "none"; 
+        getFooter.style.display =  "none"; 
         toggleNavStatus = true;
     }
     else if (toggleNavStatus === true) {
@@ -31,7 +39,11 @@ function toggleNav(){
         getSidebarMenu.style.display = "none";
         getToggleDarkMode.style.display = "block";
         getNavMain.style.backgroundColor =  "white"; 
+        getSearchContainer.style.visible =  "visible";
+        getBtnTglLanguage.style.visible =  "visible";  
         getMOTHeader.style.color =  "#193B6A";
+        getMainContent.style.display =  "block"; 
+        getFooter.style.display =  "block"; 
         toggleNavStatus = false;
 
         var li_elements = document.querySelectorAll(".nav-sidebar ul li");
