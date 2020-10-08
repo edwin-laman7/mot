@@ -68,7 +68,6 @@ h1, h2, h3, h4, h5, h6{
 }
 
 .mot-title{
-
   float: right;
   width: 91%;
 }
@@ -213,27 +212,38 @@ h1, h2, h3, h4, h5, h6{
   display: none;
 }
 
+@media all and (max-width: 1023px){
 
+  .search-input{
+    display: none;
+   
+  } 
+  
+}
+
+@media all and (max-width: 914px){
+  .mot-title{
+    float: right;
+    width: 88%;
+  }
+}
 
 @media all and (max-width: 768px){
-
-
   .nav-main{
     width: auto;
     height: 58px;
   }
-
-  .mot-header img{
-    width: 40px;
-    height: 29px;
+  .mot-title{
+    width:90%;
   }
 
-  .mot-title{
-
+  .mot-header img{
+    width: 50px;
+    height: 29px;
   }
   
   .mot-header span{
-    font-size: 14px;
+    font-size: 16px;
   }
   
   .mot-header p{
@@ -264,7 +274,7 @@ h1, h2, h3, h4, h5, h6{
   .btn-toggle-language{
     color: #193B6A;
     border-radius: 4px;
-    font-size: 15px;
+    font-size: 12px;
     padding: 10px;
     cursor: pointer;
     
@@ -274,7 +284,7 @@ h1, h2, h3, h4, h5, h6{
     background-color: #193B6A;
     color: white;
     border-radius: 4px;
-    font-size: 8px;
+    font-size: 12px;
     cursor: pointer;
     width: 92px;
     height: 29px;
@@ -385,6 +395,77 @@ h1, h2, h3, h4, h5, h6{
     max-height: 50em;
   }
 }
+
+@media all and (max-width: 569px){
+  .nav-main{
+    width: auto;
+    height: 78px;
+  }
+
+  .mot-header{
+    width: 65%;
+  }
+  .mot-title{
+    width: 105px;
+  }
+
+  .mot-header img{
+    width: 50px;
+    height: 29px;
+  }
+  
+  .mot-header span{
+    font-size: 16px;
+  }
+  
+  .mot-header p{
+    display: none;
+  }
+
+  .search-input-container{
+    display: none;
+  }
+  
+  .search-input{
+    width: 274px;
+    height: 34px;
+    font-size: 14px;
+    background-color: transparent;
+    background-image: url("../assets/icon/search-icon.svg");
+    background-repeat: no-repeat;
+    background-position: 95% center;
+    border-radius: 20px;
+    border: 1px solid #707070;
+  } 
+  
+  .btn-control{
+    margin-top: -35px;
+  }
+  
+  .btn-toggle-language{
+    color: #193B6A;
+    border-radius: 4px;
+    font-size: 12px;
+    padding: 10px;
+    cursor: pointer;
+  }
+  
+  .btn-toggle-nav{
+    background-color: #193B6A;
+    color: white;
+    border-radius: 4px;
+    font-size: 12px;
+    cursor: pointer;
+    width: 92px;
+    height: 29px;
+    font-weight: 600;
+  }
+
+
+}
+
+
+
 
 
 /* END HEADER STYLES */

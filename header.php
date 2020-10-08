@@ -23,7 +23,7 @@
               <div class="mot-header">
                   <img src="assets/icon/mot-logo.svg" alt="">
                   <div class="mot-title">
-                      <span>MINISTRY OF TRANSPORTATION</span>
+                      <span>MINISTRY OF TRANSPORT</span>
                       <p>OFFICIAL PORTAL</p>
                   </div>
               </div>
