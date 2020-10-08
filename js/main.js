@@ -15,17 +15,23 @@ function toggleNav(){
     let getSidebar = document.querySelector(".nav-sidebar");
     let getSidebarMenu = document.querySelector(".menu");
     let getToggleDarkMode = document.querySelector(".toggle-darkmode-font-size");
+    let getNavMain = document.querySelector(".nav-main");
+    let getMOTHeader = document.querySelector(".mot-header");
 
     if (toggleNavStatus === false) {
         getSidebar.style.width = "100%";
         getSidebarMenu.style.display = "block";
         getToggleDarkMode.style.display = "none";
+        getNavMain.style.backgroundColor =  "#193B6A"; 
+        getMOTHeader.style.color =  "white"; 
         toggleNavStatus = true;
     }
     else if (toggleNavStatus === true) {
         getSidebar.style.width = "0px";
         getSidebarMenu.style.display = "none";
         getToggleDarkMode.style.display = "block";
+        getNavMain.style.backgroundColor =  "white"; 
+        getMOTHeader.style.color =  "#193B6A";
         toggleNavStatus = false;
 
         var li_elements = document.querySelectorAll(".nav-sidebar ul li");
@@ -36,12 +42,12 @@ function toggleNav(){
         }
     }
 
-    // var x = document.getElementById("myDIV");
-    // if (x.innerHTML === "MENU") {
-    //   x.innerHTML = "CLOSE";
-    // } else {
-    //   x.innerHTML = "MENU";
-    // }
+    var x = document.getElementById("btn-toggle-nav");
+    if (x.innerHTML === '<img src="assets/icon/menu-line-icon.svg"> MENU') {
+      x.innerHTML = '<img src="assets/icon/menu-close-icon.svg"> CLOSE';
+    } else {
+      x.innerHTML = '<img src="assets/icon/menu-line-icon.svg"> MENU';
+    }
 }
 
 
