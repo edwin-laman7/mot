@@ -1,5 +1,6 @@
 let toggleNavStatus = false;
 
+//Avtivate Child Class
 var li_elements = document.querySelectorAll(".nav-sidebar ul li");
 var item_elements = document.querySelectorAll(".item");
 for (var i = 0; i < li_elements.length; i++) {
@@ -11,6 +12,15 @@ for (var i = 0; i < li_elements.length; i++) {
   });
 }
 
+//Declaire variable for Screen Width
+var pcwidth = $(window).width();
+
+//Change Menu+Icon to just Icon Only (KIV)
+if(pcwidth<=320){
+  document.getElementById("btn-toggle-nav") ='<img src="assets/icon/menu-line-icon.svg">';
+}
+
+//Toggle Navigation Bar
 function toggleNav(){
     let getSidebar = document.querySelector(".nav-sidebar");
     let getSidebarMenu = document.querySelector(".menu");
@@ -54,13 +64,21 @@ function toggleNav(){
         }
     }
 
-    var x = document.getElementById("btn-toggle-nav");
-    if (x.innerHTML === '<img src="assets/icon/menu-line-icon.svg"> MENU') {
-      x.innerHTML = '<img src="assets/icon/menu-close-icon.svg"> CLOSE';
-    } else {
-      x.innerHTML = '<img src="assets/icon/menu-line-icon.svg"> MENU';
+    //Change Button From Menu To Close
+    if(pcwidth > 320){
+      var x = document.getElementById("btn-toggle-nav");
+      if (x.innerHTML === '<img src="assets/icon/menu-line-icon.svg"> MENU') {
+        x.innerHTML = '<img src="assets/icon/menu-close-icon.svg"> CLOSE';
+      } else {
+        x.innerHTML = '<img src="assets/icon/menu-line-icon.svg"> MENU';
+      }
+    }
+    else if (pcwidth<=320){
+     
     }
 }
+
+
 
 
 
