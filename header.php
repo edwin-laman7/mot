@@ -28,8 +28,10 @@
                   </div>
               </div>
               <div class="search-input-container">
-                  <input class="search-input" type="text" placeholder="">
-                </div>
+                  <form action="">
+                    <input class="search-input" type="text" placeholder="">
+                  </form>
+              </div>
               <div class="btn-control">
                 <button class="btn-toggle-language">BM</button>
                 <button class="btn-toggle-nav" onclick="toggleNav()" id="btn-toggle-nav"><img src="assets/icon/menu-line-icon.svg"> MENU</button>

@@ -206,7 +206,7 @@
           <div class="column small-12 medium-12">
             <h2>Agencies Under MOT</h2>
           </div>
-          <div class="columns small-12 medium-4">
+          <div class="columns small-12 medium-4 aviation-agencies">
             <h3>Aviation</h3>
             <ul class="no-bullet">
               <li>
@@ -219,7 +219,7 @@
               </li>
             </ul>
           </div>
-          <div class="columns small-12 medium-4">
+          <div class="columns small-12 medium-4 land-logistics-agencies">
             <h3>Land and Logistics</h3>
             <ul class="no-bullet">
               <li>
@@ -236,7 +236,7 @@
               </li>
             </ul>
           </div>
-          <div class="columns small-12 medium-4">
+          <div class="columns small-12 medium-4 maritime-agencies">
             <h3>Maritime</h3>
             <ul class="no-bullet">
               <li>

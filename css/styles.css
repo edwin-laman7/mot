@@ -403,14 +403,17 @@ h1, h2, h3, h4, h5, h6{
 @media all and (max-width: 569px){
   .nav-main{
     width: auto;
-    height: 78px;
+    height: 68px;
   }
 
   .mot-header{
-    width: 65%;
+    width: 58%;
   }
   .mot-title{
-    width: 90px;
+    float: none;
+    position: relative;
+    left: 50px;
+    margin-top: -35px;
   }
 
   .mot-header img{
@@ -444,13 +447,14 @@ h1, h2, h3, h4, h5, h6{
   } 
   
   .btn-control{
-    margin-top: -35px;
+    float: right;
+    margin-top: -30px;
   }
   
   .btn-toggle-language{
     color: #193B6A;
     border-radius: 4px;
-    font-size: 12px;
+    font-size: 10px;
     padding: 10px;
     cursor: pointer;
   }
@@ -554,7 +558,10 @@ h1, h2, h3, h4, h5, h6{
 /* main-sector-button */
 .main-sector-button{
     text-align: center;
-  
+}
+
+.main-sector-button .column{
+    
 }
 
 .main-sector-button button{
@@ -599,7 +606,6 @@ h1, h2, h3, h4, h5, h6{
     text-align: left;
     border-color: #868686;
     padding-top: 50px;
-    
 }
 
 
@@ -611,12 +617,6 @@ h1, h2, h3, h4, h5, h6{
   padding-bottom: 148.34px;
 }
 
-@media all and (max-width: 767px){
-  .agencies-under-mot{
-    background-position: right bottom;
-  }
-}
-
 .agencies-under-mot .row{
   border-top: solid;
   text-align: left;
@@ -626,8 +626,49 @@ h1, h2, h3, h4, h5, h6{
 }
 .agencies-under-mot h3{
   color:#B7B7B7;
+  padding-top: 5px;
+  padding-bottom: 10px;
 
 }
+
+.agencies-under-mot li{
+  padding-bottom: 20px;
+}
+
+.aviation-agencies{
+  padding-right: 30px;
+}
+
+.land-logistics-agencies{
+  padding-right: 30px;
+  padding-left: 30px;
+}
+
+.maritime-agencies{
+  padding-right: 30px;
+  padding-left: 30px;
+}
+
+
+@media all and (max-width: 767px){
+  .agencies-under-mot{
+    background-position: right bottom;
+  }
+
+  .aviation-agencies{
+    padding: 0px 15px;
+  }
+  
+  .land-logistics-agencies{
+    padding: 0px 15px;
+  }
+  
+  .maritime-agencies{
+    padding: 0px 15px;
+  }
+}
+
+
 
 /* END MAIN STYLES */
 
@@ -645,10 +686,19 @@ footer{
     background-color: #F1F3F6; 
     padding: 20px;
     position: relative;
+    font-family: 'Raleway', sans-serif;
+}
+
+footer h4{
+  font-size: 16px;
+  font-weight: 600;
+  
 }
 
 footer a{
     color: black;
+    font-size: 14px;
+    font-weight: 500;
 }
 
 footer .mot-info{
@@ -675,6 +725,16 @@ footer .footer-quick-links li {
   line-height: 1.5;
   display: inline-block;
   vertical-align: middle;
+}
+
+.mot-info h4{
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.mot-info p{
+  font-size: 14px;
+  font-weight: 400px;
 }
 
 /* END FOOTER STYLES */
