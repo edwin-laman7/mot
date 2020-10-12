@@ -17,8 +17,12 @@ var pcwidth = $(window).width();
 
 //Change Menu+Icon to just Icon Only (KIV)
 if(pcwidth<=320){
-  document.getElementById("btn-toggle-nav") ='<img src="assets/icon/menu-line-icon.svg">';
+  document.getElementById("btn-toggle-nav").innerHTML ='<img src="assets/icon/menu-line-icon.svg">';
+
 }
+
+
+
 
 //Toggle Navigation Bar
 function toggleNav(){
@@ -65,7 +69,8 @@ function toggleNav(){
     }
 
     //Change Button From Menu To Close
-    if(pcwidth > 320){
+    
+    if(pcwidth > 320){//Desktop Menu Button
       var x = document.getElementById("btn-toggle-nav");
       if (x.innerHTML === '<img src="assets/icon/menu-line-icon.svg"> MENU') {
         x.innerHTML = '<img src="assets/icon/menu-close-icon.svg"> CLOSE';
@@ -73,8 +78,8 @@ function toggleNav(){
         x.innerHTML = '<img src="assets/icon/menu-line-icon.svg"> MENU';
       }
     }
-    else if (pcwidth<=320){
-     
+    else if (pcwidth<=320){//Mobile 
+      document.getElementById("btn-toggle-nav").innerHTML ='<img src="assets/icon/menu-line-icon.svg">';
     }
 }
 
