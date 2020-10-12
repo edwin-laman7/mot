@@ -89,6 +89,30 @@
                   <span class="banner-announcement-caption">Covid-19 Updates</span>
                 </button>
               </div>
+              <div class="column">
+                <button>
+                  <img src="assets/img/63-years-malaysia.png" alt="Jalur Gemilang - 63">
+                  <span class="banner-announcement-caption">63 Years Malaysia Celebration</span>
+                </button>
+              </div>
+              <div class="column">
+                <button>
+                  <img src="assets/img/covid-19.png" alt="Covid"">
+                  <span class="banner-announcement-caption">Covid-19 Updates</span>
+                </button>
+              </div>
+              <div class="column">
+                <button>
+                  <img src="assets/img/63-years-malaysia.png" alt="Jalur Gemilang - 63">
+                  <span class="banner-announcement-caption">63 Years Malaysia Celebration</span>
+                </button>
+              </div>
+              <div class="column">
+                <button>
+                  <img src="assets/img/covid-19.png" alt="Covid"">
+                  <span class="banner-announcement-caption">Covid-19 Updates</span>
+                </button>
+              </div>
             </div>
           </div>
         </div>

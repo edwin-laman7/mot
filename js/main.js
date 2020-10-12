@@ -38,17 +38,9 @@ for (var i = 0; i < li_elements.length; i++) {
 //Declaire variable for Screen Width
 var pcwidth = $(window).width();
 
-//Change Menu+Icon to just Icon Only (KIV)
-// if(pcwidth<=425){
-//   let getBtnToggle = document.querySelector("btn-toggle-nav");
-//   document.getElementById("btn-toggle-nav").innerHTML ='<img src="assets/icon/menu-line-icon.svg">';
-  
-// }
 
 
-
-
-//Toggle Navigation Bar
+//TOGGLE NAVIGATION BAR CODE
 function toggleNav(){
     if (toggleNavStatus === false) {
         getSidebar.style.width = "100%";
@@ -102,86 +94,103 @@ function toggleNav(){
     }
 }
 
+//TOGGLE DARK MODE CODE
+let darkMode = sessionStorage.getItem("darkMode");
 
+  //check if dark mode is enabled
+  //if it's enabled, turn it off
+  //if it's disabled, turn it on
 
-
-//Toggle Dark-Mode
-function toggleDarkMode(){
-  if (toggleDarkModeStatus === false){
-    //global
-    document.body.style.backgroundColor = "#222222";
-    document.body.style.color = "white";
-    for (i = 0; i < getAllHeading.length; i++) {
-      getAllHeading[i].style.color = "white";
-    }
-    for (i = 0; i < getAllLinks.length; i++) {
-      getAllLinks[i].style.color = "#7AC4FC";
-    }
-
-    //navigation-bar
-    getNavMain.style.backgroundColor = "#222222";
-    getMOTHeader.style.color = "white";
-    getBtnTglLanguage.style.color = "white";
-
-  
-
-
-    //banner-announcement
-    getBannerAnnouncement.style.backgroundColor= "#101010";
-    for (i = 0; i < getBannerSliderCaption.length; i++) {
-      getBannerSliderCaption[i].style.color = "white";
-    }
-  
-
-    //quick-links
-    getQuickLinks.style.backgroundColor= "#101010";
-
-    //footer
-    getFooter.style.backgroundColor = "#101010";
-    for (i = 0; i < getFooterLinks.length; i++) {
-      getFooterLinks[i].style.color = "white";
-    }
-    
-  
-
-    toggleDarkModeStatus = true;
+  //Code if DarkMode Enable
+const enableDarkMode = () => {
+  document.body.style.backgroundColor = "#222222";
+  document.body.style.color = "white";
+  for (i = 0; i < getAllHeading.length; i++) {
+    getAllHeading[i].style.color = "white";
   }
-  else if (toggleDarkModeStatus === true){
-    //global
-    document.body.style.backgroundColor = "#fefefe";
-    document.body.style.color = "black";
-    for (i = 0; i < getAllHeading.length; i++) {
-      getAllHeading[i].style.color = "black";
-    }
-    for (i = 0; i < getAllLinks.length; i++) {
-      getAllLinks[i].style.color = "#2680EB";
-    }
-
-    //navigation-bar
-    getNavMain.style.backgroundColor = "white";
-    getMOTHeader.style.color = "#193B6A";
-    getBtnTglLanguage.style.color = "#193B6A";
-
-    //front-topic
-    for (i = 0; i < getFrontTopicLinks.length; i++) {
-      getFrontTopicLinks[i].style.color = "#193B6A";
-    }
-
-    //banner-announcement
-    getBannerAnnouncement.style.backgroundColor= "#F1F3F6";
-    for (i = 0; i < getBannerSliderCaption.length; i++) {
-      getBannerSliderCaption[i].style.color = "black";
-    }
-    
-    //quick-links
-    getQuickLinks.style.backgroundColor= "#F1F3F6";
-
-    //footer
-    getFooter.style.backgroundColor = "#F1F3F6";
-    for (i = 0; i < getFooterLinks.length; i++) {
-      getFooterLinks[i].style.color = "black";
-    }
-
-    toggleDarkModeStatus = false;
+  for (i = 0; i < getAllLinks.length; i++) {
+    getAllLinks[i].style.color = "#7AC4FC";
   }
+
+  //navigation-bar
+  getNavMain.style.backgroundColor = "#222222";
+  getMOTHeader.style.color = "white";
+  getBtnTglLanguage.style.color = "white";
+
+
+
+
+  //banner-announcement
+  getBannerAnnouncement.style.backgroundColor= "#101010";
+  for (i = 0; i < getBannerSliderCaption.length; i++) {
+    getBannerSliderCaption[i].style.color = "white";
+  }
+
+
+  //quick-links
+  getQuickLinks.style.backgroundColor= "#101010";
+
+  //footer
+  getFooter.style.backgroundColor = "#101010";
+  for (i = 0; i < getFooterLinks.length; i++) {
+    getFooterLinks[i].style.color = "white";
+  }
+
+  sessionStorage.setItem("darkMode", "enabled");
+  
 }
+
+  //Code if DarkMode Disabled
+const disableDarkMode = () => {
+      //global
+      document.body.style.backgroundColor = "#fefefe";
+      document.body.style.color = "black";
+      for (i = 0; i < getAllHeading.length; i++) {
+        getAllHeading[i].style.color = "black";
+      }
+      for (i = 0; i < getAllLinks.length; i++) {
+        getAllLinks[i].style.color = "#2680EB";
+      }
+  
+      //navigation-bar
+      getNavMain.style.backgroundColor = "white";
+      getMOTHeader.style.color = "#193B6A";
+      getBtnTglLanguage.style.color = "#193B6A";
+  
+      //front-topic
+      for (i = 0; i < getFrontTopicLinks.length; i++) {
+        getFrontTopicLinks[i].style.color = "#193B6A";
+      }
+  
+      //banner-announcement
+      getBannerAnnouncement.style.backgroundColor= "#F1F3F6";
+      for (i = 0; i < getBannerSliderCaption.length; i++) {
+        getBannerSliderCaption[i].style.color = "black";
+      }
+      
+      //quick-links
+      getQuickLinks.style.backgroundColor= "#F1F3F6";
+  
+      //footer
+      getFooter.style.backgroundColor = "#F1F3F6";
+      for (i = 0; i < getFooterLinks.length; i++) {
+        getFooterLinks[i].style.color = "black";
+      }
+
+      sessionStorage.setItem("darkMode", null);
+}
+
+  //Check if the session already enabled the dark mode
+if (darkMode === "enabled"){
+  enableDarkMode();
+}
+
+  //Check and set the darkmode
+function toggleDarkMode(){
+  darkMode = sessionStorage.getItem("darkMode");
+  if (darkMode !== "enabled"){
+    enableDarkMode();
+  }else{
+    disableDarkMode();
+  }
+} 
