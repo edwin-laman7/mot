@@ -167,3 +167,35 @@ function toggleDarkMode(){
     disableDarkMode();
   }
 } 
+
+
+
+
+//INCREASE FONT SIZE CODE
+// var min = 8;
+var max = 100;//set the max size
+
+function changeFontSize(delta) {
+  var tags = document.querySelectorAll("body");
+  for (i = 0; i < tags.length; i++) {
+    if (tags[i].style.fontSize) {
+      var s = parseInt(tags[i].style.fontSize.replace("px", ""));
+    } else {
+      var s = 12;
+    } if (s != max) {
+      s += delta;
+    }
+    tags[i].style.fontSize = s + "px"
+  }
+}
+
+function increaseFontSize() {
+  changeFontSize(1);
+}
+
+// function decreaseFontSize() {
+//   changeFontSize(-1);
+// }
+
+document.getElementById('increase-font-size').onclick = increaseFontSize;
+// document.getElementById('decrease-font-size').onclick = decreaseFontSize;
