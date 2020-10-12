@@ -94,7 +94,7 @@ function toggleNav(){
     }
 }
 
-//TOGGLE DARK MODE CODE
+/*//TOGGLE DARK MODE CODE
 let darkMode = sessionStorage.getItem("darkMode");
 
   //check if dark mode is enabled
@@ -193,4 +193,4 @@ function toggleDarkMode(){
   }else{
     disableDarkMode();
   }
-} 
+} */
