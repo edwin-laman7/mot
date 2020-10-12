@@ -181,7 +181,7 @@ function changeFontSize(delta) {
     if (tags[i].style.fontSize) {
       var s = parseInt(tags[i].style.fontSize.replace("px", ""));
     } else {
-      var s = 12;
+      var s = 16;
     } if (s != max) {
       s += delta;
     }
