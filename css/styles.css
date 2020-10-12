@@ -1,4 +1,8 @@
+/* Global Style */
+
 :root{
+
+  /* Global Color */
   --primary-blue:#193B6A;
   --light-blue: #2680EB;
   --dark-blue: #00122a;
@@ -9,8 +13,22 @@
   --banner-quicklinks-footer-bg-color: #F1F3F6;
   --main-sector-button-color:#EFEFEF;
   --agencies-h3:#B7B7B7;
+
+  /* Color For Sidebar */
+  --primary-blue-sidebar:#193B6A;
+  --white-sidebar:rgb(255, 255, 255);
+
+  /* Color For DarkMode/Font Button */
+  --white-toggle-darkmode-font-size:rgb(255, 255, 255);
+
+
 }
-/* Global Style */
+
+
+body{
+  background-color: var(--white);
+}
+
 a{
   text-decoration: underline;
   color:var(--light-blue);
@@ -42,6 +60,15 @@ button{
 
 h1, h2, h3, h4, h5, h6{
   font-family: 'Raleway', sans-serif;
+  color: var(--black);
+}
+
+p{
+  color: var(--black);
+}
+
+span{
+  color: var(--black);
 }
 
 
@@ -112,7 +139,7 @@ h1, h2, h3, h4, h5, h6{
   background-repeat: no-repeat;
   background-position: 95% center;
   border-radius: 20px;
-  border: 1px solid:var(--border-grey);
+  border: 1px solid var(--border-grey);
  
 } 
 
@@ -143,8 +170,8 @@ h1, h2, h3, h4, h5, h6{
 
 
 .nav-sidebar{
-  background-color: var(--primary-blue);
-  color: var(--white);
+  background-color: var(--primary-blue-sidebar);
+  color: var(--white-sidebar);
   position: fixed;
   top: 110px;
   width: 0px;
@@ -170,7 +197,7 @@ h1, h2, h3, h4, h5, h6{
 }
 
 .nav-sidebar ul li a{
-  color: var(--white);
+  color: var(--white-sidebar);
   transition: all 0.3s ease-in-out 0s;
 }
 
@@ -527,7 +554,7 @@ h1, h2, h3, h4, h5, h6{
 /* Main Banner */
 .banner-caption{
     background-color: #1E3F6D;
-    color: var(--white);
+    color: var(--white-sidebar);
     padding: 5px;
     font-size: 19px;
     /* max-width: 40%; */
@@ -557,7 +584,7 @@ h1, h2, h3, h4, h5, h6{
 /* .toggle-darkmode-font-size */
 .toggle-darkmode-font-size{
   position: fixed;
-  background-color: var(--white);
+  background-color: var(--white-toggle-darkmode-font-size);
   padding: 13px;
   box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.09);
   right: 0px;
@@ -620,6 +647,10 @@ h1, h2, h3, h4, h5, h6{
 /* required-banner */
 .banner-announcements{
   background-color:var(--banner-quicklinks-footer-bg-color);
+}
+
+.banner-announcement-caption{
+  color: var(--black);
 }
 
 
@@ -763,5 +794,10 @@ footer .footer-quick-links li {
   font-size: 14px;
   font-weight: 400px;
 }
+
+/* #facebook-icon{
+  content:url(../);
+} */
+
 
 /* END FOOTER STYLES */

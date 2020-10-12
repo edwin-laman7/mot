@@ -34,8 +34,8 @@
       </div>
       <!-- Toggle Dark Mode / Font Size Cod -->
       <div class="toggle-darkmode-font-size">
-        <button onclick="toggleDarkMode()"><img src="assets/icon/dark-mode-icon.svg" alt=""></button>
-        <button><img src="assets/icon/increase-font-size.svg" alt=""></button>
+        <button onclick="toggleDarkMode()"><img src="assets/icon/dark-mode-dark-icon.svg" alt="" id="dark-mode-icon"></button>
+        <button><img src="assets/icon/font-size-dark-icon.svg" alt="" id="font-size-icon"></button>
       </div>
       <!-- Main Sector Button Code -->
       <div class="grid-container main-sector-button" >
@@ -121,7 +121,6 @@
       <div class="grid-container quick-links">
         <div class="row">
           <div class="column small-12 medium-4">
-            <h1>Heloooo Fuiyo </h1>
             <h2>Flying, piloting and training</h2>
             <ul class="no-bullet">
               <li><a href="#">Flying drone Safely at home</a></li>

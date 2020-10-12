@@ -25,9 +25,9 @@
         <div class="column small-12 medium-3">
           <h4>Contact Us</h4>
           <ul class="no-bullet">
-            <li><img src="assets/icon/phone-receiver.svg" alt="phone-icon"> <a href="#">03-8000 8000</a></li>
-            <li><img src="assets/icon/printer-.svg" alt="printer-icon"> <a href="#">03-8888 0158</a></li>
-            <li><img src="assets/icon/close-envelope.svg" alt="mail-icon"> <a href="#">aduan@mot.gov.my</a></li>
+            <li><img src="assets/icon/phone-receiver-dark-icon.svg" alt="phone-icon" id="phone-icon"> <a href="#">03-8000 8000</a></li>
+            <li><img src="assets/icon/printer-dark-icon.svg" alt="printer-icon" id="printer-icon"> <a href="#">03-8888 0158</a></li>
+            <li><img src="assets/icon/close-envelope-dark-icon.svg" alt="email-icon" id="email-icon"> <a href="#">aduan@mot.gov.my</a></li>
             <li><a href="#">Staff Directory</a></li>
             <li><a href="#">Aduan</a></li>
           </ul>
@@ -37,11 +37,11 @@
           <h4>Ministry of Transport Malaysia</h4>
           <p>No. 26, Jalan Tun Hussein, Presint 4, 62100 W.P. Putrajaya</p>
           <ul class="no-bullet social-links" >
-            <li><a href="#"><img src="assets/icon/facebook.svg" alt="fb-icon"></a></li>
-            <li><a href="#"><img src="assets/icon/instagram.svg" alt="insta-icon"></a></li>
-            <li><a href="#"><img src="assets/icon/twitter.svg" alt="twitter-icon"></a></li>
-            <li><a href="#"><img src="assets/icon/youtube.svg" alt="youtube-icon"></a></li>
-            <li><a href="#"><img src="assets/icon/rss.svg" alt="-icon"></a></li>
+            <li><a href="#"><img src="assets/icon/facebook-dark-icon.svg" alt="fb-icon" id="facebook-icon"></a></li>
+            <li><a href="#"><img src="assets/icon/instagram-dark-icon.svg" alt="insta-icon" id="instagram-icon"></a></li>
+            <li><a href="#"><img src="assets/icon/twitter-dark-icon.svg" alt="twitter-icon" id="twitter-icon"></a></li>
+            <li><a href="#"><img src="assets/icon/youtube-dark-icon.svg" alt="youtube-icon" id="youtube-icon"></a></li>
+            <li><a href="#"><img src="assets/icon/rss-dark-icon.svg" alt="-icon" id="rss-icon"></a></li>
           </ul>
         </div>
         </div>

@@ -46,7 +46,7 @@ function toggleNav(){
         getSidebar.style.width = "100%";
         getSidebarMenu.style.display = "block";
         getToggleDarkMode.style.display = "none";
-        getNavMain.style.backgroundColor =  "#193B6A"; 
+        // getNavMain.style.backgroundColor =  "#193B6A"; 
         getMOTHeader.style.color =  "white"; 
         getSearchContainer.style.visible =  "hidden"; 
         getBtnTglLanguage.style.visible =  "hidden"; 
@@ -58,7 +58,7 @@ function toggleNav(){
         getSidebar.style.width = "0px";
         getSidebarMenu.style.display = "none";
         getToggleDarkMode.style.display = "block";
-        getNavMain.style.backgroundColor =  "white"; 
+        // getNavMain.style.backgroundColor =  "white"; 
         getSearchContainer.style.visible =  "visible";
         getBtnTglLanguage.style.visible =  "visible";  
         getMOTHeader.style.color =  "#193B6A";
@@ -94,7 +94,7 @@ function toggleNav(){
     }
 }
 
-/*//TOGGLE DARK MODE CODE
+//TOGGLE DARK MODE CODE
 let darkMode = sessionStorage.getItem("darkMode");
 
   //check if dark mode is enabled
@@ -103,38 +103,26 @@ let darkMode = sessionStorage.getItem("darkMode");
 
   //Code if DarkMode Enable
 const enableDarkMode = () => {
-  document.body.style.backgroundColor = "#222222";
-  document.body.style.color = "white";
-  for (i = 0; i < getAllHeading.length; i++) {
-    getAllHeading[i].style.color = "white";
-  }
-  for (i = 0; i < getAllLinks.length; i++) {
-    getAllLinks[i].style.color = "#7AC4FC";
-  }
+  document.documentElement.style.setProperty('--white', '#222222');
+  document.documentElement.style.setProperty('--black', 'rgb(255, 255, 255)');
+  document.documentElement.style.setProperty('--primary-blue', 'white');
+  document.documentElement.style.setProperty('--light-blue', '#7AC4FC');
+  document.documentElement.style.setProperty('--dark-blue', 'white');
+  document.documentElement.style.setProperty('--banner-quicklinks-footer-bg-color', '#101010');
+  document.documentElement.style.setProperty('--white-toggle-darkmode-font-size', '#193B6A');
 
-  //navigation-bar
-  getNavMain.style.backgroundColor = "#222222";
-  getMOTHeader.style.color = "white";
-  getBtnTglLanguage.style.color = "white";
+  //Change Icon
+  document.getElementById("dark-mode-icon").src = "assets/icon/dark-mode-light-icon.svg";
+  document.getElementById("font-size-icon").src = "assets/icon/font-size-light-icon.svg";
+  document.getElementById("phone-icon").src = "assets/icon/phone-receiver-light-icon.svg";
+  document.getElementById("printer-icon").src = "assets/icon/printer-light-icon.svg";
+  document.getElementById("email-icon").src = "assets/icon/close-envelope-light-icon.svg";
+  document.getElementById("facebook-icon").src = "assets/icon/facebook-light-icon.svg";
+  document.getElementById("instagram-icon").src = "assets/icon/instagram-light-icon.svg";
+  document.getElementById("twitter-icon").src = "assets/icon/twitter-light-icon.svg";
+  document.getElementById("youtube-icon").src = "assets/icon/youtube-light-icon.svg";
+  document.getElementById("rss-icon").src = "assets/icon/rss-light-icon.svg";
 
-
-
-
-  //banner-announcement
-  getBannerAnnouncement.style.backgroundColor= "#101010";
-  for (i = 0; i < getBannerSliderCaption.length; i++) {
-    getBannerSliderCaption[i].style.color = "white";
-  }
-
-
-  //quick-links
-  getQuickLinks.style.backgroundColor= "#101010";
-
-  //footer
-  getFooter.style.backgroundColor = "#101010";
-  for (i = 0; i < getFooterLinks.length; i++) {
-    getFooterLinks[i].style.color = "white";
-  }
 
   sessionStorage.setItem("darkMode", "enabled");
   
@@ -142,42 +130,27 @@ const enableDarkMode = () => {
 
   //Code if DarkMode Disabled
 const disableDarkMode = () => {
-      //global
-      document.body.style.backgroundColor = "#fefefe";
-      document.body.style.color = "black";
-      for (i = 0; i < getAllHeading.length; i++) {
-        getAllHeading[i].style.color = "black";
-      }
-      for (i = 0; i < getAllLinks.length; i++) {
-        getAllLinks[i].style.color = "#2680EB";
-      }
-  
-      //navigation-bar
-      getNavMain.style.backgroundColor = "white";
-      getMOTHeader.style.color = "#193B6A";
-      getBtnTglLanguage.style.color = "#193B6A";
-  
-      //front-topic
-      for (i = 0; i < getFrontTopicLinks.length; i++) {
-        getFrontTopicLinks[i].style.color = "#193B6A";
-      }
-  
-      //banner-announcement
-      getBannerAnnouncement.style.backgroundColor= "#F1F3F6";
-      for (i = 0; i < getBannerSliderCaption.length; i++) {
-        getBannerSliderCaption[i].style.color = "black";
-      }
-      
-      //quick-links
-      getQuickLinks.style.backgroundColor= "#F1F3F6";
-  
-      //footer
-      getFooter.style.backgroundColor = "#F1F3F6";
-      for (i = 0; i < getFooterLinks.length; i++) {
-        getFooterLinks[i].style.color = "black";
-      }
+  document.documentElement.style.setProperty('--white', 'rgb(255, 255, 255');
+  document.documentElement.style.setProperty('--black', '#222222');
+  document.documentElement.style.setProperty('--primary-blue', '#193B6A');
+  document.documentElement.style.setProperty('--light-blue', '#2680EB ');
+  document.documentElement.style.setProperty('--dark-blue', '#00122a');
+  document.documentElement.style.setProperty('--banner-quicklinks-footer-bg-color', '#F1F3F6');
+  document.documentElement.style.setProperty('--white-toggle-darkmode-font-size', 'rgb(255, 255, 255)');
 
-      sessionStorage.setItem("darkMode", null);
+  //Change Icon
+  document.getElementById("dark-mode-icon").src = "assets/icon/dark-mode-dark-icon.svg";
+  document.getElementById("font-size-icon").src = "assets/icon/font-size-dark-icon.svg";
+  document.getElementById("phone-icon").src = "assets/icon/phone-receiver-dark-icon.svg";
+  document.getElementById("printer-icon").src = "assets/icon/printer-dark-icon.svg";
+  document.getElementById("email-icon").src = "assets/icon/close-envelope-dark-icon.svg";
+  document.getElementById("facebook-icon").src = "assets/icon/facebook-dark-icon.svg";
+  document.getElementById("instagram-icon").src = "assets/icon/instagram-dark-icon.svg";
+  document.getElementById("twitter-icon").src = "assets/icon/twitter-dark-icon.svg";
+  document.getElementById("youtube-icon").src = "assets/icon/youtube-dark-icon.svg";
+  document.getElementById("rss-icon").src = "assets/icon/rss-dark-icon.svg";
+
+  sessionStorage.setItem("darkMode", null);
 }
 
   //Check if the session already enabled the dark mode
@@ -193,4 +166,4 @@ function toggleDarkMode(){
   }else{
     disableDarkMode();
   }
-} */
+} 
