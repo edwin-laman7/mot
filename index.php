@@ -121,6 +121,7 @@
       <div class="grid-container quick-links">
         <div class="row">
           <div class="column small-12 medium-4">
+            <h1>Heloooo Fuiyo </h1>
             <h2>Flying, piloting and training</h2>
             <ul class="no-bullet">
               <li><a href="#">Flying drone Safely at home</a></li>
