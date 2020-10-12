@@ -30,6 +30,7 @@ button{
 
 h1, h2, h3, h4, h5, h6{
   font-family: 'Raleway', sans-serif;
+  color: black;
 }
 
 
@@ -210,6 +211,10 @@ h1, h2, h3, h4, h5, h6{
 
 .menu{
   display: none;
+}
+
+.banner-announcement-caption{
+  color: black;
 }
 
 @media all and (max-width: 1023px){
@@ -596,7 +601,7 @@ h1, h2, h3, h4, h5, h6{
 /* front-topic */
 .front-topic{
     text-align: center;
-    color: #868686;
+    color: #AFAFAF;
 }
 
 .front-topic a{

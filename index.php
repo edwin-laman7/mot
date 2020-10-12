@@ -34,7 +34,7 @@
       </div>
       <!-- Toggle Dark Mode / Font Size Cod -->
       <div class="toggle-darkmode-font-size">
-        <button><img src="assets/icon/dark-mode-icon.svg" alt=""></button>
+        <button onclick="toggleDarkMode()"><img src="assets/icon/dark-mode-icon.svg" alt=""></button>
         <button><img src="assets/icon/increase-font-size.svg" alt=""></button>
       </div>
       <!-- Main Sector Button Code -->
@@ -74,43 +74,19 @@
               <div class="column">
                 <button>
                   <img src="assets/img/banci-malaysia.jpg" alt="Banci">
-                  Bancian Penduduk dan Perumahan Malaysia
+                  <span class="banner-announcement-caption">Bancian Penduduk dan Perumahan Malaysia</span>
                 </button>
               </div>
               <div class="column">
                 <button>
                   <img src="assets/img/63-years-malaysia.png" alt="Jalur Gemilang - 63">
-                  63 Years Malaysia Celebration 
+                  <span class="banner-announcement-caption">63 Years Malaysia Celebration</span>
                 </button>
               </div>
               <div class="column">
                 <button>
                   <img src="assets/img/covid-19.png" alt="Covid"">
-                  Covid-19 Updates 
-                </button>
-              </div>
-              <div class="column">
-                <button>
-                  <img src="assets/img/63-years-malaysia.png" alt="Jalur Gemilang - 63">
-                  63 Years Malaysia Celebration 
-                </button>
-              </div>
-              <div class="column">
-                <button>
-                  <img src="assets/img/covid-19.png" alt="Covid"">
-                  Covid-19 Updates 
-                </button>
-              </div>
-              <div class="column">
-                <button>
-                  <img src="assets/img/63-years-malaysia.png" alt="Jalur Gemilang - 63">
-                  63 Years Malaysia Celebration 
-                </button>
-              </div>
-              <div class="column">
-                <button>
-                  <img src="assets/img/covid-19.png" alt="Covid"">
-                  Covid-19 Updates 
+                  <span class="banner-announcement-caption">Covid-19 Updates</span>
                 </button>
               </div>
             </div>

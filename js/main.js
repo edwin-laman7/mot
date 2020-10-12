@@ -1,4 +1,27 @@
 let toggleNavStatus = false;
+let toggleDarkModeStatus = false;
+
+//Get Class
+let getAllHeading = document.querySelectorAll("h1, h2, h3, h4, h5, h6");
+let getSidebar = document.querySelector(".nav-sidebar");
+let getSidebarMenu = document.querySelector(".menu");
+let getToggleDarkMode = document.querySelector(".toggle-darkmode-font-size");
+let getNavMain = document.querySelector(".nav-main");
+let getMOTHeader = document.querySelector(".mot-header");
+let getSearchContainer = document.querySelector(".search-input-container");
+let getBtnTglLanguage = document.querySelector(".btn-toggle-language");
+let getMainContent = document.querySelector("main");
+let getFooter = document.querySelector("footer");
+let getFooterLinks = document.querySelectorAll("footer a");
+let getBannerAnnouncement = document.querySelector(".banner-announcements");
+let getBannerSliderCaption = document.querySelectorAll(".banner-announcement-caption");//kiv
+let getQuickLinks = document.querySelector(".quick-links");
+let getAllLinks = document.querySelectorAll("a");
+let getFrontTopicLinks = document.querySelectorAll(".front-topic a");
+let getSlickArrow = document.querySelector(".slick-arrow");
+
+
+
 
 //Avtivate Child Class
 var li_elements = document.querySelectorAll(".nav-sidebar ul li");
@@ -27,16 +50,6 @@ var pcwidth = $(window).width();
 
 //Toggle Navigation Bar
 function toggleNav(){
-    let getSidebar = document.querySelector(".nav-sidebar");
-    let getSidebarMenu = document.querySelector(".menu");
-    let getToggleDarkMode = document.querySelector(".toggle-darkmode-font-size");
-    let getNavMain = document.querySelector(".nav-main");
-    let getMOTHeader = document.querySelector(".mot-header");
-    let getSearchContainer = document.querySelector(".search-input-container");
-    let getBtnTglLanguage = document.querySelector(".btn-toggle-language");
-    let getMainContent = document.querySelector("main");
-    let getFooter = document.querySelector("footer");
-
     if (toggleNavStatus === false) {
         getSidebar.style.width = "100%";
         getSidebarMenu.style.display = "block";
@@ -92,5 +105,83 @@ function toggleNav(){
 
 
 
+//Toggle Dark-Mode
+function toggleDarkMode(){
+  if (toggleDarkModeStatus === false){
+    //global
+    document.body.style.backgroundColor = "#222222";
+    document.body.style.color = "white";
+    for (i = 0; i < getAllHeading.length; i++) {
+      getAllHeading[i].style.color = "white";
+    }
+    for (i = 0; i < getAllLinks.length; i++) {
+      getAllLinks[i].style.color = "#7AC4FC";
+    }
+
+    //navigation-bar
+    getNavMain.style.backgroundColor = "#222222";
+    getMOTHeader.style.color = "white";
+    getBtnTglLanguage.style.color = "white";
+
+  
 
 
+    //banner-announcement
+    getBannerAnnouncement.style.backgroundColor= "#101010";
+    for (i = 0; i < getBannerSliderCaption.length; i++) {
+      getBannerSliderCaption[i].style.color = "white";
+    }
+  
+
+    //quick-links
+    getQuickLinks.style.backgroundColor= "#101010";
+
+    //footer
+    getFooter.style.backgroundColor = "#101010";
+    for (i = 0; i < getFooterLinks.length; i++) {
+      getFooterLinks[i].style.color = "white";
+    }
+    
+  
+
+    toggleDarkModeStatus = true;
+  }
+  else if (toggleDarkModeStatus === true){
+    //global
+    document.body.style.backgroundColor = "#fefefe";
+    document.body.style.color = "black";
+    for (i = 0; i < getAllHeading.length; i++) {
+      getAllHeading[i].style.color = "black";
+    }
+    for (i = 0; i < getAllLinks.length; i++) {
+      getAllLinks[i].style.color = "#2680EB";
+    }
+
+    //navigation-bar
+    getNavMain.style.backgroundColor = "white";
+    getMOTHeader.style.color = "#193B6A";
+    getBtnTglLanguage.style.color = "#193B6A";
+
+    //front-topic
+    for (i = 0; i < getFrontTopicLinks.length; i++) {
+      getFrontTopicLinks[i].style.color = "#193B6A";
+    }
+
+    //banner-announcement
+    getBannerAnnouncement.style.backgroundColor= "#F1F3F6";
+    for (i = 0; i < getBannerSliderCaption.length; i++) {
+      getBannerSliderCaption[i].style.color = "black";
+    }
+    
+    //quick-links
+    getQuickLinks.style.backgroundColor= "#F1F3F6";
+
+    //footer
+    getFooter.style.backgroundColor = "#F1F3F6";
+    for (i = 0; i < getFooterLinks.length; i++) {
+      getFooterLinks[i].style.color = "black";
+    }
+
+    toggleDarkModeStatus = false;
+  }
+}
