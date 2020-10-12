@@ -16,10 +16,11 @@ for (var i = 0; i < li_elements.length; i++) {
 var pcwidth = $(window).width();
 
 //Change Menu+Icon to just Icon Only (KIV)
-if(pcwidth<=425){
-  document.getElementById("btn-toggle-nav").innerHTML ='<img src="assets/icon/menu-line-icon.svg">';
-
-}
+// if(pcwidth<=425){
+//   let getBtnToggle = document.querySelector("btn-toggle-nav");
+//   document.getElementById("btn-toggle-nav").innerHTML ='<img src="assets/icon/menu-line-icon.svg">';
+  
+// }
 
 
 
@@ -70,7 +71,7 @@ function toggleNav(){
 
     //Change Button From Menu To Close
     
-    if(pcwidth > 320){//Desktop Menu Button
+    if(pcwidth > 425){//Desktop Menu Button
       var x = document.getElementById("btn-toggle-nav");
       if (x.innerHTML === '<img src="assets/icon/menu-line-icon.svg"> MENU') {
         x.innerHTML = '<img src="assets/icon/menu-close-icon.svg"> CLOSE';
@@ -78,8 +79,13 @@ function toggleNav(){
         x.innerHTML = '<img src="assets/icon/menu-line-icon.svg"> MENU';
       }
     }
-    else if (pcwidth<=320){//Mobile 
-      document.getElementById("btn-toggle-nav").innerHTML ='<img src="assets/icon/menu-line-icon.svg">';
+    else if (pcwidth<=425){//Mobile 
+      var x = document.getElementById("btn-toggle-nav");
+      if (x.innerHTML === '<img src="assets/icon/menu-line-icon.svg"> MENU') {
+        x.innerHTML = '<img src="assets/icon/menu-close-icon.svg">';
+      } else {
+        x.innerHTML = '<img src="assets/icon/menu-line-icon.svg"> MENU';
+      }
     }
 }
 
