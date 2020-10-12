@@ -1,4 +1,9 @@
 @charset 'UTF-8';
+
+:root{
+    --slick-arrow-color: black;
+    --slick-dots-color:black;
+}
 /* Slider */
 .slick-loading .slick-list
 {
@@ -71,7 +76,7 @@
     line-height: 1;
 
     opacity: .75;
-    color: black;
+    color: var(--slick-arrow-color);
 
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
@@ -192,7 +197,7 @@
     text-align: center;
 
     opacity: .25;
-    color: black;
+    color: var(--slick-dots-color);
 
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
@@ -200,5 +205,5 @@
 .slick-dots li.slick-active button:before
 {
     opacity: .75;
-    color: black;
+    color: var(--slick-dots-color);
 }

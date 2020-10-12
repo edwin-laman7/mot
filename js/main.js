@@ -110,6 +110,8 @@ const enableDarkMode = () => {
   document.documentElement.style.setProperty('--dark-blue', 'white');
   document.documentElement.style.setProperty('--banner-quicklinks-footer-bg-color', '#101010');
   document.documentElement.style.setProperty('--white-toggle-darkmode-font-size', '#193B6A');
+  document.documentElement.style.setProperty('--slick-arrow-color','rgb(255, 255, 255)');//slick-theme.css
+  document.documentElement.style.setProperty('--slick-dots-color','rgb(255, 255, 255)');//slick-theme.css
 
   //Change Icon
   document.getElementById("dark-mode-icon").src = "assets/icon/dark-mode-light-icon.svg";
@@ -137,6 +139,8 @@ const disableDarkMode = () => {
   document.documentElement.style.setProperty('--dark-blue', '#00122a');
   document.documentElement.style.setProperty('--banner-quicklinks-footer-bg-color', '#F1F3F6');
   document.documentElement.style.setProperty('--white-toggle-darkmode-font-size', 'rgb(255, 255, 255)');
+  document.documentElement.style.setProperty('--slick-arrow-color','#222222');//slick-theme.css
+  document.documentElement.style.setProperty('--slick-dots-color','#222222');//slick-theme.css
 
   //Change Icon
   document.getElementById("dark-mode-icon").src = "assets/icon/dark-mode-dark-icon.svg";
