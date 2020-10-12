@@ -16,7 +16,7 @@ for (var i = 0; i < li_elements.length; i++) {
 var pcwidth = $(window).width();
 
 //Change Menu+Icon to just Icon Only (KIV)
-if(pcwidth<=320){
+if(pcwidth<=425){
   document.getElementById("btn-toggle-nav").innerHTML ='<img src="assets/icon/menu-line-icon.svg">';
 
 }
