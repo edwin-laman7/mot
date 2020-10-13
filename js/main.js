@@ -95,7 +95,7 @@ function toggleNav(){
     if(pcwidth > 425){//Desktop Menu Button
       var x = document.getElementById("btn-toggle-nav");
       if (x.innerHTML === '<img src="assets/icon/menu-line-icon.svg"> MENU') {
-        x.innerHTML = '<img src="assets/icon/menu-close-icon.svg"> CLOSE';
+        x.innerHTML = '<img src="assets/icon/close-menu-icon.svg"> CLOSE';
       } else {
         x.innerHTML = '<img src="assets/icon/menu-line-icon.svg"> MENU';
       }
@@ -103,7 +103,7 @@ function toggleNav(){
     else if (pcwidth<=425){//Mobile 
       var x = document.getElementById("btn-toggle-nav");
       if (x.innerHTML === '<img src="assets/icon/menu-line-icon.svg"> MENU') {
-        x.innerHTML = '<img src="assets/icon/menu-close-icon.svg">';
+        x.innerHTML = '<img src="assets/icon/close-menu-icon.svg">';
       } else {
         x.innerHTML = '<img src="assets/icon/menu-line-icon.svg"> MENU';
       }
