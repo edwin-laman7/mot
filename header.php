@@ -21,11 +21,13 @@
           <div class="row">
             <div class="column">
               <div class="mot-header">
+                  <a href="index.php">
                   <img src="assets/icon/mot-logo.svg" alt="">
                   <div class="mot-title">
                       <span>MINISTRY OF TRANSPORT</span>
                       <p>OFFICIAL PORTAL</p>
                   </div>
+                </a>
               </div>
               <div class="search-input-container">
                   <form action="">

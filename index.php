@@ -37,7 +37,7 @@
         <div class="row align-center">
          <div class="column small-12 medium-12">
             <ul class="main-sector-btn">
-              <li class="one"><a href="#"><img src="assets/icon/train.svg" alt="train-icon"> Aviation</a></li>
+              <li class="one"><a href="aviation.php"><img src="assets/icon/train.svg" alt="train-icon"> Aviation</a></li>
               <li class="two"><a href="#"><img src="assets/icon/train.svg" alt="train-icon"> Land</a></li>
               <li class="three"><a href="#"><img src="assets/icon/train.svg" alt="train-icon"> Maritime</a></li>
               <li class="four"><a href="#"><img src="assets/icon/train.svg" alt="train-icon"> Logistic</a></li>
