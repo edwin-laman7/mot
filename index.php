@@ -35,18 +35,13 @@
       <!-- Main Sector Button Code -->
       <div class="grid-container main-sector-button" >
         <div class="row align-center">
-          <div class="column small-12 medium-6 large-3">
-            <button class="button"><img src="assets/icon/plane.svg" alt="plane-icon"> Aviation</button>
-          </div>
-          <div class="column small-12 medium-6 large-3">
-            <button class="button"><img src="assets/icon/train.svg" alt="train-icon"> <img src="assets/icon/bus.svg" alt="bus-icon"> Land</button>
-          </div>
-          <div class="column small-12 medium-6 large-3">
-            <button class="button"><img src="assets/icon/ship.svg" alt="ship-icon"> Maritime</button>
-          </div>
-          <div class="column small-12 medium-6 large-3">
-            <button class="button"><img src="assets/icon/box.svg" alt="box-icon"> Logistic</button>
-          </div>
+         <div class="column small-12 medium-12">
+            <ul class="main-sector-btn">
+              <li class="one"><a href="#"><img src="assets/icon/train.svg" alt="train-icon"> Aviation</a></li>
+              <li class="two"><a href="#"><img src="assets/icon/train.svg" alt="train-icon"> Land</a></li>
+              <li class="three"><a href="#"><img src="assets/icon/train.svg" alt="train-icon"> Maritime</a></li>
+              <li class="four"><a href="#"><img src="assets/icon/train.svg" alt="train-icon"> Logistic</a></li>
+            </ul>
         </div>
         <!-- Front Topic Code -->
         <div class="row align-center front-topic">
