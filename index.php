@@ -42,7 +42,9 @@
               <li class="three"><a href="#"><img src="assets/icon/train.svg" alt="train-icon"> Maritime</a></li>
               <li class="four"><a href="#"><img src="assets/icon/train.svg" alt="train-icon"> Logistic</a></li>
             </ul>
+          </div>
         </div>
+      </div>
         <!-- Front Topic Code -->
         <div class="row align-center front-topic">
           <div class="column small-12 medium-12">
