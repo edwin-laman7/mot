@@ -56,6 +56,7 @@
           </div>
         </div>
       </div>
+      </div>
       <!-- Banner Announcement Code -->
       <div class="grid-container banner-announcements"> 
         <div class="row">
