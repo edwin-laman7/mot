@@ -23,7 +23,7 @@ let getSlickArrow = document.querySelector(".slick-arrow");
 
 
 
-//Avtivate Child Class
+//ACTIVATE CHILD CLASS CODE
 var li_elements = document.querySelectorAll(".nav-sidebar ul li");
 var item_elements = document.querySelectorAll(".item");
 for (var i = 0; i < li_elements.length; i++) {
@@ -115,7 +115,8 @@ const enableDarkMode = () => {
 
   //Change Icon
   document.getElementById("dark-mode-icon").src = "assets/icon/dark-mode-light-icon.svg";
-  document.getElementById("font-size-icon").src = "assets/icon/font-size-light-icon.svg";
+  document.getElementById("reset-font-size-icon").src = "assets/icon/reset-font-size-light-icon.svg";
+  document.getElementById("increase-font-size-icon").src = "assets/icon/increase-font-size-light-icon.svg";
   document.getElementById("phone-icon").src = "assets/icon/phone-receiver-light-icon.svg";
   document.getElementById("printer-icon").src = "assets/icon/printer-light-icon.svg";
   document.getElementById("email-icon").src = "assets/icon/close-envelope-light-icon.svg";
@@ -129,7 +130,6 @@ const enableDarkMode = () => {
   sessionStorage.setItem("darkMode", "enabled");
   
 }
-
   //Code if DarkMode Disabled
 const disableDarkMode = () => {
   document.documentElement.style.setProperty('--white', 'rgb(255, 255, 255');
@@ -144,7 +144,8 @@ const disableDarkMode = () => {
 
   //Change Icon
   document.getElementById("dark-mode-icon").src = "assets/icon/dark-mode-dark-icon.svg";
-  document.getElementById("font-size-icon").src = "assets/icon/font-size-dark-icon.svg";
+  document.getElementById("reset-font-size-icon").src = "assets/icon/reset-font-size-dark-icon.svg";
+  document.getElementById("increase-font-size-icon").src = "assets/icon/increase-font-size-dark-icon.svg";
   document.getElementById("phone-icon").src = "assets/icon/phone-receiver-dark-icon.svg";
   document.getElementById("printer-icon").src = "assets/icon/printer-dark-icon.svg";
   document.getElementById("email-icon").src = "assets/icon/close-envelope-dark-icon.svg";
@@ -156,12 +157,10 @@ const disableDarkMode = () => {
 
   sessionStorage.setItem("darkMode", null);
 }
-
   //Check if the session already enabled the dark mode
 if (darkMode === "enabled"){
   enableDarkMode();
 }
-
   //Check and set the darkmode
 function toggleDarkMode(){
   darkMode = sessionStorage.getItem("darkMode");
@@ -175,31 +174,35 @@ function toggleDarkMode(){
 
 
 
-//INCREASE FONT SIZE CODE
-// var min = 8;
-var max = 100;//set the max size
+//TOGGLE INCREASE AND RESET FONT CODE
+  //retrieving, and caching, the <body> element:
+var body = document.body;
+  //find the defaultFontSize and save it in session
+let fontSize = parseInt(window.getComputedStyle(body, null).fontSize);
+sessionStorage.setItem("defaultFontSize", fontSize);
+let defaultFontSize = sessionStorage.getItem("defaultFontSize");
 
-function changeFontSize(delta) {
-  var tags = document.querySelectorAll("body");
-  for (i = 0; i < tags.length; i++) {
-    if (tags[i].style.fontSize) {
-      var s = parseInt(tags[i].style.fontSize.replace("px", ""));
-    } else {
-      var s = 16;
-    } if (s != max) {
-      s += delta;
-    }
-    tags[i].style.fontSize = s + "px"
+function increaseFontSize(){
+  var max = 100;
+    //finding the current computed fontSize of the <body> element, parsing it
+    currentFontSize = parseInt(window.getComputedStyle(body, null).fontSize);
+
+    //if the currentFontSize is less than the specified max:
+  if (currentFontSize < max){
+    //we set the fontSize of the <body> to the incremented fontSize,
+    //increasing the current value by 1, and concatenating with the 'px' unit:
+    body.style.fontSize = ++currentFontSize + 'px';
   }
 }
 
-function increaseFontSize() {
-  changeFontSize(1);
+function resetFontSize(){
+    //finding the current computed fontSize of the <body> element, parsing it
+  currentFontSize = parseInt(window.getComputedStyle(body, null).fontSize);
+
+    //if the currenFontSize of the <body> is not equal to the defaultFontSize
+  if (currentFontSize != defaultFontSize){
+    //we set the currentFontSize to the defaultFontSize
+    body.style.fontSize = defaultFontSize + 'px';
+  }
+  
 }
-
-// function decreaseFontSize() {
-//   changeFontSize(-1);
-// }
-
-document.getElementById('increase-font-size').onclick = increaseFontSize;
-// document.getElementById('decrease-font-size').onclick = decreaseFontSize;

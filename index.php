@@ -34,8 +34,9 @@
       </div>
       <!-- Toggle Dark Mode / Font Size Cod -->
       <div class="toggle-darkmode-font-size">
-        <button onclick="toggleDarkMode()"><img src="assets/icon/dark-mode-dark-icon.svg" alt="" id="dark-mode-icon"></button>
-        <button id="increase-font-size"><img src="assets/icon/font-size-dark-icon.svg" alt="" id="font-size-icon"></button>
+        <button onclick="toggleDarkMode()"><img src="assets/icon/dark-mode-dark-icon.svg" alt="dark-mode-icon" id="dark-mode-icon"></button>
+        <button onclick="resetFontSize()"><img src="assets/icon/reset-font-size-dark-icon.svg" alt="reset-font-size-icon" id="reset-font-size-icon"></button>
+        <button onclick="increaseFontSize()"><img src="assets/icon/increase-font-size-dark-icon.svg" alt="increase-font-size-icon" id="increase-font-size-icon"></button>
       </div>
       <!-- Main Sector Button Code -->
       <div class="grid-container main-sector-button" >
