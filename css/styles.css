@@ -534,6 +534,7 @@ span{
 
 /* START MAIN STYLES */
 
+/* START INDEX.PHP STYLES */
 .grid-container{
     padding: 20px;
 }
@@ -746,7 +747,25 @@ ul.main-sector-btn {
     padding: 0px 15px;
   }
 }
+/* END INDEX.PHP STYLES */
 
+/* START STAFF-DIRECTORY.PHP STYLES */
+.staff-directory h2{
+  font-size: 42px;
+}
+
+.staff-directory h3{
+  font-size: 25px;
+}
+
+.staff-directory a{
+  text-decoration: none;
+}
+
+.staff-directory .grid-container .row{
+  border-top: 1px solid var(--border-grey);
+  padding-top: 55px;
+}
 
 
 /* END MAIN STYLES */
