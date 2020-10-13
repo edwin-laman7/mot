@@ -515,6 +515,20 @@ span{
     margin-top: 6px;
   } 
 }
+
+
+/* Internal page header */
+
+.page-banner{
+  background-image: url("../assets/img/aviation-banner.jpg");
+  background: auto center center;
+  height: 250px;
+  background-color: var(--primary-blue);
+
+}
+
+/* Internal page header ends */
+
 /* END HEADER STYLES */
   
 
@@ -747,6 +761,10 @@ ul.main-sector-btn {
   }
 }
 
+.sidebar-wrap{padding:20px;  border-bottom:  1px solid #CFCFCF;}
+ul.sidebar-nav{list-style-image: url("../assets/icon/angle-right.svg");}
+ul.sidebar-nav li{list-style-type: none;}
+div.sticky { position: -webkit-sticky; /* Safari */ position: sticky; top: 0; }
 
 
 /* END MAIN STYLES */
