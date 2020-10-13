@@ -581,11 +581,13 @@ span{
   top: 64.6%;
   text-shadow: var(--black);
   z-index: 1000;
-  width: 90px;
+  width: 140px;
+  font-size: 16px;
 }
 
 .toggle-darkmode-font-size button{
   margin-top: -20px;
+  width: 30px;
 }
 
 
@@ -594,8 +596,13 @@ span{
   top:7%;
   border-radius: 12px;
   right: -10px;
+  width: auto;
   }
 
+  .toggle-darkmode-font-size button{
+  margin-top: -20px;
+  width: 30px;
+}
 }
 
 
