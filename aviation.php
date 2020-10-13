@@ -4,7 +4,7 @@
        <div class="grid-container page-banner">
         <div class="row">
           <div class="column small-12">
-           <h1>Internal page</h1>
+        
           </div>
         </div>
       </div>
@@ -24,17 +24,22 @@
             </li>
           </ul>
       </nav>
+        <h1> Aviation Infrastructure </h1>
+
+        <p>The overall infrastructure of aviation in Malaysia, governed by MOT. Repudiandae voluptatem corrupti in. Voluptas occaecati corrupti mollitia fugit minima voluptatem qui. Excepturi id ex voluptate fugit. Dolores sit facilis.</p>
+
         <h2> Aviation Infrastructure </h2>
 
         <p>The overall infrastructure of aviation in Malaysia, governed by MOT. Repudiandae voluptatem corrupti in. Voluptas occaecati corrupti mollitia fugit minima voluptatem qui. Excepturi id ex voluptate fugit. Dolores sit facilis.</p>
 
         <p>The overall infrastructure of aviation in Malaysia, governed by MOT. Repudiandae voluptatem corrupti in. Voluptas occaecati corrupti mollitia fugit minima voluptatem qui. Excepturi id ex voluptate fugit. Dolores sit facilis.</p>
 
-        <p>The overall infrastructure of aviation in Malaysia, governed by MOT. Repudiandae voluptatem corrupti in. Voluptas occaecati corrupti mollitia fugit minima voluptatem qui. Excepturi id ex voluptate fugit. Dolores sit facilis.</p>
 
         <p>The overall infrastructure of aviation in Malaysia, governed by MOT. Repudiandae voluptatem corrupti in. Voluptas occaecati corrupti mollitia fugit minima voluptatem qui. Excepturi id ex voluptate fugit. Dolores sit facilis.</p>
 
         <p>The overall infrastructure of aviation in Malaysia, governed by MOT. Repudiandae voluptatem corrupti in. Voluptas occaecati corrupti mollitia fugit minima voluptatem qui. Excepturi id ex voluptate fugit. Dolores sit facilis.</p>
+
+        <h2> Aviation Infrastructure </h2>
 
         <table class="unstriped">
           <thead>
