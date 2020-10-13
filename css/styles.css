@@ -254,9 +254,6 @@ span{
 
 @media all and (max-width: 1023px){
 
-  .search-input{
-    /* display: none; */
-  } 
 
   .mot-header span{
     font-size: 12px;
@@ -466,9 +463,6 @@ span{
     display: none;
   }
 
-  .search-input-container{
-       /* display: none; */
-  }
   
   .search-input{
     margin-top: 12px;
