@@ -486,13 +486,7 @@ span{
   
   .btn-toggle-nav{
     background-color: var(--primary-blue);
-    color: var(--white)
-    border-radius: 4px;
-    font-size: 12px;
-    cursor: pointer;
-    width: 92px;
-    height: 29px;
-    font-weight: 600;
+    color: var(--white);
   }
 
   .nav-sidebar{

@@ -136,7 +136,7 @@
       </div>
     </header>
      <!-- Toggle Dark Mode / Font Size Code -->
-    <div>
+    <div class="home">
       <div class="toggle-darkmode-font-size">
         <button onclick="toggleDarkMode()"><img src="assets/icon/dark-mode-dark-icon.svg" alt="dark-mode-icon" id="dark-mode-icon"></button>
         <button onclick="resetFontSize()"><img src="assets/icon/reset-font-size-dark-icon.svg" alt="reset-font-size-icon" id="reset-font-size-icon"></button>
