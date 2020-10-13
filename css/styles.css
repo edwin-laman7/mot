@@ -254,7 +254,7 @@ span{
 @media all and (max-width: 1023px){
 
   .search-input{
-    display: none;
+    /* display: none; */
   } 
 
   .mot-header span{
@@ -274,7 +274,7 @@ span{
 @media all and (max-width: 768px){
   .nav-main{
     width: auto;
-    height: 58px;
+    height: 68px;
   }
   .mot-title{
     width:90%;
@@ -295,19 +295,13 @@ span{
 
   .search-input-container{
     display: none;
+    margin-top: -0px;
+    float: left;
   }
   
   .search-input{
-    width: 274px;
-    height: 34px;
-    font-size: 14px;
-    background-color: transparent;
-    background-image: url("../assets/icon/search-icon.svg");
-    background-repeat: no-repeat;
-    background-position: 95% center;
-    border-radius: 20px;
-    border: 1px solid var(--border-grey)
-   
+    width: 234%;
+    margin-top: 12px;
   } 
   
   .btn-control{
@@ -335,7 +329,7 @@ span{
   }
   
   .nav-sidebar{
-    top: 58px;
+    top: 68px;
     padding-left: 0px;
   }
 
@@ -470,19 +464,11 @@ span{
   }
 
   .search-input-container{
-    display: none;
+    /* display: none; */
   }
   
   .search-input{
-    width: 274px;
-    height: 34px;
-    font-size: 14px;
-    background-color: transparent;
-    background-image: url("../assets/icon/search-icon.svg");
-    background-repeat: no-repeat;
-    background-position: 95% center;
-    border-radius: 20px;
-    border: 1px solid var(--border-grey)
+    margin-top: 12px;
   } 
   
   .btn-control{
@@ -526,6 +512,10 @@ span{
   .btn-control{
     margin-top: -35px;
   }
+
+  .search-input{
+    margin-top: 6px;
+  } 
 }
 /* END HEADER STYLES */
   

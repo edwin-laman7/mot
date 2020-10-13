@@ -52,6 +52,14 @@ function toggleNav(){
         getBtnTglLanguage.style.visible =  "hidden"; 
         getMainContent.style.display =  "none"; 
         getFooter.style.display =  "none"; 
+
+        if (pcwidth <= 768){//search input for mobile
+          getSearchContainer.style.display = "block";
+          getSearchContainer.style.visible = "visible";
+          getNavMain.style.height = "108px";
+          getSidebar.style.top = "108px";
+        }
+
         toggleNavStatus = true;
     }
     else if (toggleNavStatus === true) {
@@ -64,6 +72,14 @@ function toggleNav(){
         getMOTHeader.style.color =  "#193B6A";
         getMainContent.style.display =  "block"; 
         getFooter.style.display =  "block"; 
+
+        if (pcwidth <= 768){//search input for mobile
+          getSearchContainer.style.display = "none";
+          getSearchContainer.style.visible = "hidden";
+          getNavMain.style.height = "68px";
+          getSidebar.style.top = "68px";
+        }
+
         toggleNavStatus = false;
 
         var li_elements = document.querySelectorAll(".nav-sidebar ul li");
