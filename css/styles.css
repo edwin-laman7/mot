@@ -474,12 +474,6 @@ h1, h2, h3, h4, h5, h6{
   .btn-toggle-nav{
     background-color: var(--primary-blue);
     color: var(--white);
-    border-radius: 4px;
-    font-size: 12px;
-    cursor: pointer;
-    width: 92px;
-    height: 29px;
-    font-weight: 600;
   }
 
   .nav-sidebar{
