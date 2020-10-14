@@ -95,7 +95,7 @@ function toggleNav(){
     if(pcwidth > 425){//Desktop Menu Button
       var x = document.getElementById("btn-toggle-nav");
       if (x.innerHTML === '<img src="assets/icon/menu-line-icon.svg"> MENU') {
-        x.innerHTML = '<img src="assets/icon/menu-close-icon.svg"> CLOSE';
+        x.innerHTML = '<img src="assets/icon/close-menu-icon.svg"> CLOSE';
       } else {
         x.innerHTML = '<img src="assets/icon/menu-line-icon.svg"> MENU';
       }
@@ -103,7 +103,7 @@ function toggleNav(){
     else if (pcwidth<=425){//Mobile 
       var x = document.getElementById("btn-toggle-nav");
       if (x.innerHTML === '<img src="assets/icon/menu-line-icon.svg"> MENU') {
-        x.innerHTML = '<img src="assets/icon/menu-close-icon.svg">';
+        x.innerHTML = '<img src="assets/icon/close-menu-icon.svg">';
       } else {
         x.innerHTML = '<img src="assets/icon/menu-line-icon.svg"> MENU';
       }
@@ -111,82 +111,16 @@ function toggleNav(){
 }
 
 //TOGGLE DARK MODE CODE
-let darkMode = sessionStorage.getItem("darkMode");
-
-  //check if dark mode is enabled
-  //if it's enabled, turn it off
-  //if it's disabled, turn it on
-
-  //Code if DarkMode Enable
-const enableDarkMode = () => {
-  document.documentElement.style.setProperty('--white', '#222222');
-  document.documentElement.style.setProperty('--black', 'rgb(255, 255, 255)');
-  document.documentElement.style.setProperty('--primary-blue', 'white');
-  document.documentElement.style.setProperty('--light-blue', '#7AC4FC');
-  document.documentElement.style.setProperty('--dark-blue', 'white');
-  document.documentElement.style.setProperty('--banner-quicklinks-footer-bg-color', '#101010');
-  document.documentElement.style.setProperty('--white-toggle-darkmode-font-size', '#193B6A');
-  document.documentElement.style.setProperty('--slick-arrow-color','rgb(255, 255, 255)');//slick-theme.css
-  document.documentElement.style.setProperty('--slick-dots-color','rgb(255, 255, 255)');//slick-theme.css
-
-  //Change Icon
-  document.getElementById("dark-mode-icon").src = "assets/icon/dark-mode-light-icon.svg";
-  document.getElementById("reset-font-size-icon").src = "assets/icon/reset-font-size-light-icon.svg";
-  document.getElementById("increase-font-size-icon").src = "assets/icon/increase-font-size-light-icon.svg";
-  document.getElementById("phone-icon").src = "assets/icon/phone-receiver-light-icon.svg";
-  document.getElementById("printer-icon").src = "assets/icon/printer-light-icon.svg";
-  document.getElementById("email-icon").src = "assets/icon/close-envelope-light-icon.svg";
-  document.getElementById("facebook-icon").src = "assets/icon/facebook-light-icon.svg";
-  document.getElementById("instagram-icon").src = "assets/icon/instagram-light-icon.svg";
-  document.getElementById("twitter-icon").src = "assets/icon/twitter-light-icon.svg";
-  document.getElementById("youtube-icon").src = "assets/icon/youtube-light-icon.svg";
-  document.getElementById("rss-icon").src = "assets/icon/rss-light-icon.svg";
-
-
-  sessionStorage.setItem("darkMode", "enabled");
-  
-}
-  //Code if DarkMode Disabled
-const disableDarkMode = () => {
-  document.documentElement.style.setProperty('--white', 'rgb(255, 255, 255');
-  document.documentElement.style.setProperty('--black', '#222222');
-  document.documentElement.style.setProperty('--primary-blue', '#193B6A');
-  document.documentElement.style.setProperty('--light-blue', '#2680EB ');
-  document.documentElement.style.setProperty('--dark-blue', '#00122a');
-  document.documentElement.style.setProperty('--banner-quicklinks-footer-bg-color', '#F1F3F6');
-  document.documentElement.style.setProperty('--white-toggle-darkmode-font-size', 'rgb(255, 255, 255)');
-  document.documentElement.style.setProperty('--slick-arrow-color','#222222');//slick-theme.css
-  document.documentElement.style.setProperty('--slick-dots-color','#222222');//slick-theme.css
-
-  //Change Icon
-  document.getElementById("dark-mode-icon").src = "assets/icon/dark-mode-dark-icon.svg";
-  document.getElementById("reset-font-size-icon").src = "assets/icon/reset-font-size-dark-icon.svg";
-  document.getElementById("increase-font-size-icon").src = "assets/icon/increase-font-size-dark-icon.svg";
-  document.getElementById("phone-icon").src = "assets/icon/phone-receiver-dark-icon.svg";
-  document.getElementById("printer-icon").src = "assets/icon/printer-dark-icon.svg";
-  document.getElementById("email-icon").src = "assets/icon/close-envelope-dark-icon.svg";
-  document.getElementById("facebook-icon").src = "assets/icon/facebook-dark-icon.svg";
-  document.getElementById("instagram-icon").src = "assets/icon/instagram-dark-icon.svg";
-  document.getElementById("twitter-icon").src = "assets/icon/twitter-dark-icon.svg";
-  document.getElementById("youtube-icon").src = "assets/icon/youtube-dark-icon.svg";
-  document.getElementById("rss-icon").src = "assets/icon/rss-dark-icon.svg";
-
-  sessionStorage.setItem("darkMode", null);
-}
-  //Check if the session already enabled the dark mode
-if (darkMode === "enabled"){
-  enableDarkMode();
-}
-  //Check and set the darkmode
-function toggleDarkMode(){
-  darkMode = sessionStorage.getItem("darkMode");
-  if (darkMode !== "enabled"){
-    enableDarkMode();
-  }else{
-    disableDarkMode();
-  }
-} 
-
+$( "#toggleDarkMode" ).on("click", function() { 
+  var darkMode = Cookies.get('darkModeStatus');
+  if( $( "body" ).hasClass( "dark-mode" )) { 
+      $( "body" ).removeClass( "dark-mode" ); 
+      Cookies.remove('darkModeStatus');
+  } else { 
+      $( "body" ).addClass( "dark-mode" );
+      Cookies.set('darkModeStatus','enabled'); 
+  } 
+}); 
 
 
 
