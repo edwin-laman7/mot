@@ -21,6 +21,11 @@
   /* Color For DarkMode/Font Button */
   --white-toggle-darkmode-font-size:rgb(255, 255, 255);
 
+  /* Grid Container Padding */
+  --narrow:30px;
+  --standard:50px;
+  --large:75px;
+
 
 }
 
@@ -108,6 +113,12 @@ span{
   background-color: var(--white);
   z-index: 1000;
   transition: all 0.3s ease-in-out 0s;
+
+}
+
+.nav-main .row{
+  padding-top: 20px;
+  padding-bottom: 0px;
 }
 
 .mot-header{
@@ -613,12 +624,18 @@ font-weight: 400px;
 /* START MAIN STYLES */
 
 /* START INDEX.PHP STYLES */
-.grid-container{
-    padding: 20px;
+.row{
+  padding-top: var(--standard);
+  padding-bottom: var(--standard);
 }
 
 
 /* Main Banner */
+.site-intro .row{
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
 .banner-caption{
     background-color: #1E3F6D;
     color: var(--white-sidebar);
@@ -853,7 +870,6 @@ ul.main-sector-btn {
 ul.sidebar-nav{list-style-image: url("../assets/icon/angle-right.svg");}
 ul.sidebar-nav li{list-style-type: none;}
 div.sticky { position: -webkit-sticky; /* Safari */ position: sticky; top: 0; }
-
 
 /* END MAIN STYLES */
 
