@@ -1,3 +1,4 @@
+
 let toggleNavStatus = false;
 let toggleDarkModeStatus = false;
 
@@ -111,6 +112,11 @@ function toggleNav(){
 }
 
 //TOGGLE DARK MODE CODE
+$('.toggle-darkmode-font-size').animate({right: -5000});
+$('.toggle-darkmode-font-size').animate({right: 30});
+$('.toggle-darkmode-font-size').animate({right: 0});
+
+
 $( "#toggleDarkMode" ).on("click", function() { 
   var darkMode = Cookies.get('darkModeStatus');
   if( $( "body" ).hasClass( "dark-mode" )) { 
@@ -121,7 +127,6 @@ $( "#toggleDarkMode" ).on("click", function() {
       Cookies.set('darkModeStatus','enabled'); 
   } 
 }); 
-
 
 
 //TOGGLE INCREASE AND RESET FONT CODE
@@ -156,3 +161,7 @@ function resetFontSize(){
   }
   
 }
+
+
+
+//TOGGLE SLIDE FROM RIGHT FOR TOGGLE BUTTON

@@ -48,6 +48,8 @@ body.dark-mode{
     --slick-dots-color:#ffffff;
 }
 
+
+
 a{
   text-decoration: underline;
   color:var(--light-blue);
