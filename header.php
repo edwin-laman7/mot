@@ -8,31 +8,26 @@
     <title>MOT-Front-Page</title>
     <script src="https://code.jquery.com/jquery-3.5.0.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/js-cookie@rc/dist/js.cookie.min.js"></script>
-    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
-    <link rel="stylesheet" type="text/css" href="slick/slick.css"/>
-    <link rel="stylesheet" type="text/css" href="slick/slick-theme.css"/>
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>  
+    <script>
+      $( document ).ready(function(){
+        var darkMode = Cookies.get('darkModeStatus');
+        if(darkMode == 'enabled'){
+          $( "body" ).addClass( "dark-mode" );
+        }else{
+          $( "body" ).removeClass( "dark-mode" );
+        }
+        $(body).css('display', 'initial');
+      });
+      </script>
     <link rel="stylesheet" href="css/foundation.css">
     <link rel="stylesheet" href="css/styles.css">
-    
-    <!-- <script>
+    <link rel="stylesheet" type="text/css" href="slick/slick.css"/>
+    <link rel="stylesheet" type="text/css" href="slick/slick-theme.css"/>
 
-      
-     
-
-      $(document).ready(function(){
-
-        $darkMode=Cookies.get("darkMode");   
-        if($darkMode == null){
-          $('head').append('<link rel="stylesheet" href="css/darkmode.css">');
-        }
-      });
-
-
-
-     
-    </script> -->
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
   </head>
+
   <body>
     <header>
       <div class="nav">
@@ -159,7 +154,7 @@
      <!-- Toggle Dark Mode / Font Size Code -->
     <div>
       <div class="toggle-darkmode-font-size">
-        <button onclick="toggleDarkMode()"><img src="assets/icon/dark-mode-dark-icon.svg" alt="dark-mode-icon" id="dark-mode-icon"></button>
+        <button id="toggleDarkMode"><img src="assets/icon/dark-mode-dark-icon.svg" alt="dark-mode-icon" id="dark-mode-icon"></button>
         <button onclick="resetFontSize()"><img src="assets/icon/reset-font-size-dark-icon.svg" alt="reset-font-size-icon" id="reset-font-size-icon"></button>
         <button onclick="increaseFontSize()"><img src="assets/icon/increase-font-size-dark-icon.svg" alt="increase-font-size-icon" id="increase-font-size-icon"></button>
       </div>
