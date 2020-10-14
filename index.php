@@ -23,7 +23,7 @@
         </div>
       </div>
       <!-- Banner Caption Code -->
-      <div class="grid-container site-intro">
+      <div class="grid-container">
         <div class="row">
           <div class="column large-offset-5">
             <div class="banner-caption">
@@ -42,20 +42,21 @@
               <li class="three"><a href="#"><img src="assets/icon/train.svg" alt="train-icon"> Maritime</a></li>
               <li class="four"><a href="#"><img src="assets/icon/train.svg" alt="train-icon"> Logistic</a></li>
             </ul>
-
-            <div class="front-topic">
-              <p>by topics: 
-                <a href="#">Infrastructure</a>,
-                <a href="#">Safety</a>,
-                <a href="#">Operators & License</a>,
-                <a href="#">Acts and Regulations</a>,
-                <a href="#">Development</a>.
-              </p>  
-            </div>
           </div>
         </div>
       </div>
-        <!-- Front Topic Code --
+        <!-- Front Topic Code -->
+        <div class="row align-center front-topic">
+          <div class="column small-12 medium-12">
+            <p>by topics: 
+              <a href="#">Infrastructure</a>,
+              <a href="#">Safety</a>,
+              <a href="#">Operators & License</a>,
+              <a href="#">Acts and Regulations</a>,
+              <a href="#">Development</a>.
+            </p> 
+          </div>
+        </div>
       </div>
       <!-- Banner Announcement Code -->
       <div class="grid-container banner-announcements"> 
@@ -167,6 +168,7 @@
         </div>
       </div>
       <!-- News and Development Code -->
+      <div class="grid-container mot-news-developments">
         <div class="row">
           <div class="column small-12 medium-6">
             <h2>MOT in the News</h2>
@@ -189,7 +191,7 @@
             <a href="#">More Developments</a>
           </div>
         </div>
-      
+      </div>
       <!-- Agencies Under Mot Code -->
       <div class="grid-container agencies-under-mot">
         <div class="row">

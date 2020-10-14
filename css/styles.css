@@ -21,10 +21,6 @@
   /* Color For DarkMode/Font Button */
   --white-toggle-darkmode-font-size:rgb(255, 255, 255);
 
-  /* Grid Container Padding */
-  --narrow:30px;
-  --standard:50px;
-  --large:75px;
 
 }
 
@@ -561,7 +557,6 @@ footer{
   font-family: 'Raleway', sans-serif;
 }
 
-
 footer h4{
 font-size: 16px;
 font-weight: 600;
@@ -588,36 +583,6 @@ footer .footer-quick-links{
   text-align: center;
   border-color: var(--border-grey)
 }
-
-
-
-footer h4{
-font-size: 16px;
-font-weight: 600;
-
-}
-
-footer a{
-  color: var(--black);
-  font-size: 14px;
-  font-weight: 500;
-}
-
-footer .mot-info{
-  text-align: right;
-}
-
-footer .social-links li {
-padding: 5px;
-display: inline;
-}
-
-footer .footer-quick-links{
-  border-top: solid;
-  text-align: center;
-  border-color: var(--border-grey)
-}
-
 
 footer .footer-quick-links a{
   color: var(--black);
@@ -648,23 +613,12 @@ font-weight: 400px;
 /* START MAIN STYLES */
 
 /* START INDEX.PHP STYLES */
-
-.row{
-    padding-top: var(--standard);
-    padding-bottom: var(--standard);
-=======
 .grid-container{
     padding: 20px;
-
 }
 
 
 /* Main Banner */
-.site-intro .row{
-  padding-top: 0;
-  padding-bottom: 0;
-}
-
 .banner-caption{
     background-color: #1E3F6D;
     color: var(--white-sidebar);
@@ -677,7 +631,6 @@ font-weight: 400px;
     /* position: absolute;  */
     
 }
-
 
 @media all and (max-width: 767px) {
   .banner-caption{
@@ -810,6 +763,7 @@ ul.main-sector-btn {
     border-top: solid;
     text-align: left;
     border-color: var(--dark-grey);
+    padding-top: 50px;
 }
 
 
@@ -825,6 +779,7 @@ ul.main-sector-btn {
   border-top: solid;
   text-align: left;
   border-color: var(--dark-grey);
+  padding-top: 50px;
 
 }
 .agencies-under-mot h3{
