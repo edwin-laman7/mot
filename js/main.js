@@ -21,7 +21,7 @@ let getQuickLinks = document.querySelector(".quick-links");
 let getAllLinks = document.querySelectorAll("a");
 let getFrontTopicLinks = document.querySelectorAll(".front-topic a");
 let getSlickArrow = document.querySelector(".slick-arrow");
-
+const menuBtn =  document.querySelector(".menu-btn"); 
 
 
 
@@ -39,6 +39,9 @@ for (var i = 0; i < li_elements.length; i++) {
 
 //Declaire variable for Screen Width
 var pcwidth = $(window).width();
+
+
+
 
 
 
@@ -62,6 +65,10 @@ function toggleNav(){
           // getSidebar.style.top = "108px";
         }
 
+        menuBtn.classList.add("close"); 
+
+
+
         toggleNavStatus = true;
     }
     else if (toggleNavStatus === true) {
@@ -81,6 +88,8 @@ function toggleNav(){
           // getSidebar.style.top = "68px";
         }
 
+        menuBtn.classList.remove("close"); 
+
         toggleNavStatus = false;
 
         var li_elements = document.querySelectorAll(".nav-sidebar ul li");
@@ -95,18 +104,18 @@ function toggleNav(){
     
     if(pcwidth > 425){//Desktop Menu Button
       var x = document.getElementById("btn-toggle-nav");
-      if (x.innerHTML === '<img src="assets/icon/menu-line-icon.svg"> MENU') {
-        x.innerHTML = '<img src="assets/icon/close-menu-icon.svg"> CLOSE';
+      if (x.innerHTML === 'MENU') {
+        x.innerHTML = 'CLOSE';
       } else {
-        x.innerHTML = '<img src="assets/icon/menu-line-icon.svg"> MENU';
+        x.innerHTML = 'MENU';
       }
     }
     else if (pcwidth<=425){//Mobile 
       var x = document.getElementById("btn-toggle-nav");
-      if (x.innerHTML === '<img src="assets/icon/menu-line-icon.svg"> MENU') {
-        x.innerHTML = '<img src="assets/icon/close-menu-icon.svg">';
+      if (x.innerHTML === 'MENU') {
+        x.innerHTML = '';
       } else {
-        x.innerHTML = '<img src="assets/icon/menu-line-icon.svg"> MENU';
+        x.innerHTML = 'MENU';
       }
     }
 }
