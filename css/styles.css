@@ -92,6 +92,26 @@ span{
   color: var(--black);
 }
 
+.fa-moon{
+  color: var(--black);
+}
+.fa-font{
+  color: var(--black);
+}
+.fa-plus{
+  color: var(--black);
+}
+
+.fa-phone-alt{
+  color: var(--black);
+}
+.fa-print{
+  color: var(--black);
+}
+.fa-envelope{
+  color: var(--black);
+}
+
 
 
 /* START HEADER STYLES */
