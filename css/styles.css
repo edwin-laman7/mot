@@ -34,7 +34,7 @@ body{
   display: none;
 }
 
-body.dark-mode{
+body .dark-mode{
  
     --white:#222222;
     --black:#ffffff;
