@@ -1,4 +1,4 @@
-/* Global Style */
+/* GLOBAL STYLE CODE */
 
 :root{
 
@@ -21,6 +21,10 @@
   /* Color For DarkMode/Font Button */
   --white-toggle-darkmode-font-size:rgb(255, 255, 255);
 
+  /* Grid Container Padding */
+  --narrow:30px;
+  --standard:50px;
+  --large:75px;
 
 }
 
@@ -29,7 +33,6 @@ body{
   background-color: var(--white);
 }
 
-/* Global Style */
 a{
   text-decoration: underline;
   color:var(--light-blue);
@@ -535,27 +538,83 @@ span{
   
 
 
+/* START FOOTER STYLES */
 
+footer{
+  background-color: var(--banner-quicklinks-footer-bg-color);
+  padding: 20px;
+  position: relative;
+  font-family: 'Raleway', sans-serif;
+}
 
+footer h4{
+font-size: 16px;
+font-weight: 600;
 
+}
 
+footer a{
+  color: var(--black);
+  font-size: 14px;
+  font-weight: 500;
+}
 
+footer .mot-info{
+  text-align: right;
+}
 
+footer .social-links li {
+padding: 5px;
+display: inline;
+}
 
+footer .footer-quick-links{
+  border-top: solid;
+  text-align: center;
+  border-color: var(--border-grey)
+}
 
+footer .footer-quick-links a{
+  color: var(--black);
+}
 
+footer .footer-quick-links li {
+
+line-height: 1.5;
+display: inline-block;
+vertical-align: middle;
+}
+
+.mot-info h4{
+font-size: 16px;
+font-weight: 600;
+}
+
+.mot-info p{
+font-size: 14px;
+font-weight: 400px;
+}
+
+/* END FOOTER STYLES */
 
 
 
 
 /* START MAIN STYLES */
 
-.grid-container{
-    padding: 20px;
+/* START INDEX.PHP STYLES */
+.row{
+    padding-top: var(--standard);
+    padding-bottom: var(--standard);
 }
 
 
 /* Main Banner */
+.site-intro .row{
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
 .banner-caption{
     background-color: #1E3F6D;
     color: var(--white-sidebar);
@@ -568,6 +627,7 @@ span{
     /* position: absolute;  */
     
 }
+
 
 @media all and (max-width: 767px) {
   .banner-caption{
@@ -700,7 +760,6 @@ ul.main-sector-btn {
     border-top: solid;
     text-align: left;
     border-color: var(--dark-grey);
-    padding-top: 50px;
 }
 
 
@@ -716,7 +775,6 @@ ul.main-sector-btn {
   border-top: solid;
   text-align: left;
   border-color: var(--dark-grey);
-  padding-top: 50px;
 
 }
 .agencies-under-mot h3{
@@ -762,6 +820,29 @@ ul.main-sector-btn {
     padding: 0px 15px;
   }
 }
+/* END INDEX.PHP STYLES */
+
+/* START STAFF-DIRECTORY.PHP STYLES */
+.staff-directory h2{
+  font-size: 42px;
+}
+
+.staff-directory h3{
+  font-size: 25px;
+}
+
+.staff-directory a{
+  text-decoration: none;
+}
+
+.staff-directory .grid-container .row{
+  border-top: 1px solid var(--border-grey);
+  padding-top: 55px;
+}
+
+.staff-directory .grid-container .row .column{
+  padding-right: 35px;
+}
 
 .sidebar-wrap{padding:20px;  border-bottom:  1px solid #CFCFCF;}
 ul.sidebar-nav{list-style-image: url("../assets/icon/angle-right.svg");}
@@ -779,61 +860,3 @@ div.sticky { position: -webkit-sticky; /* Safari */ position: sticky; top: 0; }
 
 
 
-/* START FOOTER STYLES */
-
-footer{
-    background-color: var(--banner-quicklinks-footer-bg-color);
-    padding: 20px;
-    position: relative;
-    font-family: 'Raleway', sans-serif;
-}
-
-footer h4{
-  font-size: 16px;
-  font-weight: 600;
-  
-}
-
-footer a{
-    color: var(--black);
-    font-size: 14px;
-    font-weight: 500;
-}
-
-footer .mot-info{
-    text-align: right;
-}
-
-footer .social-links li {
-  padding: 5px;
-  display: inline;
-}
-
-footer .footer-quick-links{
-    border-top: solid;
-    text-align: center;
-    border-color: var(--border-grey)
-}
-
-footer .footer-quick-links a{
-    color: var(--black);
-}
-
-footer .footer-quick-links li {
-  
-  line-height: 1.5;
-  display: inline-block;
-  vertical-align: middle;
-}
-
-.mot-info h4{
-  font-size: 16px;
-  font-weight: 600;
-}
-
-.mot-info p{
-  font-size: 14px;
-  font-weight: 400px;
-}
-
-/* END FOOTER STYLES */
