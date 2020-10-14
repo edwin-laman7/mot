@@ -113,8 +113,8 @@ function toggleNav(){
 
 //TOGGLE DARK MODE CODE
 $('.toggle-darkmode-font-size').animate({right: -5000});
-$('.toggle-darkmode-font-size').animate({right: 30});
 $('.toggle-darkmode-font-size').animate({right: 0});
+
 
 
 $( "#toggleDarkMode" ).on("click", function() { 
