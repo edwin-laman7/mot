@@ -28,9 +28,23 @@
 
 }
 
-
 body{
   background-color: var(--white);
+  display: none;
+}
+
+body.dark-mode{
+ 
+    --white:#222222;
+    --black:#ffffff;
+    --primary-blue:#ffffff;
+    --light-blue:#7AC4FC;
+    --dark-blue:#ffffff;
+    --banner-quicklinks-footer-bg-color:#101010;
+    --white-toggle-darkmode-font-size:#193B6A;
+    /* From slick-theme.css */
+    --slick-arrow-color:#ffffff;
+    --slick-dots-color:#ffffff;
 }
 
 a{
@@ -547,6 +561,7 @@ footer{
   font-family: 'Raleway', sans-serif;
 }
 
+
 footer h4{
 font-size: 16px;
 font-weight: 600;
@@ -573,6 +588,36 @@ footer .footer-quick-links{
   text-align: center;
   border-color: var(--border-grey)
 }
+
+
+
+footer h4{
+font-size: 16px;
+font-weight: 600;
+
+}
+
+footer a{
+  color: var(--black);
+  font-size: 14px;
+  font-weight: 500;
+}
+
+footer .mot-info{
+  text-align: right;
+}
+
+footer .social-links li {
+padding: 5px;
+display: inline;
+}
+
+footer .footer-quick-links{
+  border-top: solid;
+  text-align: center;
+  border-color: var(--border-grey)
+}
+
 
 footer .footer-quick-links a{
   color: var(--black);
@@ -603,9 +648,14 @@ font-weight: 400px;
 /* START MAIN STYLES */
 
 /* START INDEX.PHP STYLES */
+
 .row{
     padding-top: var(--standard);
     padding-bottom: var(--standard);
+=======
+.grid-container{
+    padding: 20px;
+
 }
 
 
