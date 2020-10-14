@@ -9,6 +9,7 @@ let getSidebarMenu = document.querySelector(".menu");
 let getToggleDarkMode = document.querySelector(".toggle-darkmode-font-size");
 let getNavMain = document.querySelector(".nav-main");
 let getMOTHeader = document.querySelector(".mot-header");
+let getMOTHeaderimg = document.querySelector(".mot-header img");
 let getSearchContainer = document.querySelector(".search-input-container");
 let getBtnTglLanguage = document.querySelector(".btn-toggle-language");
 let getMainContent = document.querySelector("main");
@@ -47,18 +48,18 @@ function toggleNav(){
         getSidebar.style.width = "100%";
         getSidebarMenu.style.display = "block";
         getToggleDarkMode.style.display = "none";
-        // getNavMain.style.backgroundColor =  "#193B6A"; 
         getMOTHeader.style.color =  "white"; 
         getSearchContainer.style.visible =  "hidden"; 
         getBtnTglLanguage.style.visible =  "hidden"; 
-        getMainContent.style.display =  "none"; 
-        getFooter.style.display =  "none"; 
+        // getMainContent.style.display =  "none"; 
+        // getFooter.style.display =  "none"; 
 
         if (pcwidth <= 768){//search input for mobile
           getSearchContainer.style.display = "block";
           getSearchContainer.style.visible = "visible";
+          getSearchContainer.style.position = "relative";
           getNavMain.style.height = "108px";
-          getSidebar.style.top = "108px";
+          // getSidebar.style.top = "108px";
         }
 
         toggleNavStatus = true;
@@ -67,18 +68,17 @@ function toggleNav(){
         getSidebar.style.width = "0px";
         getSidebarMenu.style.display = "none";
         getToggleDarkMode.style.display = "block";
-        // getNavMain.style.backgroundColor =  "white"; 
         getSearchContainer.style.visible =  "visible";
         getBtnTglLanguage.style.visible =  "visible";  
         getMOTHeader.style.color =  "#193B6A";
-        getMainContent.style.display =  "block"; 
-        getFooter.style.display =  "block"; 
+        // getMainContent.style.display =  "block"; 
+        // getFooter.style.display =  "block"; 
 
         if (pcwidth <= 768){//search input for mobile
           getSearchContainer.style.display = "none";
           getSearchContainer.style.visible = "hidden";
           getNavMain.style.height = "68px";
-          getSidebar.style.top = "68px";
+          // getSidebar.style.top = "68px";
         }
 
         toggleNavStatus = false;

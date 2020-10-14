@@ -15,7 +15,7 @@
   --agencies-h3:#B7B7B7;
 
   /* Color For Sidebar */
-  --primary-blue-sidebar:#193B6A;
+  --primary-blue-sidebar:#193b6afa;
   --white-sidebar:rgb(255, 255, 255);
 
   /* Color For DarkMode/Font Button */
@@ -146,6 +146,8 @@ span{
 .mot-header{
   color: var(--dark-blue);
   transition: all 0.3s ease-in-out 0s;
+  position: relative;
+  z-index: 1000;
 }
 
 .mot-header img{
@@ -177,6 +179,7 @@ span{
   margin-top: -60px;
   float: right;
   width: 43%;
+  
 }
 
 .search-input{
@@ -215,6 +218,8 @@ span{
   width: 92px;
   height: 29px;
   font-weight: 600;
+  position: relative;
+  z-index: 1000;
 }
 
 
@@ -222,7 +227,7 @@ span{
   background-color: var(--primary-blue-sidebar);
   color: var(--white-sidebar);
   position: fixed;
-  top: 110px;
+  top: 0px;
   width: 0px;
   height: 100%;
   padding: 0px;
@@ -232,8 +237,10 @@ span{
 }
 
 .nav-sidebar ul{
-  padding-top: 15px;
-  padding-left: 100px;
+  /* padding-top: 65px;
+  padding-left: 100px; */
+  /* margin-top: 100px;
+  margin-left: 55px; */
   font-size: 25px;
   /* overflow: hidden;
   visibility: hidden; */
@@ -341,12 +348,13 @@ span{
 
   .search-input-container{
     display: none;
-    margin-top: -0px;
+    margin-top: 0px;
     float: left;
+    z-index: 1000;
   }
   
   .search-input{
-    width: 234%;
+    width: 230%;
     margin-top: 12px;
    
   } 
@@ -373,18 +381,21 @@ span{
     width: 92px;
     height: 29px;
     font-weight: 600;
+    margin-right: 12px;
   }
   
   .nav-sidebar{
-    top: 58px;
+    top: 0px;
     padding-left: 0px;
-    top: 68px;
+    padding-top: 120px;
+   
   }
 
   .nav-sidebar ul{
     padding-top: 0px;
     padding-left: 0px;
     font-size: 20px;
+
   }
 
   .nav-sidebar ul li{
@@ -541,7 +552,8 @@ span{
   }
 
   .nav-sidebar{
-    top: 68px;
+    top: 0px;
+    padding-top: 120px;
   }
 
 
