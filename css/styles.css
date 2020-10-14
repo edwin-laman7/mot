@@ -908,7 +908,6 @@ ul.main-sector-btn {
 }
 
 .sidebar-wrap{padding:20px;  border-bottom:  1px solid #CFCFCF;}
-ul.sidebar-nav{list-style-image: url("../assets/icon/angle-right.svg");}
 ul.sidebar-nav li{list-style-type: none;}
 div.sticky { position: -webkit-sticky; /* Safari */ position: sticky; top: 0; }
 
