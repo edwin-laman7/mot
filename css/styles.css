@@ -559,8 +559,8 @@ footer a{
   font-weight: 500;
 }
 
-footer .mot-info{
-  text-align: right;
+.footer .mot-info{
+ 
 }
 
 footer .social-links li {
@@ -595,6 +595,16 @@ font-size: 14px;
 font-weight: 400px;
 }
 
+.mot-info .mini-right{
+  display:block;
+  width:48%;
+  float:right;
+}
+.mot-info .mini-left{
+  display:block;
+  float:left;
+  width:48%;
+}
 /* END FOOTER STYLES */
 
 
@@ -765,10 +775,11 @@ ul.main-sector-btn {
 
 /* agencies-under-mot */
 .agencies-under-mot{
-  background-image: url("../assets/icon/airplane-ship-train.svg");
+  background-image: url("../assets/icon/mot-brand-icon.svg");
   background-repeat: no-repeat;
-  background-position: left bottom;
+  background-position: right bottom;
   padding-bottom: 148.34px;
+  background-size: auto;
 }
 
 .agencies-under-mot .row{
