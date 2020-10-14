@@ -1,0 +1,14 @@
+/* GLOBAL DARK MODE STYLE CODE */
+
+:root{
+    --white:#222222;
+    --black:#ffffff;
+    --primary-blue:#ffffff;
+    --light-blue:#7AC4FC;
+    --dark-blue:#ffffff;
+    --banner-quicklinks-footer-bg-color:#101010;
+    --white-toggle-darkmode-font-size:#193B6A;
+    /* From slick-theme.css */
+    --slick-arrow-color:#ffffff;
+    --slick-dots-color:#ffffff;
+}

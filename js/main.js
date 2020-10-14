@@ -187,6 +187,9 @@ function toggleDarkMode(){
   }
 } 
 
+// $("#toggleDarkMode").click(function(){
+//   Cookies.set('darkMode','enabled');
+// });
 
 
 

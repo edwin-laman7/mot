@@ -1,4 +1,4 @@
-/* Global Style */
+/* GLOBAL STYLE CODE */
 
 :root{
 
@@ -29,7 +29,6 @@ body{
   background-color: var(--white);
 }
 
-/* Global Style */
 a{
   text-decoration: underline;
   color:var(--light-blue);
@@ -535,15 +534,64 @@ span{
   
 
 
+/* START FOOTER STYLES */
 
+footer{
+  background-color: var(--banner-quicklinks-footer-bg-color);
+  padding: 20px;
+  position: relative;
+  font-family: 'Raleway', sans-serif;
+}
 
+footer h4{
+font-size: 16px;
+font-weight: 600;
 
+}
 
+footer a{
+  color: var(--black);
+  font-size: 14px;
+  font-weight: 500;
+}
 
+footer .mot-info{
+  text-align: right;
+}
 
+footer .social-links li {
+padding: 5px;
+display: inline;
+}
 
+footer .footer-quick-links{
+  border-top: solid;
+  text-align: center;
+  border-color: var(--border-grey)
+}
 
+footer .footer-quick-links a{
+  color: var(--black);
+}
 
+footer .footer-quick-links li {
+
+line-height: 1.5;
+display: inline-block;
+vertical-align: middle;
+}
+
+.mot-info h4{
+font-size: 16px;
+font-weight: 600;
+}
+
+.mot-info p{
+font-size: 14px;
+font-weight: 400px;
+}
+
+/* END FOOTER STYLES */
 
 
 
@@ -803,61 +851,3 @@ div.sticky { position: -webkit-sticky; /* Safari */ position: sticky; top: 0; }
 
 
 
-/* START FOOTER STYLES */
-
-footer{
-    background-color: var(--banner-quicklinks-footer-bg-color);
-    padding: 20px;
-    position: relative;
-    font-family: 'Raleway', sans-serif;
-}
-
-footer h4{
-  font-size: 16px;
-  font-weight: 600;
-  
-}
-
-footer a{
-    color: var(--black);
-    font-size: 14px;
-    font-weight: 500;
-}
-
-footer .mot-info{
-    text-align: right;
-}
-
-footer .social-links li {
-  padding: 5px;
-  display: inline;
-}
-
-footer .footer-quick-links{
-    border-top: solid;
-    text-align: center;
-    border-color: var(--border-grey)
-}
-
-footer .footer-quick-links a{
-    color: var(--black);
-}
-
-footer .footer-quick-links li {
-  
-  line-height: 1.5;
-  display: inline-block;
-  vertical-align: middle;
-}
-
-.mot-info h4{
-  font-size: 16px;
-  font-weight: 600;
-}
-
-.mot-info p{
-  font-size: 14px;
-  font-weight: 400px;
-}
-
-/* END FOOTER STYLES */
