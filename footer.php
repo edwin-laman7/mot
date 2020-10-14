@@ -1,5 +1,5 @@
 <footer>
-       <div class="row">
+<div class="row">
         <div class="column small-12 medium-5 mot-info">
         
           <img src="assets/icon/mot-logo.svg" alt="mot-logo" id="mot-logo">
@@ -65,7 +65,6 @@
               <li><a href="#">FAQ's</a></li>
           </ul>
           </div>
-      </div>
     </footer>
         <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
         <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
