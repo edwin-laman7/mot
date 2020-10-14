@@ -7,9 +7,10 @@
   --light-blue: #2680EB;
   --dark-blue: #00122a;
   --border-grey: #707070;
+  --row-border: #cfcfcf;
   --dark-grey: #868686;
   --white:rgb(255, 255, 255);
-  --black:rgb(0, 0, 0);
+  --black:rgb(20, 20, 20);
   --banner-quicklinks-footer-bg-color: #F1F3F6;
   --main-sector-button-color:#EFEFEF;
   --agencies-h3:#B7B7B7;
@@ -63,6 +64,7 @@ h2{
   font-size: 25px;
   font-weight: bold;
   color:var(--primary-blue);
+  padding-top: var(--narrow);
 }
 
 h3{
@@ -605,12 +607,18 @@ padding: 5px;
 display: inline;
 }
 
-.footer ul.social-links {
+footer ul.social-links {
   margin-top: -15px;
 }
 
-.footer ul.social-links li i{
+footer ul.social-links li i{
   font-size: 15px;
+}
+
+.footer-quick-links .row{
+  padding-top:var(--narrow);
+  padding-bottom: 0;
+  margin-bottom: -20px;
 }
 
 footer .footer-quick-links{
@@ -628,6 +636,10 @@ footer .footer-quick-links li {
 line-height: 1.5;
 display: inline-block;
 vertical-align: middle;
+}
+
+footer img#mot-logo{
+  padding-bottom: var(--narrow);
 }
 
 .mot-info h4{
@@ -909,8 +921,30 @@ ul.main-sector-btn {
 
 .sidebar-wrap{padding:20px;  border-bottom:  1px solid #CFCFCF;}
 ul.sidebar-nav li{list-style-type: none;}
+ul.sidebar-nav li:before {
+  content: "\f105"; 
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+  display: inline-block;
+  margin-left: -1.3em; 
+  width: 1.3em; 
+  color:var(--black);
+}
 div.sticky { position: -webkit-sticky; /* Safari */ position: sticky; top: 0; }
 
+.grid-container.breadcrumb-wrap .row{
+  padding-top: var(--narrow);
+  padding-bottom: 0 !important;
+}
+
+.no-sidebar .row{
+  padding-top: 0;
+  padding-bottom:var(--standard);
+}
+
+.row-line{
+  border-top: 1px solid var(--row-border);
+}
 /* END MAIN STYLES */
 
 
