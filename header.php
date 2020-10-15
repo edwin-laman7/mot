@@ -2,6 +2,7 @@
 <!DOCTYPE html>
 <html class="no-js" lang="en" dir="ltr">
   <head>
+    
     <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -10,15 +11,31 @@
     <script src="https://cdn.jsdelivr.net/npm/js-cookie@rc/dist/js.cookie.min.js"></script>
     <script src="https://kit.fontawesome.com/a076d05399.js"></script>  
     <script>
-      $( document ).ready(function(){
-        var darkMode = Cookies.get('darkModeStatus');
-        if(darkMode == 'enabled'){
-          $( "body" ).addClass( "dark-mode" );
-        }else{
-          $( "body" ).removeClass( "dark-mode" );
-        }
-        $(body).css('display', 'initial');
-      });
+      // $( document ).ready(function(){
+      //   var darkMode = Cookies.get('darkModeStatus');
+      //   if(darkMode == 'enabled'){
+      //     $( "body" ).addClass( "dark-mode" );
+      //   }else{
+      //     $( "body" ).removeClass( "dark-mode" );
+      //   }
+      //   $(body).css('display', 'initial');
+      // });
+
+      // const theme = localStorage.getItem('theme');
+      const theme = Cookies.get('theme');
+      if (theme === "dark") {
+        document.documentElement.setAttribute('data-theme', 'dark');
+      }
+
+       // $( document ).ready(function(){
+      // $( window ).on( "load", function() {
+      //   // var theme = Cookies.get('theme');
+      //   const theme = localStorage.getItem('theme');
+      //   if(theme === "dark"){
+      //     $("html").attr("data-theme","dark");
+      //   }
+        
+      // });
       </script>
     <link rel="stylesheet" href="css/foundation.css">
     <link rel="stylesheet" href="css/styles.css">
@@ -162,7 +179,8 @@
      <!-- Toggle Dark Mode / Font Size Code -->
     <div>
       <div class="toggle-darkmode-font-size">
-        <button id="toggleDarkMode"><i class="far fa-moon"></i></button>
+        <!-- <button id="toggleDarkMode"><i class="far fa-moon"></i></button> -->
+        <button id="theme-toggle" onclick="modeSwitcher()"><i class="far fa-moon"></i></button>
         <button onclick="resetFontSize()"><i class="fas fa-font"></i></button>
         <button onclick="increaseFontSize()"><i class="fas fa-plus"></i></button>
       </div>

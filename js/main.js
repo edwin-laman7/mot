@@ -122,21 +122,101 @@ function toggleNav(){
 
 //TOGGLE DARK MODE CODE
 $('.toggle-darkmode-font-size').animate({right: -5000});
-// $('.toggle-darkmode-font-size').animate({right: 50});
 $('.toggle-darkmode-font-size').animate({right: 0});
 
 
+// $( "#toggleDarkMode" ).on("click", function() { 
+//   var darkMode = Cookies.get('darkModeStatus');
+//   if( $( "body" ).hasClass( "dark-mode" )) { 
+//       $( "body" ).removeClass( "dark-mode" ); 
+//       Cookies.remove('darkModeStatus');
+//   } else { 
+//       $( "body" ).addClass( "dark-mode" );
+//       Cookies.set('darkModeStatus','enabled'); 
+//   } 
+// }); 
 
-$( "#toggleDarkMode" ).on("click", function() { 
-  var darkMode = Cookies.get('darkModeStatus');
-  if( $( "body" ).hasClass( "dark-mode" )) { 
-      $( "body" ).removeClass( "dark-mode" ); 
-      Cookies.remove('darkModeStatus');
-  } else { 
-      $( "body" ).addClass( "dark-mode" );
-      Cookies.set('darkModeStatus','enabled'); 
-  } 
-}); 
+
+// // var theme = Cookies.get('theme');
+// var userPrefers = getComputedStyle(document.documentElement).getPropertyValue('content');
+
+// if (userPrefers === "dark"){
+//   $("html").attr("data-theme","dark");
+//   // Cookies.set('theme','dark'); 
+//   window.localStorage.setItem('theme', 'dark');
+// }
+// else{
+//   $("html").attr("data-theme","light");
+//   // Cookies.set('theme','light'); 
+//   window.localStorage.setItem('theme', 'light');
+// }
+
+// function modeSwitcher() {
+//   var currentMode =  document.documentElement.getAttribute('data-theme');
+  
+//   if (currentMode === "dark"){
+//     $("html").attr("data-theme","light");
+//     // Cookies.set('theme','dark'); 
+//     window.localStorage.setItem('theme', 'light');
+ 
+//   } else {
+//     $("html").attr("data-theme","dark");
+//     // Cookies.set('theme','dark'); 
+//     window.localStorage.setItem('theme', 'dark');
+//   }
+// }
+
+
+
+
+const userPrefers = getComputedStyle(document.documentElement).getPropertyValue('content');	
+
+if (theme === "dark") {
+	// document.getElementById("theme-toggle").innerHTML = "Light Mode";
+} else if (theme === "light") {
+	// document.getElementById("theme-toggle").innerHTML = "Dark Mode";
+} else if  (userPrefers === "dark") {
+	document.documentElement.setAttribute('data-theme', 'dark');
+  // window.localStorage.setItem('theme', 'dark');
+  Cookies.set('theme','dark'); 
+	// document.getElementById("theme-toggle").innerHTML = "Light Mode";
+} else {
+	document.documentElement.setAttribute('data-theme', 'light');
+  // window.localStorage.setItem('theme', 'light');
+  Cookies.set('theme','light'); 
+	// document.getElementById("theme-toggle").innerHTML = "Dark Mode";
+}
+
+function modeSwitcher() {
+	let currentMode = document.documentElement.getAttribute('data-theme');
+	if (currentMode === "dark") {
+		document.documentElement.setAttribute('data-theme', 'light');
+    // window.localStorage.setItem('theme', 'light');
+    Cookies.set('theme','light'); 
+		// document.getElementById("theme-toggle").innerHTML = "Dark Mode";
+	} else {
+		document.documentElement.setAttribute('data-theme', 'dark');
+    // window.localStorage.setItem('theme', 'dark');
+    Cookies.set('theme','dark'); 
+		// document.getElementById("theme-toggle").innerHTML = "Light Mode";
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 //TOGGLE INCREASE AND RESET FONT CODE
@@ -173,5 +253,3 @@ function resetFontSize(){
 }
 
 
-
-//TOGGLE SLIDE FROM RIGHT FOR TOGGLE BUTTON

@@ -1,7 +1,4 @@
-/* GLOBAL STYLE CODE */
-
-:root{
-
+html, html[data-theme="light"]{
   /* Global Color */
   --primary-blue:#193B6A;
   --light-blue: #2680EB;
@@ -15,41 +12,49 @@
   --main-sector-button-color:#EFEFEF;
   --agencies-h3:#B7B7B7;
 
-  /* Color For Sidebar */
+}
+
+html[data-theme="dark"]{
+  --white:#222222;
+  --black:#ffffff;
+  --primary-blue:#ffffff;
+  --light-blue:#7AC4FC;
+  --dark-blue:#ffffff;
+  --banner-quicklinks-footer-bg-color:#101010;
+  --white-toggle-darkmode-font-size:#193B6A;
+  /* From slick-theme.css */
+  --slick-arrow-color:#ffffff;
+  --slick-dots-color:#ffffff;
+}
+
+/* to detect whether a site visiter prefers dark mode: */
+@media (prefers-color-scheme: dark) {
+  html {
+    content: "dark";
+  }
+}
+
+
+/* GLOBAL STYLE CODE */
+
+:root{
+   /* Grid Container Padding */
+   --narrow:30px;
+   --standard:50px;
+   --large:75px;
+
+   /* Color For Sidebar */
   --primary-blue-sidebar:#193b6afa;
   --white-sidebar:rgb(255, 255, 255);
 
   /* Color For DarkMode/Font Button */
   --white-toggle-darkmode-font-size:rgb(255, 255, 255);
-
-  /* Grid Container Padding */
-  --narrow:30px;
-  --standard:50px;
-  --large:75px;
-
-
 }
 
 body{
   background-color: var(--white);
-  display: none;
+  /* display: none; */
 }
-
-body.dark-mode{
- 
-    --white:#222222;
-    --black:#ffffff;
-    --primary-blue:#ffffff;
-    --light-blue:#7AC4FC;
-    --dark-blue:#ffffff;
-    --banner-quicklinks-footer-bg-color:#101010;
-    --white-toggle-darkmode-font-size:#193B6A;
-    /* From slick-theme.css */
-    --slick-arrow-color:#ffffff;
-    --slick-dots-color:#ffffff;
-}
-
-
 
 a{
   text-decoration: underline;
