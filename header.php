@@ -53,7 +53,7 @@
             <div class="column">
               <div class="mot-header">
                   <a href="index.php">
-                  <img src="assets/icon/mot-logo.svg" alt="">
+                  <img src="assets/img/mot-logo.png" alt="">
                   <div class="mot-title">
                       <span>MINISTRY OF TRANSPORT</span>
                       <p>OFFICIAL PORTAL</p>

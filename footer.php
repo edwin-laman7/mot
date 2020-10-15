@@ -2,7 +2,7 @@
 <div class="row">
         <div class="column small-12 medium-5 mot-info">
         
-          <img src="assets/icon/mot-logo.svg" alt="mot-logo" id="mot-logo">
+          <img src="assets/img/mot-logo.png"  alt="mot-logo" id="mot-logo">
           <h4>Ministry of Transport Malaysia</h4>
           <p>No. 26, Jalan Tun Hussein, Presint 4, 62100 W.P. Putrajaya</p>
         

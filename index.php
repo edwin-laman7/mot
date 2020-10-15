@@ -79,6 +79,30 @@
                   <span class="banner-announcement-caption">Covid-19 Updates</span>
                 </button>
               </div>
+              <div class="column">
+                <button>
+                  <img src="assets/img/63-years-malaysia.jpg" alt="Jalur Gemilang - 63">
+                  <span class="banner-announcement-caption">63 Years Malaysia Celebration</span>
+                </button>
+              </div>
+              <div class="column">
+                <button>
+                  <img src="assets/img/covid-19.jpg" alt="Covid"">
+                  <span class="banner-announcement-caption">Covid-19 Updates</span>
+                </button>
+              </div>
+              <div class="column">
+                <button>
+                  <img src="assets/img/63-years-malaysia.jpg" alt="Jalur Gemilang - 63">
+                  <span class="banner-announcement-caption">63 Years Malaysia Celebration</span>
+                </button>
+              </div>
+              <div class="column">
+                <button>
+                  <img src="assets/img/covid-19.jpg" alt="Covid"">
+                  <span class="banner-announcement-caption">Covid-19 Updates</span>
+                </button>
+              </div>
             </div>
           </div>
         </div>
@@ -121,7 +145,7 @@
             <h2>What we do</h2>
           </div>
           <div class="column small-12 medium-2">
-            <img src="assets/icon/mot-logo.svg" alt="logo">
+            <img src="assets/img/mot-logo.png"  alt="logo">
           </div>
           <div class="column small-12 medium-6">
             <p>To formulate and implement land transport, logistics, maritime
