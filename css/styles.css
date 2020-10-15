@@ -838,6 +838,7 @@ footer img#mot-logo{
   z-index: 1000;
   width: 100px;
   font-size: 16px;
+  /* transition: var(--theme-transition); */
 }
 
 .toggle-darkmode-font-size button{
