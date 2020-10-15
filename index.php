@@ -6,7 +6,7 @@
           <ul class="orbit-container">
             <li class="is-active orbit-slide">
               <figure class="orbit-figure">
-                <img class="orbit-image" src="assets/img/dummy-banner.png" alt="dummy-banner">
+                <img class="orbit-image" src="assets/img/dummy-banner.jpg" alt="dummy-banner">
               </figure>
             </li>
             <li class="orbit-slide">
@@ -16,7 +16,7 @@
             </li>
             <li class="orbit-slide">
               <figure class="orbit-figure">
-                <img class="orbit-image" src="assets/img/dummy-banner-3.png" alt="dummy-banner-3">
+                <img class="orbit-image" src="assets/img/dummy-banner-3.jpg" alt="dummy-banner-3">
               </figure>
             </li>
           </ul>
