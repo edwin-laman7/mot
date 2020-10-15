@@ -210,7 +210,7 @@ sessionStorage.setItem("defaultFontSize", fontSize);
 let defaultFontSize = sessionStorage.getItem("defaultFontSize");
 
 function increaseFontSize(){
-  var max = 23;
+  var max = 34;
     //finding the current computed fontSize of the <body> element, parsing it
     currentFontSize = parseInt(window.getComputedStyle(body, null).fontSize);
 

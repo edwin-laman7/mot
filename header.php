@@ -56,8 +56,8 @@
       //   if(theme === "dark"){
       //     $("html").attr("data-theme","dark");
       //   }
-        
       // });
+      
       </script>
     <link rel="stylesheet" href="css/foundation.css">
     <link rel="stylesheet" href="css/styles.css">
