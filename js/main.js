@@ -9,6 +9,8 @@ let getSidebarMenu = document.querySelector(".menu");
 let getToggleDarkMode = document.querySelector(".toggle-darkmode-font-size");
 let getNavMain = document.querySelector(".nav-main");
 let getMOTHeader = document.querySelector(".mot-header");
+let getMOTTitleSpan = document.querySelector(".mot-title span");
+let getMOTTitleP = document.querySelector(".mot-title p");
 let getMOTHeaderimg = document.querySelector(".mot-header img");
 let getSearchContainer = document.querySelector(".search-input-container");
 let getBtnTglLanguage = document.querySelector(".btn-toggle-language");
@@ -50,6 +52,8 @@ function toggleNav(){
         getSidebarMenu.style.display = "block";
         getToggleDarkMode.style.display = "none";
         getMOTHeader.style.color =  "white"; 
+        getMOTTitleSpan.style.color =  "white"; 
+        getMOTTitleP.style.color =  "white"; 
         getSearchContainer.style.visible =  "hidden"; 
         getBtnTglLanguage.style.visible =  "hidden"; 
         // getMainContent.style.display =  "none"; 
@@ -76,6 +80,8 @@ function toggleNav(){
         getSearchContainer.style.visible =  "visible";
         getBtnTglLanguage.style.visible =  "visible";  
         getMOTHeader.style.color =  "#193B6A";
+        getMOTTitleSpan.style.color =  "var(--black)"; 
+        getMOTTitleP.style.color =  "var(--black)"; 
         // getMainContent.style.display =  "block"; 
         // getFooter.style.display =  "block"; 
 
@@ -122,51 +128,6 @@ function toggleNav(){
 $('.toggle-darkmode-font-size').animate({right: -200});
 $('.toggle-darkmode-font-size').animate({right: 0});
 
-
-// $( "#toggleDarkMode" ).on("click", function() { 
-//   var darkMode = Cookies.get('darkModeStatus');
-//   if( $( "body" ).hasClass( "dark-mode" )) { 
-//       $( "body" ).removeClass( "dark-mode" ); 
-//       Cookies.remove('darkModeStatus');
-//   } else { 
-//       $( "body" ).addClass( "dark-mode" );
-//       Cookies.set('darkModeStatus','enabled'); 
-//   } 
-// }); 
-
-
-// // var theme = Cookies.get('theme');
-// var userPrefers = getComputedStyle(document.documentElement).getPropertyValue('content');
-
-// if (userPrefers === "dark"){
-//   $("html").attr("data-theme","dark");
-//   // Cookies.set('theme','dark'); 
-//   window.localStorage.setItem('theme', 'dark');
-// }
-// else{
-//   $("html").attr("data-theme","light");
-//   // Cookies.set('theme','light'); 
-//   window.localStorage.setItem('theme', 'light');
-// }
-
-// function modeSwitcher() {
-//   var currentMode =  document.documentElement.getAttribute('data-theme');
-  
-//   if (currentMode === "dark"){
-//     $("html").attr("data-theme","light");
-//     // Cookies.set('theme','dark'); 
-//     window.localStorage.setItem('theme', 'light');
- 
-//   } else {
-//     $("html").attr("data-theme","dark");
-//     // Cookies.set('theme','dark'); 
-//     window.localStorage.setItem('theme', 'dark');
-//   }
-// }
-
-
-
-
 const userPrefers = getComputedStyle(document.documentElement).getPropertyValue('content');	
 
 if (theme === "dark") {
@@ -176,12 +137,12 @@ if (theme === "dark") {
 } else if  (userPrefers === "dark") {
 	document.documentElement.setAttribute('data-theme', 'dark');
   // window.localStorage.setItem('theme', 'dark');
-  setCookie('theme','dark',7); 
+  setCookie('theme','dark',360); 
 	// document.getElementById("theme-toggle").innerHTML = "Light Mode";
 } else {
 	document.documentElement.setAttribute('data-theme', 'light');
   // window.localStorage.setItem('theme', 'light');
-  setCookie('theme','light',7); 
+  setCookie('theme','light',360); 
 	// document.getElementById("theme-toggle").innerHTML = "Dark Mode";
 }
 
@@ -190,12 +151,12 @@ function modeSwitcher() {
 	if (currentMode === "dark") {
 		document.documentElement.setAttribute('data-theme', 'light');
     // window.localStorage.setItem('theme', 'light');
-    setCookie('theme','light',7); 
+    setCookie('theme','light',360); 
 		// document.getElementById("theme-toggle").innerHTML = "Dark Mode";
 	} else {
 		document.documentElement.setAttribute('data-theme', 'dark');
     // window.localStorage.setItem('theme', 'dark');
-    setCookie('theme','dark',7); 
+    setCookie('theme','dark',360); 
 		// document.getElementById("theme-toggle").innerHTML = "Light Mode";
 	}
 }
@@ -219,7 +180,6 @@ function increaseFontSize(){
     //we set the fontSize of the <body> to the incremented fontSize,
     //increasing the current value by 1, and concatenating with the 'px' unit:
     body.style.fontSize = ++currentFontSize + 'px';
-    getFooterLinks.style.fontSize = ++currentFontSize + 'px';
   }
 }
 
@@ -231,7 +191,6 @@ function resetFontSize(){
   if (currentFontSize != defaultFontSize){
     //we set the currentFontSize to the defaultFontSize
     body.style.fontSize = defaultFontSize + 'px';
-    getFooterLinks.style.fontSize = defaultFontSize + 'px';
   }
   
 }

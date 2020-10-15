@@ -48,11 +48,12 @@ html[data-theme="dark"]{
 
   /* Color For DarkMode/Font Button */
   --white-toggle-darkmode-font-size:rgb(255, 255, 255);
+  --theme-transition:all 0.5s ease-in-out 0s;;
 }
 
 body{
   background-color: var(--white);
-  
+  transition: var(--theme-transition);
 }
 
 a{
@@ -147,6 +148,7 @@ span{
   z-index: 1000;
   background-color: var(--white);
   z-index: 1000;
+  transition: var(--theme-transition);
 
 
 }
@@ -175,15 +177,17 @@ span{
   width: 91%;
 }
 
-.mot-header span{
+.mot-title span{
   font-family: 'Open Sans', sans-serif;
   font-size: 24px;
   font-weight: 700;
+  /* color: var(--black); */
 }
 
-.mot-header p{
+.mot-title p{
   font-family: 'Raleway', sans-serif;
   font-size: 13px;
+  /* color: var(--black); */
   
 }
 
@@ -207,6 +211,7 @@ span{
   background-position: 95% center;
   border-radius: 20px;
   border: 1px solid var(--border-grey);
+  transition: var(--theme-transition);
  
 } 
 
@@ -251,8 +256,8 @@ span{
 /* Styling the hamburger lines */
 .menu-btn .btn-line{
   width: 22px;
-  height: 3px;
-  margin: 1px 0 3px 0;
+  height: 2px;
+  margin: 3px 0 3px 0;
   background: var(--white);
   transition: all 0.5s ease-out;
 }
@@ -264,7 +269,7 @@ span{
 
 /* Styling the three lines  to make it an X */
 .menu-btn.close .btn-line:nth-child(1) { 
-  transform: rotate(45deg) translate(5px, 5px); 
+  transform: rotate(45deg) translate(4px, 3px); 
 } 
     
 .menu-btn.close .btn-line:nth-child(2) { 
@@ -686,6 +691,7 @@ footer{
   padding: 20px;
   position: relative;
   font-family: 'Raleway', sans-serif;
+  transition: var(--theme-transition);;
 }
 
 footer h4{
@@ -809,6 +815,9 @@ footer img#mot-logo{
   z-index: 999;
 }
 
+.banner-announcements  {
+  transition: var(--theme-transition);
+}
 .banner-announcements .slick-slide img {
   display: block;
   height: 203px;
@@ -930,6 +939,7 @@ ul.main-sector-btn {
 /* quick-links */
 .quick-links{
   background-color:var(--banner-quicklinks-footer-bg-color);
+  transition: var(--theme-transition);
 }
 
 .quick-links .row{
