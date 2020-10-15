@@ -176,12 +176,12 @@ if (theme === "dark") {
 } else if  (userPrefers === "dark") {
 	document.documentElement.setAttribute('data-theme', 'dark');
   // window.localStorage.setItem('theme', 'dark');
-  Cookies.set('theme','dark'); 
+  setCookie('theme','dark',7); 
 	// document.getElementById("theme-toggle").innerHTML = "Light Mode";
 } else {
 	document.documentElement.setAttribute('data-theme', 'light');
   // window.localStorage.setItem('theme', 'light');
-  Cookies.set('theme','light'); 
+  setCookie('theme','light',7); 
 	// document.getElementById("theme-toggle").innerHTML = "Dark Mode";
 }
 
@@ -190,31 +190,15 @@ function modeSwitcher() {
 	if (currentMode === "dark") {
 		document.documentElement.setAttribute('data-theme', 'light');
     // window.localStorage.setItem('theme', 'light');
-    Cookies.set('theme','light'); 
+    setCookie('theme','light',7); 
 		// document.getElementById("theme-toggle").innerHTML = "Dark Mode";
 	} else {
 		document.documentElement.setAttribute('data-theme', 'dark');
     // window.localStorage.setItem('theme', 'dark');
-    Cookies.set('theme','dark'); 
+    setCookie('theme','dark',7); 
 		// document.getElementById("theme-toggle").innerHTML = "Light Mode";
 	}
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 //TOGGLE INCREASE AND RESET FONT CODE

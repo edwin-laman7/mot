@@ -36,7 +36,6 @@ html[data-theme="dark"]{
 
 
 /* GLOBAL STYLE CODE */
-
 :root{
    /* Grid Container Padding */
    --narrow:30px;
@@ -53,7 +52,6 @@ html[data-theme="dark"]{
 
 body{
   background-color: var(--white);
-  /* display: none; */
 }
 
 a{
