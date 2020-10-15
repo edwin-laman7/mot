@@ -226,7 +226,7 @@ sessionStorage.setItem("defaultFontSize", fontSize);
 let defaultFontSize = sessionStorage.getItem("defaultFontSize");
 
 function increaseFontSize(){
-  var max = 100;
+  var max = 23;
     //finding the current computed fontSize of the <body> element, parsing it
     currentFontSize = parseInt(window.getComputedStyle(body, null).fontSize);
 
@@ -235,6 +235,7 @@ function increaseFontSize(){
     //we set the fontSize of the <body> to the incremented fontSize,
     //increasing the current value by 1, and concatenating with the 'px' unit:
     body.style.fontSize = ++currentFontSize + 'px';
+    getFooterLinks.style.fontSize = ++currentFontSize + 'px';
   }
 }
 
@@ -246,6 +247,7 @@ function resetFontSize(){
   if (currentFontSize != defaultFontSize){
     //we set the currentFontSize to the defaultFontSize
     body.style.fontSize = defaultFontSize + 'px';
+    getFooterLinks.style.fontSize = defaultFontSize + 'px';
   }
   
 }

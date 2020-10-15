@@ -292,14 +292,27 @@ span{
 }
 
 .nav-sidebar ul{
-  /* padding-top: 65px;
-  padding-left: 100px; */
   margin-top: 100px;
-  /* margin-left: 55px; */ 
   font-size: 25px;
-  /* overflow: hidden;
-  visibility: hidden; */
+  padding-left: 440px; 
 }
+
+@media all and (max-width: 1440px){
+  .nav-sidebar ul{
+    padding-left: 210px; 
+  }
+}
+
+@media all and (max-width: 1024px){
+  .nav-sidebar ul{
+    padding-left: 0px; 
+  }
+}
+
+.nav-sidebar ul li:hover{
+  font-size: 1.3em;
+}
+
 
 .nav-sidebar ul li{
   line-height: 60px;
@@ -309,7 +322,7 @@ span{
 
 .nav-sidebar ul li a{
   color: var(--white-sidebar);
-  transition: all 0.3s ease-in-out 0s;
+  transition: all 0.35s ease-in-out 0s;
 }
 
 .nav-sidebar-2{
@@ -362,6 +375,16 @@ span{
 
 .menu{
   display: none;
+}
+
+@media all and (max-width: 1023px){
+
+
+  .mot-header span{
+    font-size: 12px;
+    width: 90px;
+  }
+  
 }
 
 @media all and (max-width: 1023px){
@@ -445,6 +468,7 @@ span{
     top: 0px;
     padding-left: 0px;
     padding-top: 120px;
+    
    
   }
 
@@ -806,6 +830,12 @@ footer img#mot-logo{
 .toggle-darkmode-font-size button{
   margin-top: -20px;
   margin-right: auto;
+}
+
+.toggle-darkmode-font-size button:hover{
+  background-color:var(--light-blue);
+  color:#FFF;
+  transition: all 0.35s;
 }
 
 
