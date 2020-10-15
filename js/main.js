@@ -43,8 +43,6 @@ var pcwidth = $(window).width();
 
 
 
-
-
 //TOGGLE NAVIGATION BAR CODE
 function toggleNav(){
     if (toggleNavStatus === false) {

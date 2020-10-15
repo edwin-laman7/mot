@@ -249,8 +249,8 @@ span{
 .menu-btn .btn-line{
   width: 22px;
   height: 3px;
-  margin: 0 0 5px 0;
-  background: black;
+  margin: 1px 0 3px 0;
+  background: var(--white);
   transition: all 0.5s ease-out;
 }
 
@@ -261,7 +261,7 @@ span{
 
 /* Styling the three lines  to make it an X */
 .menu-btn.close .btn-line:nth-child(1) { 
-  transform: rotate(45deg) translate(9px, 9px); 
+  transform: rotate(45deg) translate(5px, 5px); 
 } 
     
 .menu-btn.close .btn-line:nth-child(2) { 
@@ -269,7 +269,7 @@ span{
 } 
     
 .menu-btn.close .btn-line:nth-child(3) { 
-  transform: rotate(-45deg) translate(3px, -2px); 
+  transform: rotate(-45deg) translate(4px, -3px); 
 }
       
 .btn-toggle-menu-position{
