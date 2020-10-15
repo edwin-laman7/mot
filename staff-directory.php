@@ -1,6 +1,6 @@
 <?php include('header.php'); ?>
-  <main>
-    <div class="grid-container">
+  <main class="no-sidebar">
+    <div class="grid-container breadcrumb-wrap">
       <div class="row">
           <div class="columns small-12 large-12">
           <nav aria-label="You are here:" role="navigation">
