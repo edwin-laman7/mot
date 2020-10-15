@@ -57,7 +57,7 @@
       //     $("html").attr("data-theme","dark");
       //   }
       // });
-      
+
       </script>
     <link rel="stylesheet" href="css/foundation.css">
     <link rel="stylesheet" href="css/styles.css">
@@ -89,7 +89,6 @@
               </div>
               <div class="btn-control">
                 <button class="btn-toggle-language">BM</button>
-                <!-- <button class="btn-toggle-nav" onclick="toggleNav()" id="btn-toggle-nav"><img src="assets/icon/menu-line-icon.svg"> MENU</button> -->
                 <button class="btn-toggle-nav" onclick="toggleNav()">
                   <div class="menu-btn">
                     <div class="btn-line"></div>

@@ -43,7 +43,7 @@ html[data-theme="dark"]{
    --large:75px;
 
    /* Color For Sidebar */
-  --primary-blue-sidebar:#193b6afa;
+  --primary-blue-sidebar:#193B6A;
   --white-sidebar:rgb(255, 255, 255);
 
   /* Color For DarkMode/Font Button */
@@ -52,6 +52,7 @@ html[data-theme="dark"]{
 
 body{
   background-color: var(--white);
+  
 }
 
 a{
@@ -146,7 +147,7 @@ span{
   z-index: 1000;
   background-color: var(--white);
   z-index: 1000;
-  transition: all 0.3s ease-in-out 0s;
+
 
 }
 
@@ -190,12 +191,14 @@ span{
 .search-input-container{
   margin-top: -60px;
   float: right;
-  width: 43%;
+  width: 35%;
+  position: relative;
+  z-index: 1000;
   
 }
 
 .search-input{
-  width: 274px;
+  width: 194px;
   height: 34px;
   font-size: 14px;
   background-color: transparent;
@@ -218,6 +221,8 @@ span{
   font-size: 15px;
   padding: 10px;
   cursor: pointer;
+  position: relative;
+  z-index: 1000;
   
 }
 
@@ -278,6 +283,7 @@ span{
 
 .nav-sidebar{
   background-color: var(--primary-blue-sidebar);
+  opacity: 0.95;
   color: var(--white-sidebar);
   position: fixed;
   top: 0px;
