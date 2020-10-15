@@ -63,43 +63,19 @@
             <div class="responsive">
               <div class="column">
                 <button>
-                  <img src="assets/img/banci.jpg" alt="Banci">
+                  <img src="assets/img/banci-malaysia.jpg" alt="Banci">
                   <span class="banner-announcement-caption">Bancian Penduduk dan Perumahan Malaysia</span>
                 </button>
               </div>
               <div class="column">
                 <button>
-                  <img src="assets/img/63.jpg" alt="Jalur Gemilang - 63">
+                  <img src="assets/img/63-years-malaysia.jpg" alt="Jalur Gemilang - 63">
                   <span class="banner-announcement-caption">63 Years Malaysia Celebration</span>
                 </button>
               </div>
               <div class="column">
                 <button>
-                  <img src="assets/img/covid.jpg" alt="Covid"">
-                  <span class="banner-announcement-caption">Covid-19 Updates</span>
-                </button>
-              </div>
-              <div class="column">
-                <button>
-                  <img src="assets/img/63-years-malaysia.png" alt="Jalur Gemilang - 63">
-                  <span class="banner-announcement-caption">63 Years Malaysia Celebration</span>
-                </button>
-              </div>
-              <div class="column">
-                <button>
-                  <img src="assets/img/covid-19.png" alt="Covid"">
-                  <span class="banner-announcement-caption">Covid-19 Updates</span>
-                </button>
-              </div>
-              <div class="column">
-                <button>
-                  <img src="assets/img/63-years-malaysia.png" alt="Jalur Gemilang - 63">
-                  <span class="banner-announcement-caption">63 Years Malaysia Celebration</span>
-                </button>
-              </div>
-              <div class="column">
-                <button>
-                  <img src="assets/img/covid-19.png" alt="Covid"">
+                  <img src="assets/img/covid-19.jpg" alt="Covid"">
                   <span class="banner-announcement-caption">Covid-19 Updates</span>
                 </button>
               </div>
