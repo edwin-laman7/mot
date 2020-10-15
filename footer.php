@@ -75,10 +75,6 @@
         <script src="js/vendor/foundation.js"></script>
         <script src="js/app.js"></script>
         <script src="js/main.js"></script>
-        <!-- <script>
-          $('.icon').click(function(){
-            $('span').toggleClass("cancel");
-          });
-        </script> -->
+
   </body>
 </html>

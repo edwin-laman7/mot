@@ -1,7 +1,7 @@
 <?php include('header.php'); ?>
 <main>
   <!-- Main Banner Code -->
-  <div class="orbit" role="region" aria-label="" data-orbit>
+  <div class="orbit" role="region" aria-label="" data-orbit data-options="animInFromLeft:fade-in; animInFromRight:fade-in; animOutToLeft:fade-out; animOutToRight:fade-out;">>
     <div class="orbit-wrapper">
           <ul class="orbit-container">
             <li class="is-active orbit-slide">

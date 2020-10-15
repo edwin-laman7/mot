@@ -210,7 +210,7 @@ sessionStorage.setItem("defaultFontSize", fontSize);
 let defaultFontSize = sessionStorage.getItem("defaultFontSize");
 
 function increaseFontSize(){
-  var max = 34;
+  var max = 25;
     //finding the current computed fontSize of the <body> element, parsing it
     currentFontSize = parseInt(window.getComputedStyle(body, null).fontSize);
 
@@ -237,3 +237,21 @@ function resetFontSize(){
 }
 
 
+$(window).load(function() {
+  $('#featured').orbit({
+     animation: 'horizontal-push',   // fade, horizontal-slide, vertical-slide, horizontal-push
+     animationSpeed: 800,             // how fast animtions are
+     timer: true,                     // true or false to have the timer
+     advanceSpeed: 10000,              // if timer is enabled, time between transitions 
+     pauseOnHover: false,             // if you hover pauses the slider
+     directionalNav: true,            // manual advancing directional navs
+     captions: false,                 // do you want captions?
+     captionAnimation: 'fade',        // fade, slideOpen, none
+     captionAnimationSpeed: 800,      // if so how quickly should they animate in
+     bullets: true,                   // true or false to activate the bullet navigation
+     bulletThumbLocation: '',         // location from this file where thumbs will be
+     afterSlideChange: function(){
+     // function to keep the content below the slider in sync with the slider.
+     }  
+   }); 
+});
