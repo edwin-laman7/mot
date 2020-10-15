@@ -438,7 +438,7 @@ span{
   }
   
   .search-input{
-    width: 230%;
+    width: 282%;
     margin-top: 12px;
    
   } 
@@ -939,6 +939,15 @@ ul.main-sector-btn {
     padding-top: 50px;
 }
 
+.mot-desc p{
+  margin-top: 80px;
+}
+
+@media all and (max-width: 425px){
+  .mot-desc p{
+    margin-top: 30px;
+  }
+}
 
 /* agencies-under-mot */
 .agencies-under-mot{
@@ -956,6 +965,7 @@ ul.main-sector-btn {
   padding-top: 50px;
 
 }
+
 .agencies-under-mot h3{
   color:var(--agencies-h3);
   padding-top: 5px;
