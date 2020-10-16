@@ -1,5 +1,5 @@
 
-//This JavaScript is only for the code that need to run before everything else (such as theme Checker), JavaScript for the site function/animation should not be here
+//This JavaScript is only for the code that need to run first before everything else (such as theme Checker). JavaScript for the site function/animation should not be here
 
 
 //Code to set the Function for setCookie(), getCookie(), eraseCookie()

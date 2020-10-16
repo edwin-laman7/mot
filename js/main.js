@@ -13,6 +13,7 @@ let getMOTTitleP = document.querySelector(".mot-title p");
 let getSearchContainer = document.querySelector(".search-input-container");
 let getBtnTglLanguage = document.querySelector(".btn-toggle-language");
 let getFooter = document.querySelector("footer");
+const menuBtn =  document.querySelector(".menu-btn"); 
 
 
 
@@ -48,6 +49,7 @@ function toggleNav(){
       getSearchContainer.style.position = "relative";
       getNavMain.style.height = "108px";
     }
+    menuBtn.classList.add("close"); 
     toggleNavStatus = true;
   }
   else if (toggleNavStatus === true) {
@@ -64,6 +66,7 @@ function toggleNav(){
       getSearchContainer.style.visible = "hidden";
       getNavMain.style.height = "68px";
     }
+    menuBtn.classList.remove("close"); 
     toggleNavStatus = false;
 
     //Remove all active-child-level2
@@ -158,3 +161,11 @@ function resetFontSize(){
 }
 
 
+//DUPLICATE IMAGE FROM ONE IMG SRC CODE
+$( document ).ready(function() {
+  $('.pic > img').each(function() {
+  var srcToCopy = $(this).attr('src');
+  $(this).add('.imgsrc').attr('src', srcToCopy);
+
+  });
+});

@@ -162,6 +162,7 @@ span{
   margin: 0px;
   width: 76px;
   height: 61px;
+  transition: var(--theme-transition);
 }
 
 .mot-title{
@@ -173,11 +174,13 @@ span{
   font-family: 'Open Sans', sans-serif;
   font-size: 24px;
   font-weight: 700;
+  transition: var(--theme-transition);
 }
 
 .mot-title p{
   font-family: 'Raleway', sans-serif;
   font-size: 13px; 
+  transition: var(--theme-transition);
 }
 
 
@@ -187,6 +190,7 @@ span{
   width: 35%;
   position: relative;
   z-index: 1000;
+  transition: var(--theme-transition);
 }
 
 .search-input{
@@ -200,8 +204,11 @@ span{
   border-radius: 20px;
   border: 1px solid var(--border-grey);
   transition: var(--theme-transition);
- 
-} 
+}
+input[type='text']:hover{
+  background-color:var(--primary-blue);
+  color:var(--white);
+}
 
 .btn-control{
   margin-top: -60px;
@@ -322,11 +329,14 @@ span{
 .nav-sidebar ul li a{
   color: var(--white-sidebar);
   transition: all 0.35s ease-in-out 0s;
+  height: 50px;
+  position: relative;
+  z-index: 1000;
 }
 
 .nav-sidebar-2{
   position: fixed;
-  left: 34%;
+  left: 14%;
   width: 100%;
   bottom: 0px;
   height: auto;
@@ -339,16 +349,19 @@ span{
 .nav-sidebar-2 ul{
   visibility: hidden;
   overflow: hidden;
+  
 }
 
 .nav-sidebar-2 ul li{
   cursor: pointer;
   list-style: none;
+  width: 600px;
 }
 
 .nav-sidebar-2 ul li a{
   display: block;
   text-decoration: none;
+  height: 50px;
   
 }
 
@@ -375,14 +388,12 @@ span{
   display: none;
 }
 
-@media all and (max-width: 1023px){
-
-
-  .mot-header span{
-    font-size: 12px;
-    width: 90px;
-  }
+@media all and (max-width: 1024px){
   
+  .nav-sidebar-2{
+    left: 24%;
+  }
+
 }
 
 @media all and (max-width: 1023px){
@@ -809,6 +820,7 @@ footer img#mot-logo{
 }
 
 .banner-announcements .slick-slider{padding-bottom: 0;}
+
 
 /* .toggle-darkmode-font-size */
 .toggle-darkmode-font-size{

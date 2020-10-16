@@ -62,10 +62,22 @@
           <div class="column text-center">
             <div class="responsive">
               <div class="column">
-                <button>
-                  <img src="assets/img/banci-malaysia.jpg" alt="Banci">
-                  <span class="banner-announcement-caption">Bancian Penduduk dan Perumahan Malaysia</span>
+                <!-- Data-open need to be the same with id on data-revea -->
+                <button data-open="Banci">
+                  <div class="pic">
+                    <img src="assets/img/banci-malaysia.jpg" alt="Banci">
+                    <span class="banner-announcement-caption">Bancian Penduduk dan Perumahan Malaysia</span>
+                  </div>
                 </button>
+
+                <!-- Orbit Reveal (Modal) -->
+                <div class="reveal" id="Banci" data-reveal>
+                  <img class="imgsrc" />
+                  <button class="close-button" data-close aria-label="Close modal" type="button">
+                    <span aria-hidden="true">&times;</span>
+                  </button>
+                </div>
+
               </div>
               <div class="column">
                 <button>
