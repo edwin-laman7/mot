@@ -11,6 +11,7 @@ html, html[data-theme="light"]{
   --banner-quicklinks-footer-bg-color: #F1F3F6;
   --main-sector-button-color:#EFEFEF;
   --agencies-h3:#B7B7B7;
+  --date-color:#9F9F9F;          
 
 }
 
@@ -25,6 +26,7 @@ html[data-theme="dark"]{
   /* From slick-theme.css */
   --slick-arrow-color:#ffffff;
   --slick-dots-color:#ffffff;
+  --date-color:#7AC4FC;  
 }
 
 /* to detect whether a site visiter prefers dark mode: */
@@ -956,7 +958,7 @@ ul.main-sector-btn {
 
 
 .mot-desc img {
-  float: left;
+  float: left; 
   height: 69px;
   width: 93px;
 }
@@ -971,6 +973,12 @@ ul.main-sector-btn {
     margin-left: 0%;
     margin-top: 29%;
   }
+}
+
+/* mot-news-developments */
+.date{
+  font-size: 8px;
+  color: var(--date-color);
 }
 
 

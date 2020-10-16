@@ -166,10 +166,10 @@
           <div class="column small-12 medium-6">
             <h2>MOT in the News</h2>
             <ul class="no-bullet">
-              <li>20/09 <a href="#">Govt Gets Tough On Traffic Offences</a></li>
-              <li>20/09 <a href="#">JB - S'PORE RTS Expected To Run By 2026</a></li>
-              <li>20/09 <a href="#">RTS Project To Be inked On July 30</a></li>
-              <li>20/09 <a href="#">M'sia Vows To Seek Closure for MH17 families</a></li>
+              <li><span class="date">20/09</span> <a href="#"> Govt Gets Tough On Traffic Offences</a></li>
+              <li><span class="date">20/09</span> <a href="#"> JB - S'PORE RTS Expected To Run By 2026</a></li>
+              <li><span class="date">20/09</span> <a href="#"> RTS Project To Be inked On July 30</a></li>
+              <li><span class="date">20/09</span> <a href="#"> M'sia Vows To Seek Closure for MH17 families</a></li>
             </ul>
             <a href="#">More News</a>
           </div>
