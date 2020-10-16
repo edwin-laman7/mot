@@ -13,7 +13,6 @@ let getMOTTitleP = document.querySelector(".mot-title p");
 let getSearchContainer = document.querySelector(".search-input-container");
 let getBtnTglLanguage = document.querySelector(".btn-toggle-language");
 let getFooter = document.querySelector("footer");
-const menuBtn =  document.querySelector(".menu-btn"); 
 
 
 
@@ -34,76 +33,65 @@ var pcwidth = $(window).width();
 
 //TOGGLE NAVIGATION BAR CODE
 function toggleNav(){
-    if (toggleNavStatus === false) {
-        getSidebar.style.width = "100%";
-        getSidebarMenu.style.display = "block";
-        getToggleDarkMode.style.display = "none";
-        getMOTHeader.style.color =  "white"; 
-        getMOTTitleSpan.style.color =  "white"; 
-        getMOTTitleP.style.color =  "white"; 
-        getSearchContainer.style.visible =  "hidden"; 
-        getBtnTglLanguage.style.visible =  "hidden"; 
-
-        if (pcwidth <= 768){//search input for mobile
-          getSearchContainer.style.display = "block";
-          getSearchContainer.style.visible = "visible";
-          getSearchContainer.style.position = "relative";
-          getNavMain.style.height = "108px";
-        }
-
-        menuBtn.classList.add("close"); 
-
-
-
-        toggleNavStatus = true;
+  if (toggleNavStatus === false) {
+    getSidebar.style.width = "100%";
+    getSidebarMenu.style.display = "block";
+    getToggleDarkMode.style.display = "none";
+    getMOTHeader.style.color =  "white"; 
+    getMOTTitleSpan.style.color =  "white"; 
+    getMOTTitleP.style.color =  "white"; 
+    getSearchContainer.style.visible =  "hidden"; 
+    getBtnTglLanguage.style.visible =  "hidden"; 
+    if (pcwidth <= 768){//search input for mobile
+      getSearchContainer.style.display = "block";
+      getSearchContainer.style.visible = "visible";
+      getSearchContainer.style.position = "relative";
+      getNavMain.style.height = "108px";
     }
-    else if (toggleNavStatus === true) {
-        getSidebar.style.width = "0px";
-        getSidebarMenu.style.display = "none";
-        getToggleDarkMode.style.display = "block";
-        getSearchContainer.style.visible =  "visible";
-        getBtnTglLanguage.style.visible =  "visible";  
-        getMOTHeader.style.color =  "#193B6A";
-        getMOTTitleSpan.style.color =  "var(--black)"; 
-        getMOTTitleP.style.color =  "var(--black)"; 
-
-
-        if (pcwidth <= 768){//search input for mobile
-          getSearchContainer.style.display = "none";
-          getSearchContainer.style.visible = "hidden";
-          getNavMain.style.height = "68px";
-        }
-
-        menuBtn.classList.remove("close"); 
-
-        toggleNavStatus = false;
-
-        var li_elements = document.querySelectorAll(".nav-sidebar ul li");
-        for (var i = 0; i < li_elements.length; i++) {
-            li_elements.forEach(function(li) {
-                li.classList.remove("active-child-level2");
-              })
-        }
+    toggleNavStatus = true;
+  }
+  else if (toggleNavStatus === true) {
+    getSidebar.style.width = "0px";
+    getSidebarMenu.style.display = "none";
+    getToggleDarkMode.style.display = "block";
+    getSearchContainer.style.visible =  "visible";
+    getBtnTglLanguage.style.visible =  "visible";  
+    getMOTHeader.style.color =  "#193B6A";
+    getMOTTitleSpan.style.color =  "var(--black)"; 
+    getMOTTitleP.style.color =  "var(--black)"; 
+    if (pcwidth <= 768){//search input for mobile
+      getSearchContainer.style.display = "none";
+      getSearchContainer.style.visible = "hidden";
+      getNavMain.style.height = "68px";
     }
+    toggleNavStatus = false;
 
-    //Change Button From Menu To Close
-    
-    if(pcwidth > 425){//Desktop Menu Button
-      var x = document.getElementById("btn-toggle-nav");
-      if (x.innerHTML === 'MENU') {
-        x.innerHTML = 'CLOSE';
-      } else {
-        x.innerHTML = 'MENU';
-      }
+    //Remove all active-child-level2
+    var li_elements = document.querySelectorAll(".nav-sidebar ul li");
+    for (var i = 0; i < li_elements.length; i++) {
+      li_elements.forEach(function(li) {
+        li.classList.remove("active-child-level2");
+      })
     }
-    else if (pcwidth<=425){//Mobile 
-      var x = document.getElementById("btn-toggle-nav");
-      if (x.innerHTML === 'MENU') {
-        x.innerHTML = '';
-      } else {
-        x.innerHTML = 'MENU';
-      }
+  }
+  
+  //CHANGE BUTTON AND ICON FROM MENU TO CLOSE
+  if(pcwidth > 425){//Desktop Menu Button
+    var x = document.getElementById("btn-toggle-nav");
+    if (x.innerHTML === 'MENU') {
+      x.innerHTML = 'CLOSE';
+    } else {
+      x.innerHTML = 'MENU';
     }
+  }
+  else if (pcwidth<=425){//Mobile Menu Button
+    var x = document.getElementById("btn-toggle-nav");
+    if (x.innerHTML === 'MENU') {
+      x.innerHTML = '';
+    } else {
+      x.innerHTML = 'MENU';
+    }
+  }
 }
 
 //TOGGLE DARK MODE CODE

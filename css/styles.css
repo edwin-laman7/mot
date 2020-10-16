@@ -134,16 +134,8 @@ span{
 
 /* START HEADER STYLES */
 
-/* *{
-  margin: 0;
-  padding: 0;
-  font-family: sans-serif;
-  list-style: none;
-  text-decoration: none;
-} */
 
 .nav-main{
-  /* position:fixed; */
   top: 0px;
   width: 100%;
   height: 110px;
@@ -151,8 +143,6 @@ span{
   background-color: var(--white);
   z-index: 1000;
   transition: var(--theme-transition);
-
-
 }
 
 .nav-main .row{
@@ -183,14 +173,11 @@ span{
   font-family: 'Open Sans', sans-serif;
   font-size: 24px;
   font-weight: 700;
-  /* color: var(--black); */
 }
 
 .mot-title p{
   font-family: 'Raleway', sans-serif;
-  font-size: 13px;
-  /* color: var(--black); */
-  
+  font-size: 13px; 
 }
 
 
@@ -200,7 +187,6 @@ span{
   width: 35%;
   position: relative;
   z-index: 1000;
-  
 }
 
 .search-input{
@@ -347,7 +333,6 @@ span{
   transition: all 0.3s ease-in-out 0s;
   visibility: hidden;
   display: none;
-  /* background-color: rgb(141, 82, 82); */
   top: 0px;
 }
 
@@ -521,8 +506,6 @@ span{
   }
   
   .menu{
-    /* width: 100%; */
-    /* border-radius: 8px; */
     overflow-y: scroll;
     padding: -10px;
     margin-left: -20px;
@@ -777,7 +760,6 @@ footer img#mot-logo{
 
 
 /* START MAIN STYLES */
-
 /* START INDEX.PHP STYLES */
 .row{
   padding-top: var(--standard);
@@ -796,12 +778,9 @@ footer img#mot-logo{
     color: var(--white-sidebar);
     padding: 5px;
     font-size: 19px;
-    /* max-width: 40%; */
     position: relative;
     margin-top: -70px;
     padding: 15px;
-    /* position: absolute;  */
-    
 }
 
 @media all and (max-width: 767px) {
@@ -843,7 +822,6 @@ footer img#mot-logo{
   z-index: 1000;
   width: 100px;
   font-size: 16px;
-  /* transition: var(--theme-transition); */
 }
 
 .toggle-darkmode-font-size button{
