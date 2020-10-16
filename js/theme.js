@@ -1,3 +1,8 @@
+
+//This JavaScript is only for the code that need to run before everything else (such as theme Checker), JavaScript for the site function/animation should not be here
+
+
+//Code to set the Function for setCookie(), getCookie(), eraseCookie()
 function setCookie(name,value,days) {
     var expires = "";
     if (days) {
@@ -21,8 +26,10 @@ function setCookie(name,value,days) {
     document.cookie = name +'=; Path=/; Expires=Thu, 01 Jan 1970 00:00:01 GMT;';
   }
 
-  // const theme = localStorage.getItem('theme');
-  const theme = getCookie('theme');
+  
+
+//Code to check if the html is already in 'light' or 'dark' theme  
+const theme = getCookie('theme');
   if (theme === "dark") {
     document.documentElement.setAttribute('data-theme', 'dark');
-  }
+}
