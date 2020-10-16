@@ -288,7 +288,7 @@ span{
 
 .nav-sidebar{
   background-color: var(--primary-blue-sidebar);
-  opacity: 0.95;
+  opacity: 0.98;
   color: var(--white-sidebar);
   position: fixed;
   top: 0px;
@@ -304,6 +304,7 @@ span{
   margin-top: 140px;
   font-size: 25px;
   padding-left: 440px; 
+ 
 }
 
 @media all and (max-width: 1440px){
@@ -327,6 +328,7 @@ span{
   line-height: 60px;
   list-style: none;
   cursor: pointer;
+  width: 300px; /* Set the range of where the user can click in the sidebar-menu */
 }
 
 .nav-sidebar ul li a{
@@ -491,6 +493,7 @@ span{
 
   .nav-sidebar ul li{
     line-height: normal;
+    width: 100%;
   }
 
   .nav-sidebar-2{
@@ -950,15 +953,25 @@ ul.main-sector-btn {
     padding-top: 50px;
 }
 
+
+
+.mot-desc img {
+  float: left;
+  height: 69px;
+  width: 93px;
+}
+
 .mot-desc p{
-  margin-top: 80px;
+  margin-left: 25%;
 }
 
 @media all and (max-width: 425px){
   .mot-desc p{
-    margin-top: 30px;
+    margin-left: 0%;
+    margin-top: 29%;
   }
 }
+
 
 /* agencies-under-mot */
 .agencies-under-mot{

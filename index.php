@@ -141,16 +141,14 @@
       <!-- What we do Code -->
       <div class="grid-container mot-desc">
         <div class="row">
-          <div class="column small-12 medium-3">
+          <div class="column small-12 medium-8">
           <h2>What we do</h2>
             <img src="assets/img/mot-logo.png"  alt="logo">
-          </div>
-          <div class="column small-12 medium-6">
             <p>To formulate and implement land transport, logistics, maritime
               and aviation policies. Plan and execute land transport, logistics,
               maritime and aviation projects. <br> <a href="#"> Learn More about MOT</a></p>
           </div>
-          <div class="column small-12 medium-3">
+          <div class="column small-12 medium-4">
             <h2>How Can We Help?</h2>
             <ul class="no-bullet">
               <li><a href="#">Lodge Transportation Complaints</a></li>

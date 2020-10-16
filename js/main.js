@@ -56,15 +56,12 @@ function toggleNav(){
         getMOTTitleP.style.color =  "white"; 
         getSearchContainer.style.visible =  "hidden"; 
         getBtnTglLanguage.style.visible =  "hidden"; 
-        // getMainContent.style.display =  "none"; 
-        // getFooter.style.display =  "none"; 
 
         if (pcwidth <= 768){//search input for mobile
           getSearchContainer.style.display = "block";
           getSearchContainer.style.visible = "visible";
           getSearchContainer.style.position = "relative";
           getNavMain.style.height = "108px";
-          // getSidebar.style.top = "108px";
         }
 
         menuBtn.classList.add("close"); 
@@ -82,14 +79,12 @@ function toggleNav(){
         getMOTHeader.style.color =  "#193B6A";
         getMOTTitleSpan.style.color =  "var(--black)"; 
         getMOTTitleP.style.color =  "var(--black)"; 
-        // getMainContent.style.display =  "block"; 
-        // getFooter.style.display =  "block"; 
+
 
         if (pcwidth <= 768){//search input for mobile
           getSearchContainer.style.display = "none";
           getSearchContainer.style.visible = "hidden";
           getNavMain.style.height = "68px";
-          // getSidebar.style.top = "68px";
         }
 
         menuBtn.classList.remove("close"); 
@@ -136,28 +131,20 @@ if (theme === "dark") {
 	// document.getElementById("theme-toggle").innerHTML = "Dark Mode";
 } else if  (userPrefers === "dark") {
 	document.documentElement.setAttribute('data-theme', 'dark');
-  // window.localStorage.setItem('theme', 'dark');
   setCookie('theme','dark',360); 
-	// document.getElementById("theme-toggle").innerHTML = "Light Mode";
 } else {
 	document.documentElement.setAttribute('data-theme', 'light');
-  // window.localStorage.setItem('theme', 'light');
   setCookie('theme','light',360); 
-	// document.getElementById("theme-toggle").innerHTML = "Dark Mode";
 }
 
 function modeSwitcher() {
 	let currentMode = document.documentElement.getAttribute('data-theme');
 	if (currentMode === "dark") {
 		document.documentElement.setAttribute('data-theme', 'light');
-    // window.localStorage.setItem('theme', 'light');
     setCookie('theme','light',360); 
-		// document.getElementById("theme-toggle").innerHTML = "Dark Mode";
 	} else {
 		document.documentElement.setAttribute('data-theme', 'dark');
-    // window.localStorage.setItem('theme', 'dark');
     setCookie('theme','dark',360); 
-		// document.getElementById("theme-toggle").innerHTML = "Light Mode";
 	}
 }
 
