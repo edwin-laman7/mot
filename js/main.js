@@ -1,9 +1,8 @@
-
+//VARIABLE TO DECLAIRE STATUS CODE
 let toggleNavStatus = false;
 let toggleDarkModeStatus = false;
 
-//Get Class
-let getAllHeading = document.querySelectorAll("h1, h2, h3, h4, h5, h6");
+//VARIABLE TO GET CLASS CODE
 let getSidebar = document.querySelector(".nav-sidebar");
 let getSidebarMenu = document.querySelector(".menu");
 let getToggleDarkMode = document.querySelector(".toggle-darkmode-font-size");
@@ -11,18 +10,9 @@ let getNavMain = document.querySelector(".nav-main");
 let getMOTHeader = document.querySelector(".mot-header");
 let getMOTTitleSpan = document.querySelector(".mot-title span");
 let getMOTTitleP = document.querySelector(".mot-title p");
-let getMOTHeaderimg = document.querySelector(".mot-header img");
 let getSearchContainer = document.querySelector(".search-input-container");
 let getBtnTglLanguage = document.querySelector(".btn-toggle-language");
-let getMainContent = document.querySelector("main");
 let getFooter = document.querySelector("footer");
-let getFooterLinks = document.querySelectorAll("footer a");
-let getBannerAnnouncement = document.querySelector(".banner-announcements");
-let getBannerSliderCaption = document.querySelectorAll(".banner-announcement-caption");//kiv
-let getQuickLinks = document.querySelector(".quick-links");
-let getAllLinks = document.querySelectorAll("a");
-let getFrontTopicLinks = document.querySelectorAll(".front-topic a");
-let getSlickArrow = document.querySelector(".slick-arrow");
 const menuBtn =  document.querySelector(".menu-btn"); 
 
 
@@ -39,11 +29,8 @@ for (var i = 0; i < li_elements.length; i++) {
   });
 }
 
-//Declaire variable for Screen Width
+//DECLAIRE VARIABLE FOR SCREEN WIDTH
 var pcwidth = $(window).width();
-
-
-
 
 //TOGGLE NAVIGATION BAR CODE
 function toggleNav(){
