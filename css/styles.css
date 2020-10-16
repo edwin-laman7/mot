@@ -963,6 +963,7 @@ ul.main-sector-btn {
 
 .mot-desc p{
   margin-left: 25%;
+  line-height: 2;
 }
 
 @media all and (max-width: 425px){
