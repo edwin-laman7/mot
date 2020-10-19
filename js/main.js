@@ -41,7 +41,7 @@ $( document ).ready(function() {
 });
 
 //SIDEBAR MENU ANIMATION
-$(".nav-sidebar ul li").each(function(index){
+$("li.item").each(function(index){
   $(this).css({
     'animation-delay' : (0.3*index) + 's'
   });
