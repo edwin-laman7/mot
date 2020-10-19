@@ -7,6 +7,7 @@ let getSidebar = document.querySelector(".nav-sidebar");
 let getSidebarMenu = document.querySelector(".menu");
 let getToggleDarkMode = document.querySelector(".toggle-darkmode-font-size");
 let getNavMain = document.querySelector(".nav-main");
+let getNavSidebarListLink = document.querySelector(".nav-sidebar ul li");
 let getMOTHeader = document.querySelector(".mot-header");
 let getMOTTitleSpan = document.querySelector(".mot-title span");
 let getMOTTitleP = document.querySelector(".mot-title p");
@@ -26,8 +27,22 @@ for (var i = 0; i < li_elements.length; i++) {
       li.classList.remove("active-child-level2");
     });
     this.classList.add("active-child-level2");
+    getNavSidebarListLink.style.color = "grey";
   });
 }
+
+//MAKE NON-SELECTED OPTION IN SIDEBAR MENU OPACITY LOWER 
+$(".nav-sidebar ul li").click(function(){
+  $(".nav-sidebar ul li").css("opacity", 0.49);
+  $(this).css("opacity",1);
+  $(".nav-sidebar-2 ul li").css("opacity", 1);
+});
+
+$(".nav-sideber-2 ul li").click(function(){
+  $(".nav-sidebar-2 ul li").css("opacity", 0.49);
+  $(this).css("opacity", 1);
+});
+
 
 //DECLAIRE VARIABLE FOR SCREEN WIDTH
 var pcwidth = $(window).width();
