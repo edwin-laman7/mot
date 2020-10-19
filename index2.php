@@ -2,23 +2,26 @@
 
 <main>
     <!-- Main Sector Code-->
-    <div class="grid-container">
+    <div class="grid-container" style="background-color: rgb(255,255,255); background: linear-gradient(0deg, rgba(255,255,255,1) 0%, rgba(79,194,255,1) 100%);">
+      <div style="background-image: url(assets/img/index2/main-sector-background.png);   background-repeat: no-repeat; background-position: 100% center; ">
         <div class="row">
-            <div class="column small-12">
-                <div class="main-sector-caption">
-                    <h3>Moving people and goods safely, efficiently and sustainably accross Malaysia to improve quality of life and support a competitive economy.</h3>
-                </div>
-                <div class="main-sector-button">
-                    <button>Aviation</button>
-                    <button>Land</button>
-                    <button>Maritime</button>
-                    <button>Logistic</button>
-                </div>
+          <div class="column small-12">
+            <div class="main-sector-caption">
+              <h3>Moving people and goods safely, efficiently and sustainably accross Malaysia to improve quality of life and support a competitive economy.</h3>
             </div>
+            <div class="main-sector-button">
+              <button>Aviation</button>
+              <button>Land</button>
+              <button>Maritime</button>
+              <button>Logistic</button>
+            </div>
+          </div>
         </div>
+      </div>
     </div>
     <!-- Banner Announcement Code -->
-    <div class="grid-container banner-announcements" > 
+    <div class="grid-container banner-announcements" style="background: rgb(34,193,195);
+background: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(25,59,106,1) 100%);" > 
         <div class="row">
           <div class="column text-center">
             <div class="responsive">
@@ -137,7 +140,7 @@
         </div>
     </div>
     <!-- News and Development Code -->
-    <div class="grid-container mot-news-developments" style="background-color:#F1F3F6;">
+    <div class="grid-container mot-news-developments" style="background-color:var(--banner-quicklinks-footer-bg-color);">
         <div class="row">
           <div class="column small-12 medium-6">
             <h2>MOT in the News</h2>

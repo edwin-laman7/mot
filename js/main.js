@@ -29,9 +29,9 @@ for (var i = 0; i < li_elements.length; i++) {
     this.classList.add("active-child-level2");
   });
 }
+
+
 //MAKE NON-SELECTED OPTION IN SIDEBAR MENU OPACITY LOWER 
-
-
 $( document ).ready(function() {
   $(".nav-sidebar ul li a").click(function(){
     $(".nav-sidebar ul li a").css("color", "#8C9DB4");
@@ -40,6 +40,12 @@ $( document ).ready(function() {
   });
 });
 
+//SIDEBAR MENU ANIMATION
+$(".nav-sidebar ul li").each(function(index){
+  $(this).css({
+    'transition-delay' : s*(1+index) + 's'
+  });
+});
 
 
 
