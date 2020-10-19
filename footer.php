@@ -1,7 +1,6 @@
 <footer>
 <div class="row">
         <div class="column small-12 medium-5 mot-info">
-        
           <img src="assets/img/mot-logo.png"  alt="mot-logo" id="mot-logo">
           <h4>Ministry of Transport Malaysia</h4>
           <p>No. 26, Jalan Tun Hussein, Presint 4, 62100 W.P. Putrajaya</p>
@@ -75,5 +74,8 @@
         <script src="js/vendor/foundation.js"></script>
         <script src="js/app.js"></script>
         <script src="js/main.js"></script>
+        <!-- Magnific popup js -->
+	      <script src="js/jquery.magnific-popup.min.js" type="text/javascript"></script>
+
   </body>
 </html>

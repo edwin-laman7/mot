@@ -63,43 +63,57 @@
             <div class="responsive">
               <div class="column">
                 <button>
-                  <img src="assets/img/banci-malaysia.jpg" alt="Banci">
+                  <a href="assets/img/banci-malaysia.jpg">
+                    <img src="assets/img/banci-malaysia.jpg" alt="Banci">
+                  </a>
                     <span class="banner-announcement-caption">Bancian Penduduk dan Perumahan Malaysia</span>
                 </button>
               </div>
               <div class="column">
                 <button>
-                  <img src="assets/img/63-years-malaysia.jpg" alt="Jalur Gemilang - 63">
+                  <a href="assets/img/63-years-malaysia.jpg">
+                    <img src="assets/img/63-years-malaysia.jpg" alt="Jalur Gemilang - 63">  
+                  </a>
                   <span class="banner-announcement-caption">63 Years Malaysia Celebration</span>
                 </button>
               </div>
               <div class="column">
                 <button>
-                  <img src="assets/img/covid-19.jpg" alt="Covid"">
+                  <a href="assets/img/covid-19.jpg">
+                    <img src="assets/img/covid-19.jpg" alt="Covid"">
+                  </a>
                   <span class="banner-announcement-caption">Covid-19 Updates</span>
                 </button>
               </div>
               <div class="column">
                 <button>
-                  <img src="assets/img/63-years-malaysia.jpg" alt="Jalur Gemilang - 63">
+                  <a href="assets/img/63-years-malaysia.jpg">
+                    <img src="assets/img/63-years-malaysia.jpg" alt="Jalur Gemilang - 63">  
+                  </a>
                   <span class="banner-announcement-caption">63 Years Malaysia Celebration</span>
                 </button>
               </div>
               <div class="column">
                 <button>
-                  <img src="assets/img/covid-19.jpg" alt="Covid"">
+                  <a href="assets/img/covid-19.jpg">
+                    <img src="assets/img/covid-19.jpg" alt="Covid"">
+                  </a>
                   <span class="banner-announcement-caption">Covid-19 Updates</span>
                 </button>
               </div>
               <div class="column">
                 <button>
-                  <img src="assets/img/63-years-malaysia.jpg" alt="Jalur Gemilang - 63">
+                  <a href="assets/img/63-years-malaysia.jpg">
+                    <img src="assets/img/63-years-malaysia.jpg" alt="Jalur Gemilang - 63">  
+                  </a>
                   <span class="banner-announcement-caption">63 Years Malaysia Celebration</span>
                 </button>
               </div>
               <div class="column">
                 <button>
-                  <img src="assets/img/covid-19.jpg" alt="Covid"">
+                  <a href="assets/img/dummy-banner.jpg">
+                    <img src="assets/img/dummy-banner.jpg" alt="Covid"">
+                  </a>
                   <span class="banner-announcement-caption">Covid-19 Updates</span>
                 </button>
               </div>

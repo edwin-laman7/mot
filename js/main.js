@@ -184,3 +184,15 @@ $( document ).ready(function() {
 
   });
 });
+
+
+//LIGHTBOX FOR BANNER ANNOUNCEMENT CODE
+$( document ).ready(function() {
+  $('.banner-announcements').magnificPopup({
+    delegate: 'a',
+    type: 'image',
+    gallery:{
+      enabled:true
+    }
+  });
+});
