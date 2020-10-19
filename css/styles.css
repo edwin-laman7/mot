@@ -344,13 +344,17 @@ input[type='text']:hover{
   }
 }
 
+li.item{
+  animation: FadeIn .7s linear;
+  animation-fill-mode: both;
+}
+
 .nav-sidebar ul li a{
   color: var(--white-sidebar);
   height: 50px;
   position: relative;
   z-index: 1000;
-  animation: FadeIn .7s linear;
-  animation-fill-mode: both;
+
 }
 
 .nav-sidebar-2{
