@@ -43,7 +43,7 @@ $( document ).ready(function() {
 //SIDEBAR MENU ANIMATION
 $("li.item").each(function(index){
   $(this).css({
-    'animation-delay' : (0.3*index) + 's'
+    'animation-delay' : (0.15*index) + 's'
   });
 });
 
