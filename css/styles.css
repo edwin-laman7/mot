@@ -344,7 +344,6 @@ input[type='text']:hover{
   visibility: hidden;
   display: none;
   top: 0px;
-  
 }
 
 .nav-sidebar-2 ul{
@@ -364,8 +363,6 @@ input[type='text']:hover{
   text-decoration: none;
   height: 50px;
   
-  
-  
 }
 
 .active-child-level2 .btn{
@@ -384,9 +381,7 @@ input[type='text']:hover{
 
 .active-child-level2 .nav-sidebar-2 ul li{
   display: block;
-  color: #222222;
 }
-
 
 
 .menu{
