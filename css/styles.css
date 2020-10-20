@@ -348,6 +348,12 @@ li.item{
   animation-fill-mode: backwards;
 }
 
+li.item-active{
+  animation: FadeIn .3s linear;
+  animation-fill-mode: backwards;
+}
+
+
 .nav-sidebar ul li a{
   color: var(--white-sidebar);
   transition: all 0.35s ease-in-out 0s;

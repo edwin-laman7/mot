@@ -31,16 +31,27 @@ for (var i = 0; i < li_elements.length; i++) {
 }
 
 
+
 //MAKE NON-SELECTED OPTION IN SIDEBAR MENU OPACITY LOWER 
 $( document ).ready(function() {
   $(".nav-sidebar ul li a").click(function(){
     $(".nav-sidebar ul li a").css("color", "#8C9DB4");
     $(".nav-sidebar ul li ul li a").css("color", "white ");
     $(this).css("color", "white");
+
+    //SIDEBAR-2 MENU SLIDE-IN ANIMATION
+    $(".item-active").removeClass("item-active");
+    $(this).parent().find(".nav-sidebar-2 ul li").addClass("item-active");
+
+    $("li.item-active").each(function(index){
+      $(this).css({
+        'animation-delay' : (.1*index) + 's'
+      });
+    });
   });
 });
 
-//SIDEBAR MENU ANIMATION
+//SIDEBAR MENU SLIDE-IN ANIMATION
 $("li.item").each(function(index){
   $(this).css({
     'animation-delay' : (.1*index) + 's'

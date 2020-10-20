@@ -61,14 +61,14 @@
                 <div class="nav-sidebar-2">
                   <ul>
                     <div class="smenu">
-                      <li class="item"><a href="#">Infrastructure</a></li>
-                      <li class="item"><a href="#">Safety and Security</a></li>
-                      <li class="item"><a href="#">Operator & License</a></li>
-                      <li class="item"><a href="#">Development</a></li>
-                      <li class="item"><a href="#">Acts and Regulation</a></li>
-                      <li class="item"><a href="#">Agencies</a></li>
-                      <li class="item"><a href="#">Programmes</a></li>
-                      <li class="item"><a href="#">Reports and Stats</a></li>
+                      <li><a href="#">Infrastructure</a></li>
+                      <li ><a href="#">Safety and Security</a></li>
+                      <li ><a href="#">Operator & License</a></li>
+                      <li ><a href="#">Development</a></li>
+                      <li ><a href="#">Acts and Regulation</a></li>
+                      <li ><a href="#">Agencies</a></li>
+                      <li ><a href="#">Programmes</a></li>
+                      <li ><a href="#">Reports and Stats</a></li>
                     </div>
                   </ul>
                 </div>
@@ -79,8 +79,8 @@
                   <div class="nav-sidebar-2">
                     <ul>
                       <div class="smenu">
-                        <li class="item"><a href="#">Land Sub-Menu-1</a></li>
-                        <li class="item"><a href="#">Land Sub-Menu-2</a></li>
+                        <li ><a href="#">Land Sub-Menu-1</a></li>
+                        <li ><a href="#">Land Sub-Menu-2</a></li>
                       </div>
                     </ul>
                   </div>
@@ -91,8 +91,8 @@
                 <div class="nav-sidebar-2">
                   <ul>
                     <div class="smenu">
-                      <li class="item"><a href="#">Maritime Sub-Menu-1</a></li>
-                      <li class="item"><a href="#">Maritime Sub-Menu-2</a></li>
+                      <li ><a href="#">Maritime Sub-Menu-1</a></li>
+                      <li ><a href="#">Maritime Sub-Menu-2</a></li>
                     </div>
                   </ul>
                 </div>
@@ -103,8 +103,8 @@
                 <div class="nav-sidebar-2">
                   <ul>
                     <div class="smenu">
-                      <li class="item"><a href="#">Logistics Sub-Menu-1</a></li>
-                      <li class="item"><a href="#">Logistics Sub-Menu-2</a></li>
+                      <li ><a href="#">Logistics Sub-Menu-1</a></li>
+                      <li ><a href="#">Logistics Sub-Menu-2</a></li>
                     </div>
                   </ul>
                 </div>
@@ -115,8 +115,8 @@
                 <div class="nav-sidebar-2">
                   <ul>
                     <div class="smenu">
-                      <li class="item"><a href="#">About Sub-Menu-1</a></li>
-                      <li class="item"><a href="#">About Sub-Menu-2</a></li>
+                      <li><a href="#">About Sub-Menu-1</a></li>
+                      <li><a href="#">About Sub-Menu-2</a></li>
                     </div>
                   </ul>
                 </div>
@@ -127,8 +127,8 @@
                 <div class="nav-sidebar-2">
                   <ul >
                     <div class="smenu">
-                      <li class="item"><a href="#">Media Sub-Menu-1</a></li>
-                      <li class="item"><a href="#">Media Sub-Menu-2</a></li>
+                      <li><a href="#">Media Sub-Menu-1</a></li>
+                      <li><a href="#">Media Sub-Menu-2</a></li>
                     </div>
                   </ul>
                 </div>
@@ -139,8 +139,8 @@
                 <div class="nav-sidebar-2">
                   <ul>
                     <div class="smenu">
-                      <li class="item"><a href="#">Business Sub-Menu-1</a></li>
-                      <li class="item"><a href="#">Business Sub-Menu-2</a></li>
+                      <li><a href="#">Business Sub-Menu-1</a></li>
+                      <li><a href="#">Business Sub-Menu-2</a></li>
                     </div>
                   </ul>
                 </div>
@@ -151,8 +151,8 @@
                 <div  class="nav-sidebar-2">
                   <ul>
                     <div class="smenu">
-                      <li class="item"><a href="#">Feedback Sub-Menu-1</a></li>
-                      <li class="item"><a href="#">Feedback Sub-Menu-2</a></li>
+                      <li><a href="#">Feedback Sub-Menu-1</a></li>
+                      <li><a href="#">Feedback Sub-Menu-2</a></li>
                     </div>
                   </ul>
                 </div>
