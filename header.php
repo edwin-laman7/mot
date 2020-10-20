@@ -61,14 +61,14 @@
                 <div class="nav-sidebar-2">
                   <ul>
                     <div class="smenu">
-                      <li><a href="#">Infrastructure</a></li>
-                      <li><a href="#">Safety and Security</a></li>
-                      <li><a href="#">Operator & License</a></li>
-                      <li><a href="#">Development</a></li>
-                      <li><a href="#">Acts and Regulation</a></li>
-                      <li><a href="#">Agencies</a></li>
-                      <li><a href="#">Programmes</a></li>
-                      <li><a href="#">Reports and Stats</a></li>
+                      <li class="item"><a href="#">Infrastructure</a></li>
+                      <li class="item"><a href="#">Safety and Security</a></li>
+                      <li class="item"><a href="#">Operator & License</a></li>
+                      <li class="item"><a href="#">Development</a></li>
+                      <li class="item"><a href="#">Acts and Regulation</a></li>
+                      <li class="item"><a href="#">Agencies</a></li>
+                      <li class="item"><a href="#">Programmes</a></li>
+                      <li class="item"><a href="#">Reports and Stats</a></li>
                     </div>
                   </ul>
                 </div>
@@ -76,72 +76,86 @@
       
               <li class="item" id="land">
                 <a href="#land" class="btn">Land</a>
-                <ul class="nav-sidebar-2">
-                  <div class="smenu">
-                    <li><a href="#">Land Sub-Menu-1</a></li>
-                    <li><a href="#">Land Sub-Menu-2</a></li>
+                  <div class="nav-sidebar-2">
+                    <ul>
+                      <div class="smenu">
+                        <li class="item"><a href="#">Land Sub-Menu-1</a></li>
+                        <li class="item"><a href="#">Land Sub-Menu-2</a></li>
+                      </div>
+                    </ul>
                   </div>
-                </ul>
               </li>
       
               <li class="item" id="maritime">
                 <a href="#maritime" class="btn">Maritime</a>
-                <ul class="nav-sidebar-2">
-                  <div class="smenu">
-                    <li><a href="#">Maritime Sub-Menu-1</a></li>
-                    <li><a href="#">Maritime Sub-Menu-2</a></li>
-                  </div>
-                </ul>
+                <div class="nav-sidebar-2">
+                  <ul>
+                    <div class="smenu">
+                      <li class="item"><a href="#">Maritime Sub-Menu-1</a></li>
+                      <li class="item"><a href="#">Maritime Sub-Menu-2</a></li>
+                    </div>
+                  </ul>
+                </div>
               </li>
 
               <li class="item" id="logistics">
                 <a href="#logistics" class="btn">Logistics</a>
-                <ul class="nav-sidebar-2">
-                  <div class="smenu">
-                    <li><a href="#">Logistics Sub-Menu-1</a></li>
-                    <li><a href="#">Logistics Sub-Menu-2</a></li>
-                  </div>
-                </ul>
+                <div class="nav-sidebar-2">
+                  <ul>
+                    <div class="smenu">
+                      <li class="item"><a href="#">Logistics Sub-Menu-1</a></li>
+                      <li class="item"><a href="#">Logistics Sub-Menu-2</a></li>
+                    </div>
+                  </ul>
+                </div>
               </li>
 
               <li class="item" id="about">
                 <a href="#about" class="btn">About</a>
-                <ul class="nav-sidebar-2">
-                  <div class="smenu">
-                    <li><a href="#">About Sub-Menu-1</a></li>
-                    <li><a href="#">About Sub-Menu-2</a></li>
-                  </div>
-                </ul>
+                <div class="nav-sidebar-2">
+                  <ul>
+                    <div class="smenu">
+                      <li class="item"><a href="#">About Sub-Menu-1</a></li>
+                      <li class="item"><a href="#">About Sub-Menu-2</a></li>
+                    </div>
+                  </ul>
+                </div>
               </li>
 
               <li class="item" id="media">
                 <a href="#media" class="btn">Media</a>
-                <ul class="nav-sidebar-2">
-                  <div class="smenu">
-                    <li><a href="#">Media Sub-Menu-1</a></li>
-                    <li><a href="#">Media Sub-Menu-2</a></li>
-                  </div>
-                </ul>
+                <div class="nav-sidebar-2">
+                  <ul >
+                    <div class="smenu">
+                      <li class="item"><a href="#">Media Sub-Menu-1</a></li>
+                      <li class="item"><a href="#">Media Sub-Menu-2</a></li>
+                    </div>
+                  </ul>
+                </div>
               </li>
 
               <li class="item" id="business">
                 <a href="#business" class="btn">Business</a>
-                <ul class="nav-sidebar-2">
-                  <div class="smenu">
-                    <li><a href="#">Business Sub-Menu-1</a></li>
-                    <li><a href="#">Business Sub-Menu-2</a></li>
-                  </div>
-                </ul>
+                <div class="nav-sidebar-2">
+                  <ul>
+                    <div class="smenu">
+                      <li class="item"><a href="#">Business Sub-Menu-1</a></li>
+                      <li class="item"><a href="#">Business Sub-Menu-2</a></li>
+                    </div>
+                  </ul>
+                </div>
               </li>
 
               <li class="item" id="feedback">
                 <a href="#feedback" class="btn">Feedback</a>
-                <ul class="nav-sidebar-2">
-                  <div class="smenu">
-                    <li><a href="#">Feedback Sub-Menu-1</a></li>
-                    <li><a href="#">Feedback Sub-Menu-2</a></li>
-                  </div>
-                </ul>
+                <div  class="nav-sidebar-2">
+                  <ul>
+                    <div class="smenu">
+                      <li class="item"><a href="#">Feedback Sub-Menu-1</a></li>
+                      <li class="item"><a href="#">Feedback Sub-Menu-2</a></li>
+                    </div>
+                  </ul>
+                </div>
               </li>
             </ul>
           </div>
