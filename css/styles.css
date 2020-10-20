@@ -581,6 +581,7 @@ li.item-active{
     transition: max-height 0.3s;
     max-height: 0;
     margin-left: -20px;
+    margin-top: 25px;
   }
   .smenu li{
     border-bottom: 1px solid #285696;
