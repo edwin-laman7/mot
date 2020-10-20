@@ -20,13 +20,21 @@ const menuBtn =  document.querySelector(".menu-btn");
 
 //ACTIVATE CHILD CLASS CODE
 var li_elements = document.querySelectorAll(".nav-sidebar ul li");
-var item_elements = document.querySelectorAll(".item");
+// var item_elements = document.querySelectorAll(".item");
 for (var i = 0; i < li_elements.length; i++) {
   li_elements[i].addEventListener("click", function() {
-    li_elements.forEach(function(li) {
-      li.classList.remove("active-child-level2");
-    });
-    this.classList.add("active-child-level2");
+
+
+    if (jQuery(this).hasClass("active-child-level2")) {
+      $(this).removeClass("active-child-level2");
+     }
+     else
+     {
+      li_elements.forEach(function(li) {
+        li.classList.remove("active-child-level2");
+      });
+      this.classList.add("active-child-level2");
+     }
   });
 }
 
@@ -57,8 +65,6 @@ $("li.item").each(function(index){
     'animation-delay' : (.1*index) + 's'
   });
 });
-
-
 
 
 

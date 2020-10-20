@@ -606,9 +606,15 @@ li.item-active{
   .smenu a:hover:before{
     opacity: 1;
   }
-  .item:target .smenu{
+  /* .item:target .smenu{
+    max-height: 50em;
+  } */
+  .active-child-level2 .smenu{
     max-height: 50em;
   }
+
+
+
 }
 
 @media all and (max-width: 569px){
