@@ -324,8 +324,6 @@ input[type='text']:hover{
   list-style: none;
   cursor: pointer;
   width: 300px; /* Set the range of where the user can click in the sidebar-menu */
-  
-  
 }
 
 @keyframes FadeIn{
@@ -346,11 +344,13 @@ input[type='text']:hover{
 
 li.item{
   animation: FadeIn .6s linear;
-  animation-fill-mode: both;
+  /* animation-fill-mode: both; */
+  animation-fill-mode: backwards;
 }
 
 .nav-sidebar ul li a{
   color: var(--white-sidebar);
+  transition: all 0.35s ease-in-out 0s;
   height: 50px;
   position: relative;
   z-index: 1000;
@@ -359,12 +359,14 @@ li.item{
 
 .nav-sidebar-2{
   position: fixed;
-  left: 34%;
+  left: 14%;
+  width: 100%;
+  bottom: 0px;
   height: auto;
   transition: all 0.3s ease-in-out 0s;
   visibility: hidden;
   display: none;
-  /* top: 0px; */
+  top: 0px;
 }
 
 .nav-sidebar-2 ul{
@@ -1104,12 +1106,3 @@ div.sticky { position: -webkit-sticky; /* Safari */ position: sticky; top: 0; }
   border-top: 1px solid var(--row-border);
 }
 /* END MAIN STYLES */
-
-
-
-
-
-
-
-
-
