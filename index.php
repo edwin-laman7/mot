@@ -47,25 +47,7 @@
   </div>
 
 
-  <!-- Main Sector Button Code
-  <div class="grid-container main-sector-button" >
-    <div class="row align-center">
-    <div class="column small-12 medium-12 main-sector-caption">
-      <h3>Moving people and goods safely, efficiently and sustainably accross Malaysia to improve quality of life and support a competitive economy.</h3>
-    </div>
-      <div class="column small-12 medium-12">
-        <ul class="main-sector-btn">
-          <li class="one"><a href="aviation.php"><img src="assets/icon/plane.svg" alt="plane-icon"> Aviation</a></li>
-          <li class="two"><a href="#"><img src="assets/icon/train.svg" alt="train-icon"> Land</a></li>
-          <li class="three"><a href="#"><img src="assets/icon/ship.svg" alt="ship-icon"> Maritime</a></li>
-          <li class="four"><a href="#"><img src="assets/icon/box.svg" alt="box-icon"> Logistic</a></li>
-        </ul>
-      </div>
-    </div>
-  </div> -->
-
   <!-- Banner Announcement Code -->
-
   <div class="grid-container banner-announcements"> 
     <div class="banner-announcements-header">
       Highlight
@@ -134,10 +116,10 @@
     </div>
   </div>
   <!-- Front Topic Code -->
-  <div class="front-topic-header">
-    Browse By Topic
-  </div>
   <div class="grid-container front-topic">
+    <div class="front-topic-header">
+      Browse By Topic
+    </div>
     <div class="row solid-border">
         <div class="column small-12 medium-4">
             <img src="assets/img/index2/infrastructure-icon.png" alt="infrastruture-icon">
