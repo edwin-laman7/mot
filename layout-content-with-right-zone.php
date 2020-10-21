@@ -1,5 +1,5 @@
 <?php include('header.php'); ?>
-<main class="boxed-right-zone">
+<main class="boxed-right">
   <!-- Internal Page header -->
        <div class="grid-container page-banner">
         <div class="row">
@@ -12,10 +12,9 @@
   <!-- Page Template: Content with Sidebar
        Page Main Content -->
 
-  <div class="grid-container breadcrumb-wrap">
+  <div class="grid-container breadcrumb-wrap sticky">
     <div class="row">
       <div class="column small-12 medium-8">
-
         <nav aria-label="You are here:" role="navigation">
           <ul class="breadcrumbs">
             <li><a href="#" class="home">Home</a></li>

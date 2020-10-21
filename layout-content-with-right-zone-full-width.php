@@ -1,5 +1,5 @@
 <?php include('header.php'); ?>
-<main class="full-width-right-zone">
+<main class="full-width-right">
   <!-- Internal Page header -->
        <div class="grid-container page-banner">
         <div class="row">

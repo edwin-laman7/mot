@@ -79,7 +79,7 @@ body{
   transition: var(--theme-transition);
 }
 
-a{
+main a{
   text-decoration: underline;
   color:var(--light-blue);
 }
@@ -90,13 +90,13 @@ a{
   -moz-outline-style: none;
 } */
 
-h1{
+main h1{
   font-size: 42px;
   font-weight: 600;
   color:var(--primary-blue);
 }
 
-h2{
+main h2{
   font-size: 25px;
   font-weight: bold;
   /* color:var(--primary-blue); */
@@ -104,30 +104,30 @@ h2{
   padding-top: var(--narrow);
 }
 
-h3{
+main h3{
   font-size: 16px;
   font-weight: bold;
 }
 
 
-button{
+main button{
   cursor: pointer;
 }
 
-.button{
+main .button{
   transition: background-color 0.5s ease-out, color 0.5s ease-out;
 }
 
-h2, h3, h4, h5, h6{
+main h2, main h3, main h4, main h5, main h6{
   font-family: 'Raleway', sans-serif;
   color: var(--black);
 }
 
-p{
+main p{
   color: var(--black);
 }
 
-span{
+main span{
   color: var(--black);
 }
 
@@ -160,10 +160,11 @@ span{
 }
 
 .mot-header{
-  color: var(--dark-blue);
+  color: var(--dark-blue) !important; 
   transition: all 0.3s ease-in-out 0s;
   position: relative;
   z-index: 1000;
+
 }
 
 .mot-header img{
@@ -177,6 +178,7 @@ span{
 .mot-title{
   float: right;
   width: 91%;
+  color: var(--dark-blue) !important; 
 }
 
 .mot-title span{
@@ -184,6 +186,7 @@ span{
   font-size: 24px;
   font-weight: 700;
   transition: var(--theme-transition);
+
 }
 
 .mot-title p{
@@ -972,7 +975,7 @@ footer img#mot-logo{
 /* main-sector-*/
 
 
-.main-sector{
+.main-sector-illustration{
   background-color:  var(--white);
   background: linear-gradient(0deg, var(--white) 0%, rgba(79,194,255,1) 100%);
   transition: var(--theme-transition);
@@ -986,6 +989,13 @@ footer img#mot-logo{
 
 .main-sector-button{ 
   text-align: center;
+  position: relative;
+  width: 312px;
+  height: 96px;
+  z-index: 1;
+  position: relative;
+  margin-top: -70px;
+
 }
 
 ul.main-sector-btn {
@@ -1011,6 +1021,7 @@ ul.main-sector-btn {
   align-items: center;
   text-decoration: none;
   color: var(--main-sector-button-caption);
+  background-color: var(--white);
 }
 .main-sector-button li img{
   padding-right: 10px;
@@ -1055,7 +1066,7 @@ ul.main-sector-btn {
   font-size: 16px;
   text-align: center;
   padding-top: 10px;
-  margin-top: -20px;
+  margin-top: -75px;
 }
 
 .banner-announcement-caption{

@@ -1,5 +1,5 @@
 <?php include('header.php'); ?>
-<main class="boxed-left-zone">
+<main class="boxed-left">
   <!-- Internal Page header -->
        <div class="grid-container page-banner">
         <div class="row">
