@@ -1,6 +1,6 @@
 <?php include('header.php'); ?>
 
-<main>
+<main class="homepage">
     <!-- Main Sector Code-->
     <!-- <div class="grid-container main-sector">
       <div class="main-sector-background">
