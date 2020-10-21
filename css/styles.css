@@ -1260,10 +1260,17 @@ div.sticky { position: -webkit-sticky; /* Safari */ position: sticky; top: 0; }
 .breadcrumb-wrap{
   background-color: var(--white);
   box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.09);
+  color: var(--white);
 }
+
+.breadcrumbs li{
+  color: var(--black);
+}
+
 .grid-container.breadcrumb-wrap .row{
   padding-top: var(--narrow);
   padding-bottom: 0 !important;
+  
 }
 
 .no-sidebar .row{
