@@ -1,5 +1,5 @@
 <?php include('header.php'); ?>
-  <main class="boxed-content">
+  <main class="boxed-content-bottom-3">
     <div class="grid-container breadcrumb-wrap">
       <div class="row">
           <div class="columns small-12 large-12">
@@ -113,6 +113,13 @@
                 </div>
             </div>
           </div> 
+      </div>
+    </div>
+    <div class="grid container">
+      <div class="row align-center">
+        <div class="column small-12 medium-4">Content 1</div>
+        <div class="column small-12 medium-4">Content 2</div>
+        <div class="column small-12 medium-4">Content 3</div>
       </div>
     </div>
   </main>
