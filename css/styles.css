@@ -63,11 +63,11 @@ a{
   color:var(--light-blue);
 }
 
-a:active, a:focus {
+/* a:active, a:focus {
   outline: 0;
   border: none;
   -moz-outline-style: none;
-}
+} */
 
 h1{
   font-size: 42px;
@@ -283,7 +283,8 @@ input[type='text']:hover{
       
 .btn-toggle-menu-position{
   position: relative;
-  left: 15px;
+  /* left: 15px; */
+  padding-left: 24px;
 }
 
 
