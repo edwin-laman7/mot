@@ -1,34 +1,9 @@
 <?php include('header.php'); ?>
-
 <main>
-    <!-- Main Sector Code-->
-    <!-- <div class="grid-container main-sector">
-      <div class="main-sector-background">
-        <div class="row">
-          <div class="column small-12">
-            <div class="main-sector-caption">
-              <h3>Moving people and goods safely, efficiently and sustainably accross Malaysia to improve quality of life and support a competitive economy.</h3>
-            </div>
-            <div class="main-sector-button">
-              <button>Aviation</button>
-              <button>Land</button>
-              <button>Maritime</button>
-              <button>Logistic</button>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div> -->
-    <div class="orbit" role="region" aria-label="" data-orbit data-options="animInFromLeft:fade-in; animInFromRight:fade-in; animOutToLeft:fade-out; animOutToRight:fade-out; slideSpeed: 500;">
+  <!-- Main Banner Code -->
+  <div class="orbit" role="region" aria-label="" data-orbit data-options="animInFromLeft:fade-in; animInFromRight:fade-in; animOutToLeft:fade-out; animOutToRight:fade-out; slideSpeed: 500;">
     <div class="orbit-wrapper">
           <ul class="orbit-container">
-            <li class="is-active orbit-slide">
-              <div class="main-sector">
-                <div class="main-sector-background">
-                  <p style="height:474px; "></p>
-                </div>
-              </div>
-            </li>
             <li class="is-active orbit-slide">
               <figure class="orbit-figure">
                 <img class="orbit-image" src="assets/img/dummy-banner.jpg" alt="dummy-banner">
@@ -47,13 +22,19 @@
           </ul>
         </div>
       </div>
-
+      <!-- Banner Caption Code -->
+      <div class="grid-container site-intro">
+        <div class="row">
+          <div class="column large-offset-5">
+            <div class="banner-caption">
+              Moving people and goods safely, efficiently and sustainably across Malaysia to improve quality of life and support a competitive economy.
+            </div>
+          </div>
+        </div>
+      </div>
       <!-- Main Sector Button Code -->
       <div class="grid-container main-sector-button" >
         <div class="row align-center">
-        <div class="column small-12 medium-12 main-sector-caption">
-          <h3>Moving people and goods safely, efficiently and sustainably accross Malaysia to improve quality of life and support a competitive economy.</h3>
-        </div>
          <div class="column small-12 medium-12">
             <ul class="main-sector-btn">
               <li class="one"><a href="aviation.php"><img src="assets/icon/plane.svg" alt="plane-icon"> Aviation</a></li>
@@ -61,14 +42,22 @@
               <li class="three"><a href="#"><img src="assets/icon/ship.svg" alt="ship-icon"> Maritime</a></li>
               <li class="four"><a href="#"><img src="assets/icon/box.svg" alt="box-icon"> Logistic</a></li>
             </ul>
+
+          <!-- Front Topic Code -->
+            <div class="front-topic">
+              <p>by topics: 
+                <a href="#">Infrastructure</a>,
+                <a href="#">Safety</a>,
+                <a href="#">Operators & License</a>,
+                <a href="#">Acts and Regulations</a>,
+                <a href="#">Development</a>.
+              </p>  
+            </div>
           </div>
         </div>
       </div>
-    <!-- Banner Announcement Code -->
-    <div class="banner-announcements-header">
-        Highlight
-    </div>
-    <div class="grid-container banner-announcements"> 
+      <!-- Banner Announcement Code -->
+      <div class="grid-container banner-announcements"> 
         <div class="row">
           <div class="column text-center">
             <div class="responsive">
@@ -131,66 +120,62 @@
             </div>
           </div>
         </div>
-    </div>
-    <!-- Front Topic Code -->
-    <div class="front-topic-header">
-        Browse By Topic
-    </div>
-    <div class="grid-container front-topic">
-        <div class="row solid-border">
-            <div class="column small-12 medium-4">
-                <img src="assets/img/index2/infrastructure-icon.png" alt="infrastruture-icon">
-                <h2><a href="#">Infrastructure</a></h2>
-                <p>Ready transportation Infrastruture in Malaysia.</p>
-            </div>
-            <div class="column small-12 medium-4">
-                <img src="assets/img/index2/safety-and-security-icon.png" alt="safetyAndSecurity-icon">
-                <h2><a href="#">Safety and Security</a></h2>
-                <p>Protect against internal and external transportation threats.</p>
-            </div>
-            <div class="column small-12 medium-4">
-                <img src="assets/img/index2/operator-and-license-icon.png" alt="operatorAndLicense-icon">
-                <h2><a href="#">Operator And License</a></h2>
-                <p>Available applicable transportation operator license.</p>
-            </div>
-        </div>
+      </div>
+      <!-- Quick Links Code -->
+      <div class="grid-container quick-links">
         <div class="row">
-            <div class="column small-12 medium-4">
-                <img src="assets/img/index2/development-icon.png" alt="development-icon">
-                <h2><a href="#">Development</a></h2>
-                <p>New and ongoing transportation projects across Malaysia.</p>
-            </div>
-            <div class="column small-12 medium-4">
-                <img src="assets/img/index2/agencies-icon.png" alt="agencies-icon">
-                <h2><a href="#">Agencies</a></h2>
-                <p>Enforcement Agencies under Transportation Ministry</p>
-            </div>
-            <div class="column small-12 medium-4">
-                <img src="assets/img/index2/acts-and-regulation-icon.png" alt="actsAndRegulation-icon">
-                <h2><a href="#">Acts and Regulation</a></h2>
-                <p>Transportation Law governing Air, Land and Water.</p>
-            </div>
+          <div class="column small-12 medium-4">
+            <h2>Flying, piloting and training</h2>
+            <ul class="no-bullet">
+              <li><a href="#">Flying drone Safely at home</a></li>
+              <li><a href="#">Applying for Pilot School and Pilot</a></li>
+              <li><a href="#">List of Airports in Malaysia</a></li>
+              <li><a href="#">Special Report Air Investigation</a></li>
+            </ul>
+          </div>
+          <div class="column small-12 medium-4">
+            <h2>Moving people safely</h2>
+            <ul class="no-bullet">
+              <li><a href="#">Standard Operating Procedure to travel during Covid-19 (PKP)</a></li>
+              <li><a href="#">2020: Statistics Transportation Report</a></li>
+              <li><a href="#">Transportation Act 1983</a></li>
+            </ul>
+          </div>
+          <div class="column small-12 medium-4">
+            <h2>Vessel, shipments, cargo and business</h2>
+            <ul class="no-bullet">
+              <li><a href="#">Approval to Port (EDSL)</a></li>
+              <li><a href="#">List of Major Ports in Malaysia</a></li>
+              <li><a href="#">2020: Statistics of Shipment Malaysia</a></li>
+              <li><a href="#">MOT Tender 2020</a></li>
+            </ul>
+          </div>
         </div>
+      </div>
+      <!-- What we do Code -->
+      <div class="grid-container mot-desc">
         <div class="row">
-            <div class="column small-12 medium-4">
-                <img src="assets/img/index2/reports-and-stats-icon.png" alt="reportsAndStats-icon">
-                <h2><a href="#">Reports and Stats</a></h2>
-                <p>Official Transportation Reports and Statistics.</p>
-            </div>
-            <div class="column small-12 medium-4">
-                <img src="assets/img/index2/programmes-icon.png" alt="programmes-icon">
-                <h2><a href="#">Programmes</a></h2>
-                <p>Programmes to help transportation businesses and individuals.</p>
-            </div>
-            <div class="column small-12 medium-4">
-                <img src="assets/img/index2/feedback-and-complaint-icon.png" alt="feedbackAndComplaint-icon">
-                <h2><a href="#">Feedback and Complaint</a></h2>
-                <p>Provide feedback or complaints to improve transportation policies.</p>
-            </div>
+          <div class="column small-12 medium-8">
+          <h2>What we do</h2>
+            <img src="assets/img/mot-logo.png"  alt="logo">
+            <p>To formulate and implement land transport, logistics, maritime
+              and aviation policies. Plan and execute land transport, logistics,
+              maritime and aviation projects. <br> <a href="#"> Learn More about MOT</a></p>
+          </div>
+          <div class="column small-12 medium-4">
+            <h2>How Can We Help?</h2>
+            <ul class="no-bullet">
+              <li><a href="#">Lodge Transportation Complaints</a></li>
+              <li><a href="#">Staff Directory</a></li>
+              <li><a href="#">Browse Topics by Themes</a></li>
+              <li><a href="#">General Enquiries</a></li>
+              <li><a href="#">Trainee Application</a></li>
+            </ul>
+          </div>
         </div>
-    </div>
-    <!-- News and Development Code -->
-    <div class="grid-container mot-news-developments" style="background-color:var(--banner-quicklinks-footer-bg-color);">
+      </div>
+      <!-- News and Development Code -->
+      <div class="grid-container mot-news-developments">
         <div class="row">
           <div class="column small-12 medium-6">
             <h2>MOT in the News</h2>
@@ -271,4 +256,4 @@
     </div>
 </main>
 
-<?php include('footer.php') ?> 
+<?php include('footer.php'); ?>

@@ -138,7 +138,7 @@ function toggleNav(){
 
 //TOGGLE DARK MODE CODE
 $('.toggle-darkmode-font-size').animate({right: -200});
-$('.toggle-darkmode-font-size').animate({right: 0});
+$('.toggle-darkmode-font-size').animate({right: -10});
 
 const userPrefers = getComputedStyle(document.documentElement).getPropertyValue('content');	
 
