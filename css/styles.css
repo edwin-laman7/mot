@@ -355,7 +355,7 @@ li.item{
 }
 
 li.item-active{
-  animation: FadeIn .3s linear;
+  animation: FadeIn .6s linear;
   animation-fill-mode: backwards;
 }
 
