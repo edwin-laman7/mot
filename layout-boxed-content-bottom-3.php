@@ -1,18 +1,23 @@
 <?php include('header.php'); ?>
   <main class="boxed-bottom-3">
-    <div class="grid-container breadcrumb-wrap">
+  <div class="grid-container breadcrumb-wrap sticky">
       <div class="row">
-          <div class="columns small-12 large-12">
+        <div class="columns small-12 large-12">
           <nav aria-label="You are here:" role="navigation">
-          <ul class="breadcrumbs">
-            <li><a href="#" class="home">Home</a></li>
-              <li><span class="show-for-sr">Current: </span> Staff Directory
-            </li>
-          </ul>
-        </nav>
-            <h2>Staff Directory</h2>
-            <p>Repudiandae voluptatem corrupti in. Voluptas occaecati corrupti mollitia fugit minima voluptatem qui.Excepturi id ex voluptate fugit. Dolores sit facilis.</p>
-          </div>
+            <ul class="breadcrumbs">
+              <li><a href="#" class="home">Home</a></li>
+                <li><span class="show-for-sr">Current: </span> Staff Directory
+              </li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+    </div>
+    <div class="grid-container">
+      <div class="row">
+        <div class="column small-12">
+          <h2>Staff Directory</h2>
+          <p>Repudiandae voluptatem corrupti in. Voluptas occaecati corrupti mollitia fugit minima voluptatem qui.Excepturi id ex voluptate fugit. Dolores sit facilis.</p>
         </div>
       </div>
     </div>

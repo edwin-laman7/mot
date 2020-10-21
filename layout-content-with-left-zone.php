@@ -12,7 +12,7 @@
   <!-- Page Template: Content with Sidebar
        Page Main Content -->
 
-  <div class="grid-container breadcrumb-wrap">
+  <div class="grid-container breadcrumb-wrap sticky">
     <div class="row">
       <div class="column small-12 medium-8">
 
