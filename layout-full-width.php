@@ -14,7 +14,7 @@
       </div>
     </div>
     <div class="grid-container">
-      <div class="row">
+      <div class="expanded row">
         <div class="column small-12">
           <h2>Staff Directory</h2>
           <p>Repudiandae voluptatem corrupti in. Voluptas occaecati corrupti mollitia fugit minima voluptatem qui.Excepturi id ex voluptate fugit. Dolores sit facilis.</p>
