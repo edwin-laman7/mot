@@ -1,7 +1,7 @@
 <?php include('header.php'); ?>
   <main class="full-width">
   <div class="grid-container breadcrumb-wrap sticky">
-      <div class="row">
+      <div class="expanded row">
         <div class="columns small-12 large-12">
           <nav aria-label="You are here:" role="navigation">
             <ul class="breadcrumbs">
