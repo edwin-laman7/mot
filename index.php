@@ -125,51 +125,51 @@
     </div>
     <div class="row solid-border">
         <div class="column small-12 medium-4">
-            <img src="assets/img/index2/infrastructure-icon.png" alt="infrastruture-icon">
+            <img src="assets/icon/mot-infrastructure-icon.svg" alt="infrastruture-icon">
             <h2><a href="#">Infrastructure</a></h2>
             <p>Ready transportation Infrastruture in Malaysia.</p>
         </div>
         <div class="column small-12 medium-4">
-            <img src="assets/img/index2/safety-and-security-icon.png" alt="safetyAndSecurity-icon">
+            <img src="assets/icon/mot-safetyandsecurity-icon.svg" alt="safetyAndSecurity-icon">
             <h2><a href="#">Safety and Security</a></h2>
             <p>Protect against internal and external transportation threats.</p>
         </div>
         <div class="column small-12 medium-4">
-            <img src="assets/img/index2/operator-and-license-icon.png" alt="operatorAndLicense-icon">
+            <img src="assets/icon/mot-operatorandlicense-icon.svg" alt="operatorAndLicense-icon">
             <h2><a href="#">Operator And License</a></h2>
             <p>Available applicable transportation operator license.</p>
         </div>
     </div>
     <div class="row">
         <div class="column small-12 medium-4">
-            <img src="assets/img/index2/development-icon.png" alt="development-icon">
+            <img src="assets/icon/mot-development-icon.svg" alt="development-icon">
             <h2><a href="#">Development</a></h2>
             <p>New and ongoing transportation projects across Malaysia.</p>
         </div>
         <div class="column small-12 medium-4">
-            <img src="assets/img/index2/agencies-icon.png" alt="agencies-icon">
+            <img src="assets/icon/mot-development-icon.svg" alt="agencies-icon">
             <h2><a href="#">Agencies</a></h2>
             <p>Enforcement Agencies under Transportation Ministry</p>
         </div>
         <div class="column small-12 medium-4">
-            <img src="assets/img/index2/acts-and-regulation-icon.png" alt="actsAndRegulation-icon">
+            <img src="assets/icon/mot-actsandregulation-icon.svg" alt="actsAndRegulation-icon">
             <h2><a href="#">Acts and Regulation</a></h2>
             <p>Transportation Law governing Air, Land and Water.</p>
         </div>
     </div>
     <div class="row">
         <div class="column small-12 medium-4">
-            <img src="assets/img/index2/reports-and-stats-icon.png" alt="reportsAndStats-icon">
+            <img src="assets/icon/mot-reportsandstats-icon.svg" alt="reportsAndStats-icon">
             <h2><a href="#">Reports and Stats</a></h2>
             <p>Official Transportation Reports and Statistics.</p>
         </div>
         <div class="column small-12 medium-4">
-            <img src="assets/img/index2/programmes-icon.png" alt="programmes-icon">
+            <img src="assets/icon/mot-programmes-icon.svg" alt="programmes-icon">
             <h2><a href="#">Programmes</a></h2>
             <p>Programmes to help transportation businesses and individuals.</p>
         </div>
         <div class="column small-12 medium-4">
-            <img src="assets/img/index2/feedback-and-complaint-icon.png" alt="feedbackAndComplaint-icon">
+            <img src="assets/icon/mot-feedbackandcomplaint-icon.svg" alt="feedbackAndComplaint-icon">
             <h2><a href="#">Feedback and Complaint</a></h2>
             <p>Provide feedback or complaints to improve transportation policies.</p>
         </div>

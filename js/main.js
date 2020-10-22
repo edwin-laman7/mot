@@ -131,7 +131,7 @@ function toggleNav(){
   else if (pcwidth<=425){//Mobile Menu Button
     var x = document.getElementById("btn-toggle-nav");
     if (x.innerHTML === 'MENU') {
-      x.innerHTML = '';
+      x.innerHTML = 'CLOSE';
     } else {
       x.innerHTML = 'MENU';
     }
@@ -215,7 +215,7 @@ $( document ).ready(function() {
 });
 
 
-//MAIN SECTOR BUTTON
+//MAIN SECTOR DESKTOP POSITION CODE
 if(pcwidth > 768){//Desktop Menu Button
   $(".main-sector").addClass("main-sector-desktop");
 }
@@ -237,12 +237,22 @@ $(document).ready(function(){
 
   $(window).scroll(function() {
       if ( $(this).scrollTop() >= distance ) {
-          console.log('is in top');
-          // $(".btn-toggle-nav").css({position: "fixed",  'margin-top': "-10px"});
+          // console.log('is in top');
+          $(".breadcrumb-menu-btn").css({display: "block"});
+          var breadcrumb = "top"; 
       } else {
-          console.log('is not in top');
-          $(".btn-toggle-nav").css({position: "relative"});
+          // console.log('is not in top');
+          $(".breadcrumb-menu-btn").css({display: "none"});
+          var breadcrumb = "not-in-top"; 
       }
-  });
+      
+      //Change home in breadcrumb to mot-logo
+      if(breadcrumb == "top"){
+        $(".breadcrumb-home").html('<img src="assets/img/mot-logo-small.png" alt="">');
+      }
+      else if (breadcrumb == "not-in-top"){
+        $(".breadcrumb-home").html('Home');
+      }
 
+  });
 });
