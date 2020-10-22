@@ -87,6 +87,8 @@ function toggleNav(){
       getSearchContainer.style.visible = "visible";
       getSearchContainer.style.position = "relative";
       getNavMain.style.height = "108px";
+
+      
     }
     menuBtn.classList.add("close"); 
     toggleNavStatus = true;
@@ -210,4 +212,37 @@ $( document ).ready(function() {
       enabled:true
     }
   });
+});
+
+
+//MAIN SECTOR BUTTON
+if(pcwidth > 768){//Desktop Menu Button
+  $(".main-sector").addClass("main-sector-desktop");
+}
+else if (pcwidth<=768){//Mobile Menu Button
+  $(".main-sector-desktop").removeClass("main-sector-desktop");
+}
+
+
+$(document).ready(function(){
+
+  // $(window).scroll(function(){
+  //   if($(this).scrollTop()>108){
+  //     // $(".nav-main").css({position: "fixed"});
+  //     console.log(position);
+  //   }
+  // });
+
+  var distance = $('.breadcrumb-wrap').offset().top;
+
+  $(window).scroll(function() {
+      if ( $(this).scrollTop() >= distance ) {
+          console.log('is in top');
+          // $(".btn-toggle-nav").css({position: "fixed",  'margin-top': "-10px"});
+      } else {
+          console.log('is not in top');
+          $(".btn-toggle-nav").css({position: "relative"});
+      }
+  });
+
 });

@@ -31,11 +31,11 @@
       </div>
     </div>
 
-    <div class="main-sector-button">
+    <div class="row main-sector" >
+    <div class="column small-12 medium-12 large-4 main-sector-button">
       <div class="main-sector-caption">
         Moving people and goods safely, efficiently and sustainably across Malaysia to improve quality of life and support a competitive economy.
       </div>
-      <div class="">
         <ul class="main-sector-btn">
           <li class="one"><a href="aviation.php"><img src="assets/icon/plane.svg" alt="plane-icon"> Aviation</a></li>
           <li class="two"><a href="#"><img src="assets/icon/train.svg" alt="train-icon"><img src="assets/icon/bus.svg" alt="bus-icon"> Land</a></li>
@@ -44,7 +44,8 @@
           <li class="three"><a href="#"><img src="assets/icon/ship.svg" alt="ship-icon"> Maritime</a></li>
           <li class="four"><a href="#"><img src="assets/icon/box.svg" alt="box-icon"> Logistic</a></li>
         </ul>
-      </div>
+    </div>
+
     </div>
   </div>
 
