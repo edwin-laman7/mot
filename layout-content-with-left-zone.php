@@ -12,21 +12,24 @@
   <!-- Page Template: Content with Sidebar
        Page Main Content -->
 
-  <div class="grid-container breadcrumb-wrap sticky">
-    <div class="row">
-      <div class="column small-12 medium-8">
-
-        <nav aria-label="You are here:" role="navigation">
-          <ul class="breadcrumbs">
-            <li><a href="#" class="home">Home</a></li>
-            <li><a href="#">Aviation</a></li>
-              <span class="show-for-sr">Current: </span> Aviation Infrastructure
-            </li>
-          </ul>
-        </nav>
+       <div class="grid-container breadcrumb-wrap sticky">
+      <div class="row">
+        <div class="columns small-11 large-11">
+          <nav aria-label="You are here:" role="navigation">
+            <ul class="breadcrumbs">
+              <li>
+                <a href="#" class="breadcrumb-home">Home</a>
+              </li>
+                <li><span class="show-for-sr">Current: </span> Staff Directory
+              </li>
+            </ul>
+          </nav>
+        </div>
+        <div class="column small-1 large-1 breadcrumb-menu-btn">
+          <a onclick="toggleNav()" href="#"><i class="fa fa-bars"></i></a>
+        </div>
       </div>
     </div>
-</div>
 
 <div class="grid-container">
 
