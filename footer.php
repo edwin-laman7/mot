@@ -67,15 +67,15 @@
     </footer>
         <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
         <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
-        <script type="text/javascript" src="slick/slick.min.js"></script>
-        <script src="js/slick.js"></script>
-        <script src="js/vendor/jquery.js"></script>
-        <script src="js/vendor/what-input.js"></script>
-        <script src="js/vendor/foundation.js"></script>
-        <script src="js/app.js"></script>
-        <script src="js/main.js"></script>
+        <script type="text/javascript" src="assets/slick/slick.min.js"></script>
+        <script src="assets/js/slick.js"></script>
+        <script src="assets/js/vendor/jquery.js"></script>
+        <script src="assets/js/vendor/what-input.js"></script>
+        <script src="assets/js/vendor/foundation.js"></script>
+        <script src="assets/js/app.js"></script>
+        <script src="assets/js/main.js"></script>
         <!-- Magnific popup js -->
-	      <script src="js/jquery.magnific-popup.min.js" type="text/javascript"></script>
+	      <script src="assets/js/jquery.magnific-popup.min.js" type="text/javascript"></script>
 
   </body>
 </html>
