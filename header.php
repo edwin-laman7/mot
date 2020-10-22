@@ -7,7 +7,7 @@
     <title>MOT-Front-Page</title>
     <script src="https://code.jquery.com/jquery-3.5.0.js"></script>
     <script src="https://kit.fontawesome.com/a076d05399.js"></script>  
-    <script src="js/theme.js"></script>  
+    <script src="assets/js/theme.js"></script>  
     <link rel="stylesheet" href="assets/css/foundation.css">
     <link rel="stylesheet" href="assets/css/styles.css">
     <link rel="stylesheet" type="text/css" href="assets/slick/slick.css"/>
