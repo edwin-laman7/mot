@@ -1,3 +1,11 @@
+/* CSS Fixes */
+.row .row {padding: 10px 0}
+
+button.button a {color: white; text-decoration: none}
+button.button {border-radius: 0px}
+
+header .mot-title a{color:#ccc}
+
 /* -----COLOR THEME VARIABLE----- */
 
 html, html[data-theme="light"]{
@@ -1273,3 +1281,20 @@ div.sticky { position: -webkit-sticky; /* Safari */ position: sticky; top: 0; }
   border-top: 1px solid var(--row-border);
 }
 /* ----END MAIN STYLES---- */
+
+
+/* news-archive.php */
+
+.archive-wrap {
+  margin-bottom: var(--narrow);
+  margin-top: var(--narrow);
+}
+.archive-wrap h2{
+font-size:20px;
+}
+.archive-wrap p {
+  margin-bottom: 0;
+}
+.archive-wrap span.date{
+font-size:12px;
+}
