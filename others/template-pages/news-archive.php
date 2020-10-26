@@ -1,6 +1,6 @@
 <?php 
 //include('../header.php'); //parent content 
-include('header.php'); //sub content 
+include('../../header.php'); //sub content 
 ?>
 
 <main class="boxed archive">
