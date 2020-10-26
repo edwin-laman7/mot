@@ -1,9 +1,6 @@
 <?php 
 //include('../header.php'); //parent content 
-// include('../../../header.php'); //sub content 
-// include dirname(__FILE__).'/../../../header.php';
-include('../../header.php');
-// include(dirname(__FILE__)."/header.php");
+include('../../header.php'); //sub content 
 ?>
 
 <main class="boxed archive">
@@ -71,6 +68,20 @@ include('../../header.php');
 
 <!-- add this into styling 
 
+.archive-wrap {
+    margin-bottom: var(--narrow);
+    margin-top: var(--narrow);
+}
+.archive-wrap h2{
+	font-size:20px;
+}
+.archive-wrap p {
+    margin-bottom: 0;
+}
+.archive-wrap span.date{
+	font-size:12px;
+}
+-->
 <!-- do not copy BELOW this line -->
 		</div>
 		<div class="columns small-12 medium-4">
@@ -84,8 +95,4 @@ include('../../header.php');
 </main>
 <?php 
 //include('../footer.php'); //parent content
-// include('footer.php'); //sub content
-// include dirname(__FILE__).'/../../../footer.php'; 
-include('../../footer.php');
-// include(dirname(__FILE__)."/footer.php");
-?> 
+include('../../footer.php'); //sub content ?> 
