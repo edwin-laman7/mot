@@ -1,6 +1,7 @@
 <?php 
 //include('../header.php'); //parent content 
-include('header.php'); //sub content 
+// include('header.php'); //sub content 
+include dirname(__FILE__).'/../../../header.php';
 ?>
 
 <main class="boxed">
@@ -81,4 +82,6 @@ include('header.php'); //sub content
 </main>
 <?php 
 //include('../footer.php'); //parent content
-include('footer.php'); //sub content ?> 
+// include('footer.php'); //sub content 
+include dirname(__FILE__).'/../../../footer.php';
+?> 

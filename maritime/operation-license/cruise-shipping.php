@@ -1,6 +1,7 @@
 <?php 
 //include('../header.php'); //parent content 
-include('../../header.php'); //sub content 
+// include('../../header.php'); //sub content 
+include dirname(__FILE__).'/../../../header.php';
 ?>
 
 <main class="boxed">
