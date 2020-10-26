@@ -2,7 +2,7 @@
 //include('../header.php'); //parent content 
 // include('../../../header.php'); //sub content 
 // include dirname(__FILE__).'/../../../header.php';
-include('/../../../header.php');
+include('../../header.php');
 ?>
 
 <main class="boxed archive">
@@ -85,5 +85,5 @@ include('/../../../header.php');
 //include('../footer.php'); //parent content
 // include('footer.php'); //sub content
 // include dirname(__FILE__).'/../../../footer.php'; 
-include('/../../../footer.php');
+include('../../footer.php');
 ?> 
