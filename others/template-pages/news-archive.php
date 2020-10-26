@@ -3,7 +3,7 @@
 // include('../../../header.php'); //sub content 
 // include dirname(__FILE__).'/../../../header.php';
 // include('../../header.php');
-include(dirname(__FILE__)."header.php");
+include(dirname(__FILE__)."/header.php");
 ?>
 
 <main class="boxed archive">
@@ -87,5 +87,5 @@ include(dirname(__FILE__)."header.php");
 // include('footer.php'); //sub content
 // include dirname(__FILE__).'/../../../footer.php'; 
 // include('../../footer.php');
-include(dirname(__FILE__)."footer.php");
+include(dirname(__FILE__)."/footer.php");
 ?> 
