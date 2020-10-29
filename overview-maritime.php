@@ -9,7 +9,7 @@
             <div class="row">
                 <div class="columns small-12 medium-8">
                     <h1>Land</h1>
-                    <p>Land transport such as road and rail transport is the main mode of transport in Malaysia. Thus, to coordinate all activities, the Land Division function an important role as a generator and driving the development and implementation or National Transport Policy.</p>
+                    <p>Maritime Division consist of 6 units, namely Ports, Maritime Safety, Maritime Economic, Domestic Shipping Licensing, International Convention and Maritime Attaché Office in London. The Maritime Attaché Office is responsible to ensure the safeguard of the interest of Malaysia maritime sector in dealing in the International Maritime Organization.</p>
                 </div>
             </div>
             <div class="row row-line">
@@ -18,25 +18,29 @@
                     <p>Related to exisiting infrastructure that is in place.</p>
                     <ul class="no-bullet">
                         <li><a href="infrastructure.php">Rail Land Development</a></li>
-                        <li><a href="#">Singapore Kunming Rail Link (SKRL)</a></li>
-                        <li><a href="#">Railway Development Planning</a></li>
-                        <li><a href="#">Electrified Double Track Gemas - Johor Bahru Rail Project</a></li>
+                        <li><a href="#">Port Location</a></li>
+                    
                     </ul>
                 </div>
                 <div class="column small-12 medium-4">
                     <h2>Safety and Security</h2>
                     <p>Addresssing the issue through relevant agencies and implementation on various interventions and initiatives.</p>
                     <ul class="no-bullet">
-                        <li><a href="#">Road Safety - Road Safety Plan 2014 - 2020</a></li>
-                        <li><a href="#">Index of Accidental Road Death (5E Approaches)</a></li>
+                        <li><a href="#">Aids to Navigation</a></li>
+                        <li><a href="#">Seafarers</a></li>
+                        <li><a href="#">Oil Spill Response</a></li>
+                        <li><a href="#">Vessel Traffic System (VTS)</a></li>
                     </ul>
                 </div>
                 <div class="column small-12 medium-4">
                     <h2>Operator and License</h2>
                     <p>Services, license, tax, permit or registration and business related.</p>
                     <ul class="no-bullet">
-                        <li><a href="#">Standards Development / Technical Specifications Vehicle</a></li>
-                        <li><a href="#">Vehicle Inspection (PUSPAKOM)</a></li>
+                        <li><a href="#">Domestic Shipping Licensing (DSL)Scheduled</a></li>
+                        <li><a href="#">Ferry Services</a></li>
+                        <li><a href="#">Cruise Shipping</a></li>
+                        <li><a href="#">Ship Registry</a></li>
+               
                     </ul>
                 </div>
             </div>
@@ -46,25 +50,21 @@
                     <h2>Development</h2>
                     <p>Recent, on-going and future developments projects under Ministry of Transport. </p>
                     <ul class="no-bullet">
-                        <li><a href="#">Development Project - NKRA</a></li>
-                        <li><a href="#">Background The NKRA-UPT</a></li>
-                        <li><a href="#">NKRA-UPT:  GTP 1.0 (2010-2012)</a></li>
-                        <li><a href="#">NKRA-UPT:  GTP 2.0 (2013-2015)</a></li>
+                        <li><a href="#"></a></li>
                     </ul>
                 </div>
                 <div class="column small-12 medium-4">
                     <h2>Agencies</h2>
-                    <p>Information on agencies under Ministry of Transport within the sector.</p>
+                    <p>Information on agencies and association under Ministry of Transport within the sector.</p>
                     <ul class="no-bullet">
-                        <li><a href="#">Road Transport Department (JPJ)</a></li>
-                        <li><a href="#">Road Safety Research (MIROS)</a></li>
+                        <li><a href="#">Malaysian Shipowners' Association (MASA)</a></li>
                     </ul>
                 </div>
                 <div class="column small-12 medium-4">
                     <h2>Acts and Regulation</h2>
                     <p>Policies and regulations related to road safety, vehicle technical specifications, enforcement, railways assets and the railways sector developments.</p>
                     <ul class="no-bullet">
-                        <li><a href="#">Acts and Regulation</a></li>
+                        <li><a href="#">Acts and Policy</a></li>
                     </ul>
                 </div>
             </div>
@@ -74,7 +74,8 @@
                         <h2>Programme</h2>
                         <p>Available programme, incentives and human capital development governed by MOT.</p>
                         <ul class="no-bullet">
-                            <li><a href="#"></a></li>
+                            <li><a href="#">Integrated Technical Program (ITCP)</a></li>
+                            <li><a href="#">Maritime Training Institute </a></li>
                         </ul>
                     </div>
 
@@ -82,10 +83,7 @@
                         <h2>Reports and Stats</h2>
                         <p>Resources on reports and statistics under Ministry of Transport</p>
                         <ul class="no-bullet">
-                        <li><a href="#.pdf">Malaysia Stocktaking Report on Sustainable Transport and Climate Change (Summary)</a></li>
-                        <li><a href="#">Malaysia Stocktaking Report on Sustainable Transport and Climate Change</a></li>
-                        <li><a href="#"> Quarterly Statistics - Land Transport</a></li>
-                        <li><a href="#">Quarterly Statistics - Rail Transport</a></li>
+                        <li><a href="#.pdf">Quarterly Statistics of Maritime Transport</a></li>
                         </ul>
                     </div>
                     <div class="column small-12 medium-4">
