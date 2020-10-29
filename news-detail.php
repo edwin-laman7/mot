@@ -1,6 +1,6 @@
 <?php include('header.php'); ?>
 
-<main class="boxed archive">
+<main class="boxed-bottom-2 detail-page">
 <div class="grid-container">
 	<div class="row"> 
 		<div class="columns small-12 medium-8">
@@ -20,19 +20,34 @@
 		<p>
 		Later at a press conference, Dr Wee said the cost of the project was estimated at RM3.7bil from RM3.16bil projected earlier, after taking into account the cost for the relocation of the depot from Singapore to Johor Baru. This, he said, would include the cost of building the tracks from Bukit Chagar to Wadihana that required security features needed by both countries.</p>
 
-<div class="row">
-<div class="column small-12">
-<h3>Documents Download</h3>
-<ul class="no-bullet downloadlist">
-<li><a href="">Attachment One</a></li>
-<li><a href="">Attachment Two</a></li>
-<li><a href="">Attachment Three</a></li>
-</ul>
-</div>
-</div>
-
-
+		<div class="row">
+		<div class="column small-12">
+		<h3>Documents Download</h3>
+		<ul class="no-bullet downloadlist">
+		<li><a href="">Attachment One</a></li>
+		<li><a href="">Attachment Two</a></li>
+		<li><a href="">Attachment Three</a></li>
+		</ul>
 		</div>
+		</div>
+
+    <div class="row row-line">
+        <div class="column small-6 prev-post-link">
+          <a class="prevlink">Repudiandae voluptatem corrupti</a>
+        </div>
+
+        <div class="column small-6 next-post-link">
+          <a class="nextlink">Repudiandae voluptatem corrupt</a>
+        </div>
+	</div>
+    
+
+
+
+</div>
+
+
+<!-- SIDEBAR --> 
 		<div class="columns small-12 medium-4">
 			<div class="sidebar-wrap sticky">
           <h3>2020 News</h3>
@@ -47,8 +62,6 @@
           	</nav>
 		</div>
 	</div>
-
-	
  
  </div>
 </main>
