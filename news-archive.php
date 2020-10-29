@@ -1,84 +1,117 @@
-<?php 
-//include('../header.php'); //parent content 
-include('header.php'); //sub content 
-?>
+<?php include('header.php'); ?>
+<main class="boxed-right">
+  <!-- Internal Page header -->
+       <div class="grid-container page-banner">
+        <div class="row">
+          <div class="column small-12">
+        
+          </div>
+        </div>
+      </div>
 
-<main class="boxed archive">
+  <!-- Page Template: Content with Sidebar
+       Page Main Content -->
+
+       <div class="grid-container breadcrumb-wrap sticky">
+      <div class="row">
+        <div class="columns small-11 large-11">
+          <nav aria-label="You are here:" role="navigation">
+            <ul class="breadcrumbs">
+              <li>
+                <a href="#" class="breadcrumb-home">Home</a>
+              </li>
+                <li><span class="show-for-sr">Current: </span> Staff Directory
+              </li>
+            </ul>
+          </nav>
+        </div>
+        <div class="column small-1 large-1 breadcrumb-menu-btn">
+          <a onclick="toggleNav()" href="#"><i class="fa fa-bars"></i></a>
+        </div>
+      </div>
+    </div>
+
 <div class="grid-container">
-	<div class="row"> 
-		<div class="columns small-12 medium-8">
-<!-- do not copy above this line -->
-	<h1>Latest News</h1>
+    <div class="row">
+      <div class="column small-12 medium-8">
 
-	<div class="archive-wrap">
-		<h2><a href="#">Government gets tough on traffic offenses</a></h2>
-		<p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum.
-		</p>
-		<span class="date">28 July 2020</span>
-	</div>
-	<div class="archive-wrap">
-		<h2><a href="#">Government gets tough on traffic offenses</a></h2>
-		<p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum.
-		</p>
-		<span class="date">28 July 2020</span>
-	</div>
-	<div class="archive-wrap">
-		<h2><a href="#">Government gets tough on traffic offenses</a></h2>
-		<p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum.
-		</p>
-		<span class="date">28 July 2020</span>
-	</div>
-	<div class="archive-wrap">
-		<h2><a href="#">Government gets tough on traffic offenses</a></h2>
-		<p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum.
-		</p>
-		<span class="date">28 July 2020</span>
-	</div>
-	<div class="archive-wrap">
-		<h2><a href="#">Government gets tough on traffic offenses</a></h2>
-		<p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum.
-		</p>
-		<span class="date">28 July 2020</span>
-	</div>
-	<div class="archive-wrap">
-		<h2><a href="#">Government gets tough on traffic offenses</a></h2>
-		<p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum.
-		</p>
-		<span class="date">28 July 2020</span>
-	</div>
+        <h1> Aviation Infrastructure </h1>
 
-	
+        <p>The overall infrastructure of aviation in Malaysia, governed by MOT. Repudiandae voluptatem corrupti in. Voluptas occaecati corrupti mollitia fugit minima voluptatem qui. Excepturi id ex voluptate fugit. Dolores sit facilis.</p>
 
-<div class="row">
-	<div class="column small-12">
-		<nav aria-label="Pagination">
-			<ul class="pagination">
-				<li class="current"><span class="show-for-sr">You're on page</span> 1</li>
-				<li><a href="#" aria-label="Page 2">2</a></li>
-				<li><a href="#" aria-label="Page 3">3</a></li>
-				<li><a href="#" aria-label="Page 4">4</a></li>
-				<li class="ellipsis"></li>
-				<li><a href="#" aria-label="Page 12">12</a></li>
-				<li><a href="#" aria-label="Page 13">13</a></li>
-				<li class="pagination-next"><a href="#" aria-label="Next page">Next</a></li>
-			</ul>
-		</nav>
-	</div>
-</div>
+        <h2> Aviation Infrastructure </h2>
 
-<!-- add this into styling 
+        <p>The overall infrastructure of aviation in Malaysia, governed by MOT. Repudiandae voluptatem corrupti in. Voluptas occaecati corrupti mollitia fugit minima voluptatem qui. Excepturi id ex voluptate fugit. Dolores sit facilis.</p>
 
-<!-- do not copy BELOW this line -->
-		</div>
-		<div class="columns small-12 medium-4">
-			This is where the side bar goes
-		</div>
-	</div>
+        <p>The overall infrastructure of aviation in Malaysia, governed by MOT. Repudiandae voluptatem corrupti in. Voluptas occaecati corrupti mollitia fugit minima voluptatem qui. Excepturi id ex voluptate fugit. Dolores sit facilis.</p>
 
-	
- 
- </div>
+
+        <p>The overall infrastructure of aviation in Malaysia, governed by MOT. Repudiandae voluptatem corrupti in. Voluptas occaecati corrupti mollitia fugit minima voluptatem qui. Excepturi id ex voluptate fugit. Dolores sit facilis.</p>
+
+        <p>The overall infrastructure of aviation in Malaysia, governed by MOT. Repudiandae voluptatem corrupti in. Voluptas occaecati corrupti mollitia fugit minima voluptatem qui. Excepturi id ex voluptate fugit. Dolores sit facilis.</p>
+
+        <h2> Aviation Infrastructure </h2>
+
+        <table class="unstriped">
+          <thead>
+            <tr>
+              <th width="200">Table Header</th>
+              <th>Table Header</th>
+              <th width="150">Table Header</th>
+              <th width="150">Table Header</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Content Goes Here</td>
+              <td>This is longer content Donec id elit non mi porta gravida at eget metus.</td>
+              <td>Content Goes Here</td>
+              <td>Content Goes Here</td>
+            </tr>
+            <tr>
+              <td>Content Goes Here</td>
+              <td>This is longer Content Goes Here Donec id elit non mi porta gravida at eget metus.</td>
+              <td>Content Goes Here</td>
+              <td>Content Goes Here</td>
+            </tr>
+            <tr>
+              <td>Content Goes Here</td>
+              <td>This is longer Content Goes Here Donec id elit non mi porta gravida at eget metus.</td>
+              <td>Content Goes Here</td>
+              <td>Content Goes Here</td>
+            </tr>
+          </tbody>
+        </table>
+
+      </div>
+
+<!-- Sidebar Content -->
+
+      <div class="column small-12 medium-4">
+        
+        <div class="sidebar-wrap sticky">
+          <h3>Aviation by Topic</h3>
+          <nav>
+            <ul class="sidebar-nav">
+            <li><a href="#">Infrastructure</a></li>
+            <li><a href="#">Safety and Security</a></li>
+            <li><a href="#">Acts and Regulation</a></li>
+            <li><a href="#">Development</a></li>
+            <li><a href="#">Programmes</a></li>
+            <li><a href="#">Operators & Licensing</a></li>
+            <li><a href="#">Related Agencies</a></li>
+            <li><a href="#">Reports and Stats</a></li>
+          </ul>
+          </nav>
+
+        </div>
+
+
+      </div>
+
+
+  </div>
+   
 </main>
-<?php 
-//include('../footer.php'); //parent content
-include('footer.php'); //sub content ?> 
+
+<?php include('footer.php'); ?>
