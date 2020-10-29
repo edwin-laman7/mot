@@ -6,6 +6,11 @@ button.button {border-radius: 0px}
 
 header .mot-title a{color:#ccc}
 
+/* Former Minister Page */
+.img-wrap img {height: 260px; width: 100%; padding-bottom: 10px; filter: grayscale(5%);}
+.img-wrap span {font-size:0.9em;}
+.img-wrap {padding-bottom: 30px}
+.img-wrap h3 {font-size: 0.9em;}
 /* -----COLOR THEME VARIABLE----- */
 
 html, html[data-theme="light"]{
