@@ -1,9 +1,12 @@
 <?php include('header.php'); ?>
 
+
+
 <main class="boxed">
 <div class="grid-container">
 	<div class="row"> 
 		<div class="columns small-12">
+
 <!-- do not copy above this line -->
 
             <div class="row">
