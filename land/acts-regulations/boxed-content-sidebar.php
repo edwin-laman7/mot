@@ -1,7 +1,4 @@
-<?php 
-//include('../header.php'); //parent content 
-include('../../header.php'); //sub content 
-?>
+<?php include('header.php'); ?>
 
 <main class="boxed">
 <div class="grid-container">
@@ -20,6 +17,4 @@ YOUR CONTENT GOES HERE
  
  </div>
 </main>
-<?php 
-//include('../footer.php'); //parent content
-include('../../footer.php'); //sub content ?> 
+<?php include('footer.php'); ?>
