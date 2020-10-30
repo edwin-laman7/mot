@@ -206,7 +206,7 @@ function resetFontSize(){
 //LIGHTBOX FOR BANNER ANNOUNCEMENT CODE
 $( document ).ready(function() {
   $('.banner-announcements').magnificPopup({
-    delegate: 'a',
+    delegate: 'a.popup',
     type: 'image',
     gallery:{
       enabled:true
