@@ -763,6 +763,15 @@ footer{
   transition: var(--theme-transition);;
 }
 
+.mot-brand{
+  background-image:url("../assets/icon/footer-mot-brand-identity.svg");
+  background-position: bottom right;
+  background-size: auto;
+  background-repeat: no-repeat;
+  display: block;
+  height:100px;
+}
+
 footer h4{
 font-size: 16px;
 font-weight: 600;
@@ -1040,11 +1049,12 @@ ul.main-sector-btn {
   transition: all 0.35s;
 }
 
-/* @media all and (max-width: 768px) {
-  .main-sector-button ul li{display:block; padding: 8px 0;
+ @media all and (max-width: 768px) {
+  .main-sector-desktop .main-sector-button{
+  position:relative;
   }
 
-} */
+}
 
 
 
@@ -1071,15 +1081,19 @@ ul.main-sector-btn {
   padding-top: var(--standard);
   padding-bottom: var(--standard);
 }
+.banner-announcements .row.button-header-wrap{
+  padding-bottom: 0;
+  padding-top:0;
+}
 
-.banner-announcements-header{
-  position: absolute;
+.section-button-header{
+  position: relative;
   background-color: var(--section-header-color);
   transition: var(--theme-transition);
   border-radius: 5px;
   width: 196px;
   height: 48px;
-  left: 25%;
+  left: 0;
   color: white;
   font-size: 16px;
   text-align: center;
@@ -1087,8 +1101,13 @@ ul.main-sector-btn {
   margin-top: -75px;
 }
 
-.banner-announcement-caption{
+.banner-announcement-caption{ 
   color: white;
+  margin-top:10px;
+  display: block;
+  font-weight: bold;
+  font-size:20px;
+  text-decoration: underline;
 }
 
 /* quick-links */
@@ -1133,27 +1152,8 @@ ul.main-sector-btn {
   padding-bottom: var(--standard);
 }
 
-.front-topic-header{
-position: absolute;
-background-color: var(--section-header-color);
-transition: var(--theme-transition);
-border-radius: 5px;
-width: 196px;
-height: 48px;
-left: 25%;
-color: white;
-font-size: 16px;
-text-align: center;
-padding-top: 10px;
-margin-top: -25px;
-}
-
-.front-topic .row{
+.front-topic .row.row.button-header-wrap{
 border-top: 1px solid var(--border-grey);
-}
-
-.front-topic .solid-border{
-border-top: 1px solid var(--solid-border-grey);
 }
 
 
@@ -1179,11 +1179,6 @@ text-align: center;
 
 /* agencies-under-mot */
 .agencies-under-mot{
-  background-image: url("../assets/icon/mot-brand-icon.svg");
-  background-repeat: no-repeat;
-  background-position: right bottom;
-  padding-bottom: 148.34px;
-  background-size: auto;
 }
 
 .agencies-under-mot .row{
@@ -1280,8 +1275,16 @@ div.sticky { position: -webkit-sticky; /* Safari */ position: sticky; top: 0; }
 .row-line{
   border-top: 1px solid var(--row-border);
 }
-/* ----END MAIN STYLES---- */
 
+/* content alingment fixes */
+
+main h3{
+  padding-top:var(--standard);
+}
+
+main table{
+  margin-top:10px;
+}
 
 /* news-archive.php */
 
@@ -1298,3 +1301,7 @@ font-size:20px;
 .archive-wrap span.date{
 font-size:12px;
 }
+
+/* ----END MAIN STYLES---- */
+
+

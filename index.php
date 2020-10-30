@@ -30,9 +30,10 @@
         </ul>
       </div>
     </div>
-
+</div>
+  <div class="grid-container">
     <div class="row main-sector" >
-    <div class="column small-12 medium-12 large-4 main-sector-button">
+    <div class="column small-12 medium-4 main-sector-button">
       <div class="main-sector-caption">
         Moving people and goods safely, efficiently and sustainably across Malaysia to improve quality of life and support a competitive economy.
       </div>
@@ -52,78 +53,54 @@
 
   <!-- Banner Announcement Code -->
   <div class="grid-container banner-announcements"> 
-    <div class="banner-announcements-header">
-      Highlight
+    <div class="row button-header-wrap">
+      <div class="section-button-header">
+        Highlight
+      </div>
     </div>
     <div class="row">
-      <div class="column text-center">
+
+      <div class="column text-center">  
         <div class="responsive">
           <div class="column">
             <button>
-              <a href="assets/img/banci-malaysia.jpg">
-                <img src="assets/img/banci-malaysia.jpg" alt="Banci">
+              <a class="popup" href="assets/img/mosti_dubai.jpg" title="Expo 2020 Dubai UAE">
+                <img src="assets/img/mosti_dubai.jpg" alt="Mosti Dubai">
+              </a>   
+            <a href="https://www.malaysiaexpo2020.com/" target="_blank"><span class="banner-announcement-caption">Expo 2020 Dubai UAE</span></a>
+          </button>
+          </div>
+
+          <div class="column">
+            <button>
+              <a class="popup" href="assets/img/e-banci.png" title="Banci Malaysia">
+                <img src="assets/img/e-banci.png" alt="Banci Malaysia">  
               </a>
-                <span class="banner-announcement-caption">Bancian Penduduk dan Perumahan Malaysia</span>
+              <a href="https://www.mycensus.gov.my/" target="_blank"><span class="banner-announcement-caption">Banci Malaysia</span></a>
             </button>
           </div>
           <div class="column">
             <button>
-              <a href="assets/img/63-years-malaysia.jpg">
-                <img src="assets/img/63-years-malaysia.jpg" alt="Jalur Gemilang - 63">  
+              <a  class="popup" href="assets/img/banner_baru_covidMOT_17062020.jpg" title="Covid-19 Updates">
+                <img src="assets/img/banner_baru_covidMOT_17062020.jpg" alt="Covid-19 Updates">
               </a>
-              <span class="banner-announcement-caption">63 Years Malaysia Celebration</span>
+              <a href="http://cccovid19.mot.gov.my/" target="_blank"><span class="banner-announcement-caption">Covid-19 Updates</span></a>
             </button>
           </div>
-          <div class="column">
-            <button>
-              <a href="assets/img/covid-19.jpg">
-                <img src="assets/img/covid-19.jpg" alt="Covid"">
-              </a>
-              <span class="banner-announcement-caption">Covid-19 Updates</span>
-            </button>
-          </div>
-          <div class="column">
-            <button>
-              <a href="assets/img/63-years-malaysia.jpg">
-                <img src="assets/img/63-years-malaysia.jpg" alt="Jalur Gemilang - 63">  
-              </a>
-              <span class="banner-announcement-caption">63 Years Malaysia Celebration</span>
-            </button>
-          </div>
-          <div class="column">
-            <button>
-              <a href="assets/img/covid-19.jpg">
-                <img src="assets/img/covid-19.jpg" alt="Covid"">
-              </a>
-              <span class="banner-announcement-caption">Covid-19 Updates</span>
-            </button>
-          </div>
-          <div class="column">
-            <button>
-              <a href="assets/img/63-years-malaysia.jpg">
-                <img src="assets/img/63-years-malaysia.jpg" alt="Jalur Gemilang - 63">  
-              </a>
-              <span class="banner-announcement-caption">63 Years Malaysia Celebration</span>
-            </button>
-          </div>
-          <div class="column">
-            <button>
-              <a href="assets/img/dummy-banner.jpg">
-                <img src="assets/img/dummy-banner.jpg" alt="Covid"">
-              </a>
-              <span class="banner-announcement-caption">Covid-19 Updates</span>
-            </button>
-          </div>
+          
         </div>
       </div>
     </div>
   </div>
   <!-- Front Topic Code -->
   <div class="grid-container front-topic">
-    <div class="front-topic-header">
-      Browse By Topic
+    <div class="row button-header-wrap">
+      <div class="section-button-header">
+        Browse by Topic
+      </div>
     </div>
-    <div class="row solid-border">
+
+    <div class="row">
         <div class="column small-12 medium-4">
             <img src="assets/icon/mot-infrastructure-icon.svg" alt="infrastruture-icon">
             <h2><a href="#">Infrastructure</a></h2>
@@ -140,7 +117,7 @@
             <p>Available applicable transportation operator license.</p>
         </div>
     </div>
-    <div class="row">
+    <div class="row row-line">
         <div class="column small-12 medium-4">
             <img src="assets/icon/mot-development-icon.svg" alt="development-icon">
             <h2><a href="#">Development</a></h2>
@@ -157,7 +134,7 @@
             <p>Transportation Law governing Air, Land and Water.</p>
         </div>
     </div>
-    <div class="row">
+    <div class="row row-line">
         <div class="column small-12 medium-4">
             <img src="assets/icon/mot-reportsandstats-icon.svg" alt="reportsAndStats-icon">
             <h2><a href="#">Reports and Stats</a></h2>

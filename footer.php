@@ -1,3 +1,9 @@
+<div class="grid-container mot-brand">
+
+
+</div>
+
+
 <footer>
 <div class="row">
         <div class="column small-12 medium-5 mot-info">
