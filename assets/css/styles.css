@@ -225,7 +225,7 @@ main span{
   height: 34px;
   font-size: 14px;
   background-color: transparent;
-  background-image: url("../assets/icon/search-icon.svg");
+  background-image: url("../../assets/icon/search-icon.svg");
   background-repeat: no-repeat;
   background-position: 95% center;
   border-radius: 20px;
@@ -769,7 +769,7 @@ footer{
 }
 
 .mot-brand{
-  background-image:url("../assets/icon/footer-mot-brand-identity.svg");
+  background-image:url("../../assets/icon/footer-mot-brand-identity.svg");
   background-position: bottom right;
   background-size: auto;
   background-repeat: no-repeat;
@@ -988,7 +988,7 @@ footer img#mot-logo{
 }
 
 .main-sector-background{
-  background-image: url(../assets/img/index2/main-sector-background.png);  
+  background-image: url(../../assets/img/index2/main-sector-background.png);  
   background-repeat: no-repeat; 
   background-position: 100% center; 
 }
