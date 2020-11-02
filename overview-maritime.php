@@ -20,8 +20,10 @@
                     <h2>Infrastructure</h2>
                     <p>Related to exisiting infrastructure that is in place.</p>
                     <ul class="no-bullet">
-                        <li><a href="infrastructure.php">Rail Land Development</a></li>
+                        <li><a href="infrastructure.php">Development & Administration of Ports</a></li>
                         <li><a href="#">Port Location</a></li>
+                        <li><a href="#">Code of Ports</a></li>
+
                     
                     </ul>
                 </div>
@@ -39,7 +41,7 @@
                     <h2>Operator and License</h2>
                     <p>Services, license, tax, permit or registration and business related.</p>
                     <ul class="no-bullet">
-                        <li><a href="#">Domestic Shipping Licensing (DSL)Scheduled</a></li>
+                        <li><a href="#">Domestic Shipping Licensing (DSL)</a></li>
                         <li><a href="#">Ferry Services</a></li>
                         <li><a href="#">Cruise Shipping</a></li>
                         <li><a href="#">Ship Registry</a></li>

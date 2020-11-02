@@ -124,7 +124,7 @@
             <p>New and ongoing transportation projects across Malaysia.</p>
         </div>
         <div class="column small-12 medium-4">
-            <img src="assets/icon/mot-development-icon.svg" alt="agencies-icon">
+            <img src="assets/icon/mot-agencies-icon.svg" alt="agencies-icon">
             <h2><a href="#">Agencies</a></h2>
             <p>Enforcement Agencies under Transportation Ministry</p>
         </div>
