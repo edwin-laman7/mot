@@ -114,7 +114,7 @@
         </div>
         <div class="column small-12 medium-4">
             <img src="assets/icon/mot-operatorandlicense-icon.svg" alt="operatorAndLicense-icon">
-            <h2><a href="#">operasi Dan Lesen</a></h2>
+            <h2><a href="#">Operasi Dan Lesen</a></h2>
             <p>Lesen pengendali pengangkutan yang sedia ada.</p>
         </div>
     </div>
@@ -131,7 +131,7 @@
         </div>
         <div class="column small-12 medium-4">
             <img src="assets/icon/mot-actsandregulation-icon.svg" alt="actsAndRegulation-icon">
-            <h2><a href="#">Akta Dan </a></h2>
+            <h2><a href="#">Akta Dan Peraturan</a></h2>
             <p>Undang-undang Pengangkutan yang mengatur Udara, Darat dan Air.</p>
         </div>
     </div>
