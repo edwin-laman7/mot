@@ -11,7 +11,7 @@
 
             <div class="row">
                 <div class="columns small-12 medium-8">
-                    <h1>Land</h1>
+                    <h1>Maritime</h1>
                     <p>Maritime Division consist of 6 units, namely Ports, Maritime Safety, Maritime Economic, Domestic Shipping Licensing, International Convention and Maritime Attaché Office in London. The Maritime Attaché Office is responsible to ensure the safeguard of the interest of Malaysia maritime sector in dealing in the International Maritime Organization.</p>
                 </div>
             </div>
