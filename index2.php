@@ -35,7 +35,7 @@
     <div class="row main-sector" >
     <div class="column small-12 medium-4 main-sector-button">
       <div class="main-sector-caption">  
-      Menggerakkan orang dan barang dengan selamat, cekap dan berkelanjutan di seluruh Malaysia untuk meningkatkan kualiti hidup dan menyokong ekonomi yang kompetitif.
+      Untuk menggerakkan orang dan barang dengan selamat, cekap dan berlanjutan di seluruh Malaysia untuk meningkatkan kualiti hidup dan menyokong ekonomi yang kompetitif.
 
       </div>
         <ul class="main-sector-btn">
