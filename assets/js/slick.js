@@ -34,3 +34,14 @@ $('.responsive').slick({
         // instead of a settings object
     ]
     });
+
+$('.main-slick').slick(
+    {
+        dots: false,
+        arrow: false,
+        speed: 300,
+        infinite: true,
+        slidesToShow: 1
+
+    }
+)

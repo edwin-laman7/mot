@@ -1,6 +1,6 @@
 <?php include('header.php'); ?>
 
-<main class="home">
+<!--<main class="home">
   <div class="grid-container main-banner">
     <div class="orbit" role="region" aria-label="" data-orbit data-options="animInFromLeft:fade-in; animInFromRight:fade-in; animOutToLeft:fade-out; animOutToRight:fade-out; slideSpeed: 500;">
       <div class="orbit-wrapper">
@@ -30,6 +30,15 @@
         </ul>
       </div>
     </div>
+</div>-->
+<style type="text/css">
+.main-slick {width: 100%; height:500px !important}
+.main-slick div {height: 500px}
+</style>
+<div class="main-slick">
+  <div>background here 1</div>
+  <div>background here 2</div>
+  <div>background here 3</div>
 </div>
   <div class="grid-container">
     <div class="row main-sector" >
