@@ -1309,4 +1309,8 @@ font-size:12px;
 
 /* ----END MAIN STYLES---- */
 
+/* Mobile Fix */
 
+@media only screen and (max-width: 600px) {
+  .main-sector-caption { width: 100% }
+}
