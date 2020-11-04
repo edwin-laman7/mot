@@ -27,7 +27,6 @@
       </div>
     </div>
     <div class="staff-directory">
-
           <div class="grid-container">
             <div class="row">
                 <div class="column small-12 large-4 desktop-first-column">
