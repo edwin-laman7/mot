@@ -1,4 +1,5 @@
 <?php include('header.php'); ?>
+<main class="home">
 <div class="main-slick">
   <div data-background="https://www.grundig.com/ktchnmag/wp-content/uploads/2016/11/GRUNDIG-KTCHN-MAG_leicht_floor-plan_2-1024x682.jpg">
   </div>
