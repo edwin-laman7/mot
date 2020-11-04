@@ -47,7 +47,7 @@ html[data-theme="dark"]{
 button.button a {color: white; text-decoration: none}
 button.button {border-radius: 0px}
 header .mot-title a{color:#ccc}
-a.button {text-decoration: none; color: var(--white}
+a.button {text-decoration: none; color: var(--white)}
 
 /* Former Minister Page */
 .img-wrap img {height: 260px; width: 100%; padding-bottom: 10px; filter: grayscale(5%);}
