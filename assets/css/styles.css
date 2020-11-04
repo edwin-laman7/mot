@@ -1,16 +1,5 @@
-/* CSS Fixes */
-.row .row {padding: 10px 0}
+/* This was developed by Laman7 */
 
-button.button a {color: white; text-decoration: none}
-button.button {border-radius: 0px}
-
-header .mot-title a{color:#ccc}
-
-/* Former Minister Page */
-.img-wrap img {height: 260px; width: 100%; padding-bottom: 10px; filter: grayscale(5%);}
-.img-wrap span {font-size:0.9em;}
-.img-wrap {padding-bottom: 30px}
-.img-wrap h3 {font-size: 0.9em;}
 /* -----COLOR THEME VARIABLE----- */
 
 html, html[data-theme="light"]{
@@ -50,6 +39,21 @@ html[data-theme="dark"]{
   
    
 }
+
+/* CSS Fixes */
+.row .row {padding: 10px 0}
+.main-slick {width: 100%; height:400px !important}
+.main-slick div {height: 100%; background-size: cover; background-position: 50% 50%}
+button.button a {color: white; text-decoration: none}
+button.button {border-radius: 0px}
+header .mot-title a{color:#ccc}
+a.button {text-decoration: none; color: var(--white}
+
+/* Former Minister Page */
+.img-wrap img {height: 260px; width: 100%; padding-bottom: 10px; filter: grayscale(5%);}
+.img-wrap span {font-size:0.9em;}
+.img-wrap {padding-bottom: 30px}
+.img-wrap h3 {font-size: 0.9em;}
 
 /* to detect whether a site visiter prefers dark mode: */
 @media (prefers-color-scheme: dark) {

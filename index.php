@@ -1,45 +1,10 @@
 <?php include('header.php'); ?>
-
-<!--<main class="home">
-  <div class="grid-container main-banner">
-    <div class="orbit" role="region" aria-label="" data-orbit data-options="animInFromLeft:fade-in; animInFromRight:fade-in; animOutToLeft:fade-out; animOutToRight:fade-out; slideSpeed: 500;">
-      <div class="orbit-wrapper">
-        <ul class="orbit-container">
-          <li class="is-active orbit-slide">
-            <div class="main-sector-illustration">
-              <div class="main-sector-background">
-                <p style="height:474px; "></p>
-              </div>
-            </div>
-          </li>
-          <li class="is-active orbit-slide">
-            <figure class="orbit-figure">
-              <img class="orbit-image" src="assets/img/dummy-banner.jpg" alt="dummy-banner">
-            </figure>
-          </li>
-          <li class="orbit-slide">
-            <figure class="orbit-figure">
-              <img class="orbit-image" src="assets/img/dummy-banner-2.jpg" alt="dummy-banner-2">
-            </figure>
-          </li>
-          <li class="orbit-slide">
-            <figure class="orbit-figure">
-              <img class="orbit-image" src="assets/img/dummy-banner-3.jpg" alt="dummy-banner-3">
-            </figure>
-          </li>
-        </ul>
-      </div>
-    </div>
-</div>-->
-<style type="text/css">
-.main-slick {width: 100%; height:500px !important}
-.main-slick div {height: 500px}
-</style>
 <div class="main-slick">
-  <div style="background-url:url('https://www.grundig.com/ktchnmag/wp-content/uploads/2016/11/GRUNDIG-KTCHN-MAG_leicht_floor-plan_2-1024x682.jpg')">
-  <img src="https://www.grundig.com/ktchnmag/wp-content/uploads/2016/11/GRUNDIG-KTCHN-MAG_leicht_floor-plan_2-1024x682.jpg" />background here 1</div>
-  <div>background here 2</div>
-  <div>background here 3</div>
+  <div data-background="https://www.grundig.com/ktchnmag/wp-content/uploads/2016/11/GRUNDIG-KTCHN-MAG_leicht_floor-plan_2-1024x682.jpg">
+  </div>
+  <div  data-background="https://www.grundig.com/ktchnmag/wp-content/uploads/2018/11/grundig_layout-kitchen_XX_1-1024x683.jpg">
+  </div>
+ 
 </div>
   <div class="grid-container">
     <div class="row main-sector" >
