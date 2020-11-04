@@ -36,7 +36,8 @@
 .main-slick div {height: 500px}
 </style>
 <div class="main-slick">
-  <div>background here 1</div>
+  <div style="background-url:url('https://www.grundig.com/ktchnmag/wp-content/uploads/2016/11/GRUNDIG-KTCHN-MAG_leicht_floor-plan_2-1024x682.jpg')">
+  <img src="https://www.grundig.com/ktchnmag/wp-content/uploads/2016/11/GRUNDIG-KTCHN-MAG_leicht_floor-plan_2-1024x682.jpg" />background here 1</div>
   <div>background here 2</div>
   <div>background here 3</div>
 </div>

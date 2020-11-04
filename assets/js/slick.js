@@ -41,7 +41,10 @@ $('.main-slick').slick(
         arrow: false,
         speed: 300,
         infinite: true,
-        slidesToShow: 1
+        slidesToShow: 1,
+        draggable: false,
+        autoplay: true,
+        autoplaySpeed: 3000
 
     }
 )
