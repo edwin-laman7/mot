@@ -1,6 +1,6 @@
 <?php include('header.php'); ?>
 
-<!--<main class="home">
+<main class="home">
   <div class="grid-container main-banner">
     <div class="orbit" role="region" aria-label="" data-orbit data-options="animInFromLeft:fade-in; animInFromRight:fade-in; animOutToLeft:fade-out; animOutToRight:fade-out; slideSpeed: 500;">
       <div class="orbit-wrapper">
@@ -30,30 +30,21 @@
         </ul>
       </div>
     </div>
-</div>-->
-<style type="text/css">
-.main-slick {width: 100%; height:500px !important}
-.main-slick div {height: 500px}
-</style>
-<div class="main-slick">
-  <div style="background-url:url('https://www.grundig.com/ktchnmag/wp-content/uploads/2016/11/GRUNDIG-KTCHN-MAG_leicht_floor-plan_2-1024x682.jpg')">
-  <img src="https://www.grundig.com/ktchnmag/wp-content/uploads/2016/11/GRUNDIG-KTCHN-MAG_leicht_floor-plan_2-1024x682.jpg" />background here 1</div>
-  <div>background here 2</div>
-  <div>background here 3</div>
 </div>
   <div class="grid-container">
     <div class="row main-sector" >
     <div class="column small-12 medium-4 main-sector-button">
-      <div class="main-sector-caption">
-        Moving people and goods safely, efficiently and sustainably across Malaysia to improve quality of life and support a competitive economy.
+      <div class="main-sector-caption">  
+      Untuk menggerakkan orang dan barang dengan selamat, cekap dan berlanjutan di seluruh Malaysia untuk meningkatkan kualiti hidup dan menyokong ekonomi yang kompetitif.
+
       </div>
         <ul class="main-sector-btn">
-          <li class="one"><a href="aviation.php"><img src="assets/icon/plane.svg" alt="plane-icon"> Aviation</a></li>
-          <li class="two"><a href="#"><img src="assets/icon/train.svg" alt="train-icon"><img src="assets/icon/bus.svg" alt="bus-icon"> Land</a></li>
+          <li class="one"><a href="aviation.php"><img src="assets/icon/plane.svg" alt="plane-icon"> Udara</a></li>
+          <li class="two"><a href="#"><img src="assets/icon/train.svg" alt="train-icon"><img src="assets/icon/bus.svg" alt="bus-icon"> Darat</a></li>
         </ul>
         <ul class="main-sector-btn">
-          <li class="three"><a href="#"><img src="assets/icon/ship.svg" alt="ship-icon"> Maritime</a></li>
-          <li class="four"><a href="#"><img src="assets/icon/box.svg" alt="box-icon"> Logistic</a></li>
+          <li class="three"><a href="#"><img src="assets/icon/ship.svg" alt="ship-icon"> Maritim</a></li>
+          <li class="four"><a href="#"><img src="assets/icon/box.svg" alt="box-icon"> Logistik</a></li>
         </ul>
     </div>
 
@@ -65,7 +56,7 @@
   <div class="grid-container banner-announcements"> 
     <div class="row button-header-wrap">
       <div class="section-button-header">
-        Highlight
+        Pengumuman
       </div>
     </div>
     <div class="row">
@@ -77,7 +68,7 @@
               <a class="popup" href="assets/img/mosti_dubai.jpg" title="Expo 2020 Dubai UAE">
                 <img src="assets/img/mosti_dubai.jpg" alt="Mosti Dubai">
               </a>   
-            <a href="https://www.malaysiaexpo2020.com/" target="_blank"><span class="banner-announcement-caption">Expo 2020 Dubai UAE</span></a>
+            <a href="https://www.malaysiaexpo2020.com/" target="_blank"><span class="banner-announcement-caption">Ekspo 2020 Dubai UAE</span></a>
           </button>
           </div>
 
@@ -94,7 +85,7 @@
               <a  class="popup" href="assets/img/banner_baru_covidMOT_17062020.jpg" title="Covid-19 Updates">
                 <img src="assets/img/banner_baru_covidMOT_17062020.jpg" alt="Covid-19 Updates">
               </a>
-              <a href="http://cccovid19.mot.gov.my/" target="_blank"><span class="banner-announcement-caption">Covid-19 Updates</span></a>
+              <a href="http://cccovid19.mot.gov.my/" target="_blank"><span class="banner-announcement-caption">Berita Terkini Mengenai Covid-19</span></a>
             </button>
           </div>
           
@@ -106,59 +97,59 @@
   <div class="grid-container front-topic">
     <div class="row button-header-wrap">
       <div class="section-button-header">
-        Browse by Topic
+        Lihat Mengikut Topik
       </div>
     </div>
 
     <div class="row">
         <div class="column small-12 medium-4">
             <img src="assets/icon/mot-infrastructure-icon.svg" alt="infrastruture-icon">
-            <h2><a href="#">Infrastructure</a></h2>
-            <p>Ready transportation Infrastruture in Malaysia.</p>
+            <h2><a href="#">Infrastruktur</a></h2>
+            <p>Prasarana pengangkutan yang sedia ada di Malaysia.</p>
         </div>
         <div class="column small-12 medium-4">
             <img src="assets/icon/mot-safetyandsecurity-icon.svg" alt="safetyAndSecurity-icon">
-            <h2><a href="#">Safety and Security</a></h2>
-            <p>Protect against internal and external transportation threats.</p>
+            <h2><a href="#">Keselamatan</a></h2>
+            <p>Lindungi daripada ancaman pengangkutan dalaman dan luaran.</p>
         </div>
         <div class="column small-12 medium-4">
             <img src="assets/icon/mot-operatorandlicense-icon.svg" alt="operatorAndLicense-icon">
-            <h2><a href="#">Operator And License</a></h2>
-            <p>Available applicable transportation operator license.</p>
+            <h2><a href="#">Operasi Dan Lesen</a></h2>
+            <p>Lesen pengendali pengangkutan yang sedia ada.</p>
         </div>
     </div>
     <div class="row row-line">
         <div class="column small-12 medium-4">
             <img src="assets/icon/mot-development-icon.svg" alt="development-icon">
-            <h2><a href="#">Development</a></h2>
-            <p>New and ongoing transportation projects across Malaysia.</p>
+            <h2><a href="#">Pembangunan</a></h2>
+            <p>Projek pengangkutan baru dan berterusan di seluruh Malaysia.</p>
         </div>
         <div class="column small-12 medium-4">
-            <img src="assets/icon/mot-agencies-icon.svg" alt="agencies-icon">
-            <h2><a href="#">Agencies</a></h2>
-            <p>Enforcement Agencies under Transportation Ministry</p>
+            <img src="assets/icon/mot-development-icon.svg" alt="agencies-icon">
+            <h2><a href="#">Agensi</a></h2>
+            <p>Agensi Penguatkuasaan di bawah Kementerian Perhubungan</p>
         </div>
         <div class="column small-12 medium-4">
             <img src="assets/icon/mot-actsandregulation-icon.svg" alt="actsAndRegulation-icon">
-            <h2><a href="#">Acts and Regulation</a></h2>
-            <p>Transportation Law governing Air, Land and Water.</p>
+            <h2><a href="#">Akta Dan Peraturan</a></h2>
+            <p>Undang-undang Pengangkutan yang mengatur Udara, Darat dan Air.</p>
         </div>
     </div>
     <div class="row row-line">
         <div class="column small-12 medium-4">
             <img src="assets/icon/mot-reportsandstats-icon.svg" alt="reportsAndStats-icon">
-            <h2><a href="#">Reports and Stats</a></h2>
-            <p>Official Transportation Reports and Statistics.</p>
+            <h2><a href="#">Laporan Dan Statistik</a></h2>
+            <p>Laporan dan Statistik Pengangkutan Rasmi.</p>
         </div>
         <div class="column small-12 medium-4">
             <img src="assets/icon/mot-programmes-icon.svg" alt="programmes-icon">
-            <h2><a href="#">Programmes</a></h2>
-            <p>Programmes to help transportation businesses and individuals.</p>
+            <h2><a href="#">Program</a></h2>
+            <p>Program untuk membantu perniagaan pengangkutan dan individu.</p>
         </div>
         <div class="column small-12 medium-4">
             <img src="assets/icon/mot-feedbackandcomplaint-icon.svg" alt="feedbackAndComplaint-icon">
-            <h2><a href="#">Feedback and Complaint</a></h2>
-            <p>Provide feedback or complaints to improve transportation policies.</p>
+            <h2><a href="#">Maklum Balas Dan Aduan</a></h2>
+            <p>Berikan maklum balas atau aduan untuk memperbaiki dasar pengangkutan.</p>
         </div>
     </div>
   </div>
@@ -166,24 +157,24 @@
   <div class="grid-container mot-news-developments" style="background-color:var(--banner-quicklinks-footer-bg-color);">
     <div class="row">
       <div class="column small-12 medium-6">
-        <h2>MOT in the News</h2>
+        <h2>Berita Dalam kementerian Pengangkutan Malaysia</h2>
         <ul class="no-bullet">
-          <li><span class="date">20/09</span> <a href="#"> Govt Gets Tough On Traffic Offences</a></li>
-          <li><span class="date">20/09</span> <a href="#"> JB - S'PORE RTS Expected To Run By 2026</a></li>
-          <li><span class="date">20/09</span> <a href="#"> RTS Project To Be inked On July 30</a></li>
-          <li><span class="date">20/09</span> <a href="#"> M'sia Vows To Seek Closure for MH17 families</a></li>
+          <li><span class="date">20/09</span> <a href="#"> Kerajaan Mengatasi Kesalahan Lalu Lintas</a></li>
+          <li><span class="date">20/09</span> <a href="#"> JB - SINGAPORE RTS Dijangka Akan Dijalankan Menjelang 2026</a></li>
+          <li><span class="date">20/09</span> <a href="#"> Projek RTS Akan Dilancarkan Pada 30 Julai</a></li>
+          <li><span class="date">20/09</span> <a href="#"> Malaysia Berjanji untuk Mencari Penutupan untuk keluarga MH17</a></li>
         </ul>
-        <a href="#">More News</a>
+        <a href="#">Lebih Banyak Berita</a>
       </div>
       <div class="column small-12 medium-6">
-        <h2>Future Developments</h2>
+        <h2>Perkembangan Masa Depan</h2>
         <ul class="no-bullet">
-          <li><a href="#">MRT and LRT3 Project Status</a></li>
+          <li><a href="#">Status Projek MRT dan LRT3</a></li>
           <li><a href="#">Klang Valley Dual Track 2 (KVDT2)</a></li>
           <li><a href="#">Malaysia-Singapore Rapid Transit System (RTS)</a></li>
-          <li><a href="#">Special Report Air Investigation</a></li>
+          <li><a href="#">Laporan Khas Penyiasatan Udara</a></li>
         </ul>
-        <a href="#">More Developments</a>
+        <a href="#">Lebih Banyak Perkembangan</a>
       </div>
     </div>
   </div>
@@ -191,52 +182,52 @@
   <div class="grid-container agencies-under-mot">
     <div class="row">
       <div class="column small-12 medium-12">
-        <h2>Agencies Under MOT</h2>
+        <h2>Agensi Kementerian Pengangkutan Malaysia</h2>
       </div>
       <div class="columns small-12 medium-4 aviation-agencies">
-        <h3>Aviation</h3>
+        <h3>Udara</h3>
         <ul class="no-bullet">
           <li>
-            <span>Flight safety, air traffic controller, flight school, pilot license.</span>
-            <p><a href="#">Civil Aviation Authority Malaysia (DCA)</a></p>
+            <span>Keselamatan penerbangan, pengawal lalu lintas udara, sekolah penerbangan, lesen juruterbang.</span>
+            <p><a href="#">Lembaga Penerbangan Awam Malaysia (DCA)</a></p>
           </li>
           <li>
-            <span>Public air transportation, flight refund, air traffic rights, aviation economic.</span>
-            <p><a href="#">Malaysia Aviation Commission (MAVCOM)</a></p>
+            <span>Pengangkutan udara awam, bayaran balik penerbangan, hak lalu lintas udara, ekonomi penerbangan.</span>
+            <p><a href="#">Suruhanjaya Penerbangan Malaysia (MAVCOM)</a></p>
           </li>
         </ul>
       </div>
       <div class="columns small-12 medium-4 land-logistics-agencies">
-        <h3>Land and Logistics</h3>
+        <h3>Darat Dan Logistik</h3>
         <ul class="no-bullet">
           <li>
-            <span>Vehicle registration, driving licenses, summons, road safety.</span>
-            <p><a href="#">Road Transport Department (JPJ)</a></p>
+            <span>Pendaftaran kenderaan, lesen memandu, saman, keselamatan jalan raya.</span>
+            <p><a href="#">Jabatan Pengangkutan Jalan(JPJ)</a></p>
           </li>
           <li>
-            <span>e-Hailing, LRT, MRT, train, bus, taxi transport matters.</span>
-            <p><a href="#">Land Public Transport Agency (APAD)</a></p>
+            <span>e-Hailing, LRT, MRT, kereta api, bas, teksi urusan pengangkutan.</span>
+            <p><a href="#">Agensi Pengangkutan Awam Darat (APAD)</a></p>
           </li>
           <li>
-            <span>Road and public transportation safety.</span>
-            <p><a href="#">Land Public Transport Agency (APAD)</a></p>
+            <span>Keselamatan jalan raya dan pengangkutan awam.</span>
+            <p><a href="#">Agensi Pengangkutan Awam Darat (APAD)</a></p>
           </li>
         </ul>
       </div>
       <div class="columns small-12 medium-4 maritime-agencies">
-        <h3>Maritime</h3>
+        <h3>Maritim</h3>
         <ul class="no-bullet">
           <li>
-            <span>Marine, shipping, ferry, port policy and marine notices.</span>
+            <span>Pemberitahuan kelautan, perkapalan, feri, pelabuhan dan laut.</span>
             <p><a href="#">Marine Department Malaysia (MDM)</a></p>
           </li>
           <li>
-            <span>Ocean law, Malacca Straits, Sea security/safety, marine industries</span>
+            <span>Undang-undang laut, Selat Melaka, Keselamatan / keselamatan laut, industri laut</span>
             <p><a href="#">Maritime Institute of Malaysia (MIMA)</a></p>
           </li>
           <li>
-            <span>Port authorities, Port Klang, Johor Port, Kuantan Port, Bintulu Port, Penang</span>
-            <p><a href="#">All port authorities</a></p>
+            <span>Penguasa pelabuhan, Pelabuhan Klang, Pelabuhan Johor, Pelabuhan Kuantan, Pelabuhan Bintulu, Pulau Pinang</span>
+            <p><a href="#">Semua pihak berkuasa pelabuhan</a></p>
           </li>
         </ul>
       </div>
