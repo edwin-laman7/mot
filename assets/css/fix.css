@@ -1300,20 +1300,6 @@ font-size:20px;
 font-size:12px;
 }
 
-/* Slick Banner custom */
-.banner-one {
-  background-size: 50% !important;
-  background-repeat: no-repeat;
-  background-position: 80% 50% !important;
-}
-@media only screen and (max-width: 600px) {
-  .banner-one {
-    background-size: cover !important;
-    background-repeat: no-repeat;
-    background-position: 50% 50% !important;
-}
-}
-
 /* ----END MAIN STYLES---- */
 
 /* Mobile Fix */
@@ -1321,5 +1307,3 @@ font-size:12px;
 @media only screen and (max-width: 600px) {
   .main-sector-caption { width: 100% }
 }
-
-
