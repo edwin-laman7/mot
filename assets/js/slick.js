@@ -1,3 +1,21 @@
+// get bg from data-background https://www.solodev.com/blog/web-design/adding-a-hero-slider-to-your-homepage-using-slick-slider.stml
+$(document).ready(function() {
+    if ($('[data-background]').length > 0) {
+         $('[data-background]').each(function() {
+           var $background, $backgroundmobile, $this;
+           $this = $(this);
+           $background = $(this).attr('data-background');
+           $backgroundmobile = $(this).attr('data-background-mobile');
+           if ($this.attr('data-background').substr(0, 1) === '#') {
+             return $this.css('background-color', $background);
+           } else if ($this.attr('data-background-mobile') && device.mobile()) {
+             return $this.css('background-image', 'url(' + $backgroundmobile + ')');
+           } else {
+             return $this.css('background-image', 'url(' + $background + ')');
+           }
+         });
+       }
+     });
 //Slick
 $('.responsive').slick({
     dots: true,
@@ -39,12 +57,12 @@ $('.main-slick').slick(
     {
         dots: false,
         arrow: false,
-        speed: 300,
+        //speed: 300,
         infinite: true,
         slidesToShow: 1,
         draggable: false,
         autoplay: true,
-        autoplaySpeed: 3000
+        autoplaySpeed: 4000
 
     }
 )
