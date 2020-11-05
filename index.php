@@ -1,11 +1,11 @@
 <?php include('header.php'); ?>
 <main class="home">
-<div class="main-slick">
-  <div data-background="https://www.grundig.com/ktchnmag/wp-content/uploads/2016/11/GRUNDIG-KTCHN-MAG_leicht_floor-plan_2-1024x682.jpg">
-  </div>
-  <div  data-background="https://www.grundig.com/ktchnmag/wp-content/uploads/2018/11/grundig_layout-kitchen_XX_1-1024x683.jpg">
-  </div>
- 
+<div class="grid-container">
+  <div class="main-slick">
+    <div class="banner-one" data-background="assets/img/mot-building-animation-css.svg">
+    </div>
+    
+</div>
 </div>
   <div class="grid-container">
     <div class="row main-sector" >
