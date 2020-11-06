@@ -1301,19 +1301,19 @@ font-size:12px;
 }
 
 /* Slick Banner custom */
-.banner-one {
+.banner-bg {
   background-size: 50% !important;
   background-repeat: no-repeat;
   background-position: 80% 50% !important;
 }
 @media (min-width:650px) and (max-width:1026px) {
-  .banner-one{
+  .banner-bg{
     background-size: 100%;
     background-position: 100% 50% ;
   }
 }
 @media only screen and (max-width:600px) {
-  .banner-one {
+  .banner-bg {
     background-size: 150% !important;
     background-repeat: no-repeat;
     background-position: 40% 50% !important;

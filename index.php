@@ -2,7 +2,9 @@
 <main class="home">
 <div class="banner-container">
   <div class="main-slick">
-    <div class="banner-one" data-background="assets/img/mot-building-animation-css.svg">
+    <div class="banner-bg banner-one" data-background="assets/img/mot-building-animation-css.svg">
+  </div>
+    <div class="banner-bg banner-two" data-background="assets/img/banner-slider-mot-2.svg">
     </div>
     
 </div>

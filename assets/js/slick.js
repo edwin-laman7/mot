@@ -62,7 +62,7 @@ $('.main-slick').slick(
         slidesToShow: 1,
         draggable: false,
         autoplay: true,
-        autoplaySpeed: 4000
+        autoplaySpeed: 6000
 
     }
 )
