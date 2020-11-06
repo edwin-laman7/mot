@@ -22,6 +22,10 @@
   .row .main-sector-buttom
   padding-top:var(--narrow);
   }
+  .main-sector-desktop .main-sector-button {
+    width: 400px !important;
+    display: inline-table;
+  }
 
 }
 

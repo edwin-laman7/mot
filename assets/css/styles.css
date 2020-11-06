@@ -1301,22 +1301,22 @@ font-size:12px;
 }
 
 /* Slick Banner custom */
-.banner-bg {
-  background-size: 50% !important;
+.slick-list .banner-bg {
+  background-size: 50%;
   background-repeat: no-repeat;
-  background-position: 80% 50% !important;
+  background-position: 80% 50% ;
 }
-@media (min-width:650px) and (max-width:1026px) {
-  .banner-bg{
-    background-size: 100%;
-    background-position: 100% 50% ;
+@media only screen and (max-width:1026px) {
+  .slick-list .banner-bg{
+    background-size: 80%;
+    background-position: 140% 50%;
   }
 }
 @media only screen and (max-width:600px) {
-  .banner-bg {
-    background-size: 150% !important;
+  .slick-list .banner-bg {
+    background-size: 150%;
     background-repeat: no-repeat;
-    background-position: 40% 50% !important;
+    background-position: 40% 50%;
 }
 }
 
