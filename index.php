@@ -88,8 +88,8 @@
           <li><a href="http://motweb2019d.mot.gov.my/en/maritime/operators-and-licenses/dsl">Domestic Shipping License</a></li>
           <li><a href="http://motweb2019d.mot.gov.my/en/directory">Staff Directory</a></li>
           <li><a href="#">Flying School</a></li>
-          <li><a href="#">Special Report Air Investigation</a></li>
-          <li><a href="#">Tender & Quotation</a></li>
+          <li><a href="http://motweb2019d.mot.gov.my/en/aviation/reports">Special Report Air Investigation</a></li>
+          <li><a href="http://motweb2019d.mot.gov.my/en/business/tender/schedules-quotation-tender">Tender & Quotation</a></li>
         </ul>
       </div>
     </div>
