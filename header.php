@@ -10,6 +10,7 @@
     <script src="assets/js/theme.js"></script>  
     <link rel="stylesheet" href="assets/css/foundation.css">
     <link rel="stylesheet" href="assets/css/styles.css">
+    <link rel="stylesheet" href="assets/css/fix.css">
     <link rel="stylesheet" type="text/css" href="assets/slick/slick.css"/>
     <link rel="stylesheet" type="text/css" href="assets/slick/slick-theme.css"/>
     <link rel="stylesheet" type="text/css" href="assets/font-awesome/css/all.css"/>
@@ -29,7 +30,7 @@
                   <img src="assets/img/mot-logo.png" alt="">
                   <div class="mot-title">
                       <span>MINISTRY OF TRANSPORT</span>
-                      <p>OFFICIAL PORTAL</p>
+                      <p>MALAYSIA OFFICIAL PORTAL</p>
                   </div>
                 </a>
               </div>

@@ -31,7 +31,7 @@
           </div>
         </div>
         <div class="column small-12 medium-1"></div>
-        <div class="column small-12 medium-3">
+        <div class="column small-6 medium-3">
           <h4>Topics</h4>
           <ul class="no-bullet">
             <li><a href="#">Infrastructure</a></li>
@@ -44,7 +44,7 @@
             <li><a href="#">Programme</a></li>
           </ul>
         </div>
-        <div class="column small-12 medium-3">
+        <div class="column small-6 medium-3">
         <h4>Departments</h4>
           <ul class="no-bullet">
 

@@ -9,7 +9,7 @@
 </div>
   <div class="grid-container">
     <div class="row main-sector" >
-    <div class="column small-12 medium-4 main-sector-button">
+    <div class="column small-12 medium-6 large-4 main-sector-button">
       <div class="main-sector-caption">
         Moving people and goods safely, efficiently and sustainably across Malaysia to improve quality of life and support a competitive economy.
       </div>
@@ -68,6 +68,32 @@
       </div>
     </div>
   </div>
+
+  <!-- News and Development Code -->
+  <div class="grid-container mot-news-developments announcement" style="background-color:var(--banner-quicklinks-footer-bg-color);">
+    <div class="row">
+      <div class="column small-12 medium-8">
+        <h2>Announcements</h2>
+        <ul class="no-bullet">
+          <li><a href="#"> Road Transport Act (Amendment) 2020 Operational from 23 Oct 2020</a></li>
+          <li><a href="#"> Kenyataan Polisi Antirasuah Kementerian Pengangkutan MalaysiaNew</a></li>
+        </ul>
+        <a href="#">More Announcements</a>
+      </div>
+      <div class="column small-12 medium-4">
+        <h2>Most Requested</h2>
+        <ul class="no-bullet">
+          <li><a href="http://motweb2019d.mot.gov.my/en/maritime/operators-and-licenses/dsl">Domestic Shipping License</a></li>
+          <li><a href="http://motweb2019d.mot.gov.my/en/directory">Staff Directory</a></li>
+          <li><a href="#">Flying School</a></li>
+          <li><a href="#">Special Report Air Investigation</a></li>
+          <li><a href="#">Tender & Quotation</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  
+
   <!-- Front Topic Code -->
   <div class="grid-container front-topic">
     <div class="row button-header-wrap">
@@ -131,7 +157,7 @@
   <!-- News and Development Code -->
   <div class="grid-container mot-news-developments" style="background-color:var(--banner-quicklinks-footer-bg-color);">
     <div class="row">
-      <div class="column small-12 medium-6">
+      <div class="column small-12 medium-8">
         <h2>MOT in the News</h2>
         <ul class="no-bullet">
           <li><span class="date">20/09</span> <a href="#"> Govt Gets Tough On Traffic Offences</a></li>
@@ -141,7 +167,7 @@
         </ul>
         <a href="#">More News</a>
       </div>
-      <div class="column small-12 medium-6">
+      <div class="column small-12 medium-4">
         <h2>Future Developments</h2>
         <ul class="no-bullet">
           <li><a href="#">MRT and LRT3 Project Status</a></li>

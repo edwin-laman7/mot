@@ -1077,7 +1077,6 @@ ul.main-sector-btn {
   background: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(25,59,106,1) 100%);
   transition: var(--theme-transition);
   padding-top: var(--standard);
-  padding-bottom: var(--standard);
 }
 .banner-announcements .row.button-header-wrap{
   padding-bottom: 0;
