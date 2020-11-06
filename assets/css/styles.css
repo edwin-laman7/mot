@@ -1077,6 +1077,7 @@ ul.main-sector-btn {
   background: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(25,59,106,1) 100%);
   transition: var(--theme-transition);
   padding-top: var(--standard);
+  padding-bottom: var(--standard);
 }
 .banner-announcements .row.button-header-wrap{
   padding-bottom: 0;
@@ -1305,11 +1306,17 @@ font-size:12px;
   background-repeat: no-repeat;
   background-position: 80% 50% !important;
 }
-@media only screen and (max-width: 600px) {
+@media (min-width:650px) and (max-width:1026px) {
+  .banner-one{
+    background-size: 100%;
+    background-position: 100% 50% ;
+  }
+}
+@media only screen and (max-width:600px) {
   .banner-one {
-    background-size: cover !important;
+    background-size: 150% !important;
     background-repeat: no-repeat;
-    background-position: 50% 50% !important;
+    background-position: 40% 50% !important;
 }
 }
 

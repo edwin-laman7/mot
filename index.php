@@ -1,6 +1,6 @@
 <?php include('header.php'); ?>
 <main class="home">
-<div class="grid-container">
+<div class="banner-container">
   <div class="main-slick">
     <div class="banner-one" data-background="assets/img/mot-building-animation-css.svg">
     </div>
@@ -11,7 +11,7 @@
     <div class="row main-sector" >
     <div class="column small-12 medium-6 large-4 main-sector-button">
       <div class="main-sector-caption">
-        Moving people and goods safely, efficiently and sustainably across Malaysia to improve quality of life and support a competitive economy.
+        <p>Moving people and goods safely, efficiently and sustainably across Malaysia to improve quality of life and support a competitive economy.</p>
       </div>
         <ul class="main-sector-btn">
           <li class="one"><a href="aviation.php"><img src="assets/icon/plane.svg" alt="plane-icon"> Aviation</a></li>

@@ -35,13 +35,13 @@
           <h4>Topics</h4>
           <ul class="no-bullet">
             <li><a href="#">Infrastructure</a></li>
-            <li><a href="#">Safety</a></li>
+            <li><a href="#">Safety & Security</a></li>
             <li><a href="#">Operators & License</a></li>
             <li><a href="#">Development</a></li>
             <li><a href="#">Agencies</a></li>
             <li><a href="#">Acts and Regulations</a></li>
-            <li><a href="#">Reports and Stats</a></li>
             <li><a href="#">Programme</a></li>
+            <li><a href="#">Reports and Stats</a></li>
           </ul>
         </div>
         <div class="column small-6 medium-3">
@@ -53,6 +53,15 @@
             <li><a href="#">Maritime</a></li>
             <li><a href="#">Logistics</a></li>
           </ul>
+        
+        <h4>Feedback</h4>
+        <ul class="no-bullet">
+
+          <li><a href="#">Enquiries</a></li>
+          <li><a href="#">Staff Directory</a></li>
+          <li><a href="#">Integrity Complaints</a></li>
+          <li><a href="#">FAQs</a></li>
+        </ul>
 
         </div>
         
