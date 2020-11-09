@@ -178,6 +178,10 @@ $( document ).ready(function() {
      $("body, h1, h2, h3, h4, p").css("font-size",size + "px");
   });
   
+
+// let fontSize = parseInt(window.getComputedStyle(body, null).fontSize);
+// sessionStorage.setItem("defaultFontSize", fontSize);
+// let defaultFontSize = sessionStorage.getItem("defaultFontSize");
   
   $("#normal").on("click",function(){
     size=14;
@@ -251,7 +255,7 @@ $(document).ready(function(){
 
   $(window).scroll(function() {
     var breadcrumbPos = $('.breadcrumb-wrap');
-    var distance = breadcrumbPos.offset().top;
+    var distance = breadcrumbPos.offset().top();
       if ( $(this).scrollTop() >= distance ) {
           // console.log('is in top');
           $(".breadcrumb-menu-btn").css({display: "block"});
