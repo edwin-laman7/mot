@@ -17,11 +17,10 @@ $(document).ready(function() {
        }
 //Check window width and inject into .banner-announcements
 var windowsize = $(window).width();
+var windowsize2 = windowsize - 20;
 console.log(windowsize);
-$(".banner-announcements").css("width",windowsize+"px");
+$(".banner-announcements").css("width",windowsize2+"px");
      });
-
-
 
 //Slick
 $('.responsive').slick({
