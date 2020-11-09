@@ -174,7 +174,7 @@ function modeSwitcher() {
 $( document ).ready(function() {
   size=parseInt($('p').css('font-size'));
 
-  $("#big").on("click",function(){
+  $("increaseFont").on("click",function(){
    
     size+=4;
      $("p").css("font-size",size + "px");
