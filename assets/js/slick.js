@@ -18,8 +18,8 @@ $(document).ready(function() {
 //Check window width and inject into .banner-announcements
 var windowsize = $(window).width();
 var windowsize2 = windowsize - 15;
-console.log(windowsize);
-$(".banner-announcements").css("width",windowsize2+"px");
+//console.log(windowsize);
+$(".banner-announcements").css("width",windowsize+"px");
      });
 
 //Slick
