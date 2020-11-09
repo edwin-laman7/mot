@@ -168,7 +168,7 @@
       <div class="toggle-darkmode-font-size">
         <!-- <button id="toggleDarkMode"><i class="far fa-moon"></i></button> -->
         <button id="theme-toggle" onclick="modeSwitcher()"><i class="far fa-moon"></i></button>
-        <button onclick="resetFontSize()"><i class="fas fa-font"></i></button>
-        <button onclick="increaseFontSize()"><i class="fas fa-plus"></i></button>
+        <button id='normal'><i class="fas fa-font"></i></button>
+        <button id='big'><i class="fas fa-plus"></i></button>
       </div>
     </div>

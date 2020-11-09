@@ -169,16 +169,64 @@ function modeSwitcher() {
 
 
 //TOGGLE INCREASE AND RESET FONT CODE
+  //retrieving, and caching, the <body> element:
+// var body = document.body;
+//   //find the defaultFontSize and save it in session
+// let fontSize = parseInt(window.getComputedStyle(body, null).fontSize);
+// sessionStorage.setItem("defaultFontSize", fontSize);
+// let defaultFontSize = sessionStorage.getItem("defaultFontSize");
+
+// function increaseFontSize(){
+//   var max = 25;
+//     //finding the current computed fontSize of the <body> element, parsing it
+//     currentFontSize = parseInt(window.getComputedStyle(body, null).fontSize);
+
+//     //if the currentFontSize is less than the specified max:
+//   if (currentFontSize < max){
+//     //we set the fontSize of the <body> to the incremented fontSize,
+//     //increasing the current value by 1, and concatenating with the 'px' unit:
+//     body.style.fontSize = ++currentFontSize + 'px';
+//   }
+// }
+
+// function resetFontSize(){
+//     //finding the current computed fontSize of the <body> element, parsing it
+//   currentFontSize = parseInt(window.getComputedStyle(body, null).fontSize);
+
+//     //if the currenFontSize of the <body> is not equal to the defaultFontSize
+//   if (currentFontSize != defaultFontSize){
+//     //we set the currentFontSize to the defaultFontSize
+//     body.style.fontSize = defaultFontSize + 'px';
+//   }
+  
+// }
+
+size=parseInt($('body, h1, h2, h3, h4, p').css('font-size'));
+
+  
+$("#big").on("click",function(){
+ 
+  size+=4;
+   $("body, h1, h2, h3, h4, p").css("font-size",size + "px");
+});
 
 
-$( document ).ready(function() {
-  size=parseInt($('p').css('font-size'));
+$("#normal").on("click",function(){
+  size=14;
+   $("p").css("font-size",size + "px");
+});
 
-  $("#increaseFont").on("click",function(){
-   
-    size+=4;
-     $("p").css("font-size",size + "px");
-  });
+
+$("#small").on("click",function(){
+  
+  size-=2;
+  if(size>=0){
+   $("p").css("font-size",size+ "px");
+  }else{
+    alert("VLAUE IS MINUS SO RESET TO 14px");
+    size=14
+    $("p").css("font-size",size+ "px");
+  }
 });
 
 
@@ -214,9 +262,12 @@ $(document).ready(function(){
   //   }
   // });
 
-  var distance = $('.breadcrumb-wrap').offset().top;
+
+  var breadcrumbPos = $('.breadcrumb-wrap');
+  var distance = breadcrumbPos.offset().top;
 
   $(window).scroll(function() {
+
       if ( $(this).scrollTop() >= distance ) {
           // console.log('is in top');
           $(".breadcrumb-menu-btn").css({display: "block"});
