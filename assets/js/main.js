@@ -73,25 +73,32 @@ var pcwidth = $(window).width();
 
 //TOGGLE NAVIGATION BAR CODE
 function toggleNav(){
+    
+    var w = document.getElementById("s4-workspace");
+	w.scrollTop = 0;
+    
   if (toggleNavStatus === false) {
     getSidebar.style.width = "100%";
     getSidebarMenu.style.display = "block";
     getToggleDarkMode.style.display = "none";
     getMOTHeader.style.color =  "white"; 
-    getMOTTitleSpan.style.color =  "white"; 
-    getMOTTitleP.style.color =  "white"; 
+    //getMOTTitleSpan.style.color =  "white"; 
+    //getMOTTitleP.style.color =  "white"; 
     getSearchContainer.style.visible =  "hidden"; 
-    getBtnTglLanguage.style.visible =  "hidden"; 
+    getBtnTglLanguage.style.visible =  "hidden";
+
+		$(".mot-header").css("color","white");
+	
     if (pcwidth <= 768){//search input for mobile
       getSearchContainer.style.display = "block";
       getSearchContainer.style.visible = "visible";
       getSearchContainer.style.position = "relative";
       getNavMain.style.height = "108px";
-
-      
     }
+	
     menuBtn.classList.add("close"); 
     toggleNavStatus = true;
+	
   }
   else if (toggleNavStatus === true) {
     getSidebar.style.width = "0px";
@@ -100,8 +107,8 @@ function toggleNav(){
     getSearchContainer.style.visible =  "visible";
     getBtnTglLanguage.style.visible =  "visible";  
     getMOTHeader.style.color =  "#193B6A";
-    getMOTTitleSpan.style.color =  "var(--black)"; 
-    getMOTTitleP.style.color =  "var(--black)"; 
+    //getMOTTitleSpan.style.color =  "var(--black)"; 
+    //getMOTTitleP.style.color =  "var(--black)"; 
     if (pcwidth <= 768){//search input for mobile
       getSearchContainer.style.display = "none";
       getSearchContainer.style.visible = "hidden";
@@ -109,7 +116,8 @@ function toggleNav(){
     }
     menuBtn.classList.remove("close"); 
     toggleNavStatus = false;
-
+	
+	
     //Remove all active-child-level2
     var li_elements = document.querySelectorAll(".nav-sidebar ul li");
     for (var i = 0; i < li_elements.length; i++) {
@@ -119,23 +127,14 @@ function toggleNav(){
     }
   }
   
-  //CHANGE BUTTON AND ICON FROM MENU TO CLOSE
-  if(pcwidth > 425){//Desktop Menu Button
-    var x = document.getElementById("btn-toggle-nav");
-    if (x.innerHTML === 'MENU') {
-      x.innerHTML = 'CLOSE';
-    } else {
-      x.innerHTML = 'MENU';
-    }
-  }
-  else if (pcwidth<=425){//Mobile Menu Button
-    var x = document.getElementById("btn-toggle-nav");
-    if (x.innerHTML === 'MENU') {
-      x.innerHTML = 'CLOSE';
-    } else {
-      x.innerHTML = 'MENU';
-    }
-  }
+  //CHANGE BUTTON AND ICON FROM MENU TO CLOSE  
+    var curText = document.getElementById("btn-toggle-nav");
+  	console.log('3');
+  	if(toggleNavStatus === true){
+  		curText.innerHTML = 'CLOSE';
+  	} else {
+  		curText.innerHTML = 'MENU';
+  	}
 }
 
 //TOGGLE DARK MODE CODE
@@ -169,40 +168,6 @@ function modeSwitcher() {
 
 
 //TOGGLE INCREASE AND RESET FONT CODE
-  //retrieving, and caching, the <body> element:
-// var body = document.body;
-//   //find the defaultFontSize and save it in session
-// let fontSize = parseInt(window.getComputedStyle(body, null).fontSize);
-// sessionStorage.setItem("defaultFontSize", fontSize);
-// let defaultFontSize = sessionStorage.getItem("defaultFontSize");
-
-// function increaseFontSize(){
-//   var max = 25;
-//     //finding the current computed fontSize of the <body> element, parsing it
-//     currentFontSize = parseInt(window.getComputedStyle(body, null).fontSize);
-
-//     //if the currentFontSize is less than the specified max:
-//   if (currentFontSize < max){
-//     //we set the fontSize of the <body> to the incremented fontSize,
-//     //increasing the current value by 1, and concatenating with the 'px' unit:
-//     body.style.fontSize = ++currentFontSize + 'px';
-//   }
-// }
-
-// function resetFontSize(){
-//     //finding the current computed fontSize of the <body> element, parsing it
-//   currentFontSize = parseInt(window.getComputedStyle(body, null).fontSize);
-
-//     //if the currenFontSize of the <body> is not equal to the defaultFontSize
-//   if (currentFontSize != defaultFontSize){
-//     //we set the currentFontSize to the defaultFontSize
-//     body.style.fontSize = defaultFontSize + 'px';
-//   }
-  
-// }
-
-
-
 $( document ).ready(function() {
   size=parseInt($('body, h1, h2, h3, h4, p').css('font-size'));
 
@@ -235,8 +200,6 @@ $( document ).ready(function() {
 
 
 
-
-
 //LIGHTBOX FOR BANNER ANNOUNCEMENT CODE
 $( document ).ready(function() {
   $('.banner-announcements').magnificPopup({
@@ -247,6 +210,23 @@ $( document ).ready(function() {
     }
   });
 });
+
+$(document).ready(function() {
+  $('.light-box').magnificPopup({
+    type:'image',
+    zoom: {
+      enabled: true,
+      duration: 500, // don't foget to change the duration also in CSS
+      //easing: 'ease-in-out',
+      opener: function(element) {
+        //return element.find('img');
+        return element.is('img') ? element : element.find('img');
+      }
+    }
+
+  });
+});
+
 
 
 //MAIN SECTOR DESKTOP POSITION CODE
@@ -260,11 +240,18 @@ else if (pcwidth<=768){//Mobile Menu Button
 
 $(document).ready(function(){
 
+  // $(window).scroll(function(){
+  //   if($(this).scrollTop()>108){
+  //     // $(".nav-main").css({position: "fixed"});
+  //     console.log(position);
+  //   }
+  // });
+
+
 
   $(window).scroll(function() {
     var breadcrumbPos = $('.breadcrumb-wrap');
     var distance = breadcrumbPos.offset().top;
-
       if ( $(this).scrollTop() >= distance ) {
           // console.log('is in top');
           $(".breadcrumb-menu-btn").css({display: "block"});
