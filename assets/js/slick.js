@@ -18,7 +18,7 @@ $(document).ready(function() {
 //Check window width and inject into .banner-announcements
 var windowsize = $(window).width();
 console.log(windowsize);
-$(".banner-announcements").css("width","windowsize");
+$(".banner-announcements").css("width",windowsize+"px");
      });
 
 
