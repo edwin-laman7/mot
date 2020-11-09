@@ -169,37 +169,18 @@ function modeSwitcher() {
 
 
 //TOGGLE INCREASE AND RESET FONT CODE
-  //retrieving, and caching, the <body> element:
-var body = document.body;
-  //find the defaultFontSize and save it in session
-let fontSize = parseInt(window.getComputedStyle(body, null).fontSize);
-sessionStorage.setItem("defaultFontSize", fontSize);
-let defaultFontSize = sessionStorage.getItem("defaultFontSize");
 
-function increaseFontSize(){
-  var max = 25;
-    //finding the current computed fontSize of the <body> element, parsing it
-    currentFontSize = parseInt(window.getComputedStyle(body, null).fontSize);
 
-    //if the currentFontSize is less than the specified max:
-  if (currentFontSize < max){
-    //we set the fontSize of the <body> to the incremented fontSize,
-    //increasing the current value by 1, and concatenating with the 'px' unit:
-    body.style.fontSize = ++currentFontSize + 'px';
-  }
-}
+$( document ).ready(function() {
+  size=parseInt($('p').css('font-size'));
 
-function resetFontSize(){
-    //finding the current computed fontSize of the <body> element, parsing it
-  currentFontSize = parseInt(window.getComputedStyle(body, null).fontSize);
+  $("#big").on("click",function(){
+   
+    size+=4;
+     $("p").css("font-size",size + "px");
+  });
+});
 
-    //if the currenFontSize of the <body> is not equal to the defaultFontSize
-  if (currentFontSize != defaultFontSize){
-    //we set the currentFontSize to the defaultFontSize
-    body.style.fontSize = defaultFontSize + 'px';
-  }
-  
-}
 
 
 

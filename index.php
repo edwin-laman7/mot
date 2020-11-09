@@ -62,13 +62,14 @@
 
       <div class="column text-center">  
         <div class="responsive">
+          
           <div class="column">
             <button>
               <a class="popup" href="assets/img/mosti_dubai.jpg" title="Expo 2020 Dubai UAE">
                 <img src="assets/img/mosti_dubai.jpg" alt="Mosti Dubai">
               </a>   
             <a href="https://www.malaysiaexpo2020.com/" target="_blank"><span class="banner-announcement-caption">Expo 2020 Dubai UAE</span></a>
-          </button>
+            </button>
           </div>
 
           <div class="column">
