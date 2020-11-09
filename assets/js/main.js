@@ -169,13 +169,13 @@ function modeSwitcher() {
 
 //TOGGLE INCREASE AND RESET FONT CODE
 $( document ).ready(function() {
-  size=parseInt($('.main h1, .main h2, .main h3, .main h4, .main p, .main a, .main li, .footer h1, .footer h2, .footer h3, .footer h4, .footer p, .footer a, .footer li').css('font-size'));
+  size=parseInt($(".main h1, .main h2, .main h3, .main h4, .main p, .main a, .main li, footer h1, footer h2, footer h3, footer h4, footer p, footer a, footer li").css('font-size'));
 
   
   $("#big").on("click",function(){
    
     size+=4;
-     $(".main h1, .main h2, .main h3, .main h4, .main p, .main a, .main li, .footer h1, .footer h2, .footer h3, .footer h4, .footer p, .footer a, .footer li").css("font-size",size + "px");
+     $(".main h1, .main h2, .main h3, .main h4, .main p, .main a, .main li, footer h1, footer h2, footer h3, footer h4, footer p, footer a, footer li").css("font-size",size + "px");
   });
   
 
@@ -185,7 +185,7 @@ $( document ).ready(function() {
   
   $("#normal").on("click",function(){
     size=14;
-     $(".main h1, .main h2, .main h3, .main h4, .main p, .main a, .main li, .footer h1, .footer h2, .footer h3, .footer h4, .footer p, .footer a, .footer li").css("font-size",size + "px");
+     $(".main h1, .main h2, .main h3, .main h4, .main p, .main a, .main li, footer h1, footer h2, footer h3, footer h4, footer p, footer a, footer li").css("font-size",size + "px");
   });
   
   
