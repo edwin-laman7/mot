@@ -1,0 +1,45 @@
+/* Header resize image on mobile*/
+
+@media (max-width: 569px){
+  .mot-header img {
+    height: auto;
+    width: 40px;
+  }
+  /* footer fix on mobile*/
+  footer ul.social-links{
+  padding-top:10px;
+  }
+  footer ul.social-links li i {
+      font-size: 23px;
+  }
+  footer .row .small-6{
+  padding-top: var(--narrow);
+  }
+
+}
+
+@media (max-width: 1024px){
+  .row .main-sector-buttom
+  padding-top:var(--narrow);
+  }
+  .main-sector-desktop .main-sector-button {
+    width: 400px !important;
+    display: inline-table;
+  }
+
+}
+
+.row .button-header-wrap{
+  padding: 0;
+}
+footer a{
+  text-decoration: underline;
+}
+footer a:hover{
+  color: #cccccc
+  ;
+}
+.main-slick .slick-next {
+  display: none !important;
+}
+

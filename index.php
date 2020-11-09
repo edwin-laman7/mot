@@ -1,41 +1,19 @@
 <?php include('header.php'); ?>
-
 <main class="home">
-  <div class="grid-container main-banner">
-    <div class="orbit" role="region" aria-label="" data-orbit data-options="animInFromLeft:fade-in; animInFromRight:fade-in; animOutToLeft:fade-out; animOutToRight:fade-out; slideSpeed: 500;">
-      <div class="orbit-wrapper">
-        <ul class="orbit-container">
-          <li class="is-active orbit-slide">
-            <div class="main-sector-illustration">
-              <div class="main-sector-background">
-                <p style="height:474px; "></p>
-              </div>
-            </div>
-          </li>
-          <li class="is-active orbit-slide">
-            <figure class="orbit-figure">
-              <img class="orbit-image" src="assets/img/dummy-banner.jpg" alt="dummy-banner">
-            </figure>
-          </li>
-          <li class="orbit-slide">
-            <figure class="orbit-figure">
-              <img class="orbit-image" src="assets/img/dummy-banner-2.jpg" alt="dummy-banner-2">
-            </figure>
-          </li>
-          <li class="orbit-slide">
-            <figure class="orbit-figure">
-              <img class="orbit-image" src="assets/img/dummy-banner-3.jpg" alt="dummy-banner-3">
-            </figure>
-          </li>
-        </ul>
-      </div>
+<div class="banner-container">
+  <div class="main-slick">
+    <div class="banner-bg banner-one" data-background="assets/img/mot-building-animation-css.svg">
+  </div>
+    <div class="banner-bg banner-two" data-background="assets/img/banner-slider-mot-2.svg">
     </div>
+    
+</div>
 </div>
   <div class="grid-container">
     <div class="row main-sector" >
-    <div class="column small-12 medium-4 main-sector-button">
+    <div class="column small-12 medium-6 large-4 main-sector-button">
       <div class="main-sector-caption">
-        Moving people and goods safely, efficiently and sustainably across Malaysia to improve quality of life and support a competitive economy.
+        <p>Moving people and goods safely, efficiently and sustainably across Malaysia to improve quality of life and support a competitive economy.</p>
       </div>
         <ul class="main-sector-btn">
           <li class="one"><a href="aviation.php"><img src="assets/icon/plane.svg" alt="plane-icon"> Aviation</a></li>
@@ -93,6 +71,32 @@
       </div>
     </div>
   </div>
+
+  <!-- News and Development Code -->
+  <div class="grid-container mot-news-developments announcement" style="background-color:var(--banner-quicklinks-footer-bg-color);">
+    <div class="row">
+      <div class="column small-12 medium-8">
+        <h2>Announcements</h2>
+        <ul class="no-bullet">
+          <li><a href="#"> Road Transport Act (Amendment) 2020 Operational from 23 Oct 2020</a></li>
+          <li><a href="#"> Kenyataan Polisi Antirasuah Kementerian Pengangkutan MalaysiaNew</a></li>
+        </ul>
+        <a href="#">More Announcements</a>
+      </div>
+      <div class="column small-12 medium-4">
+        <h2>Most Requested</h2>
+        <ul class="no-bullet">
+          <li><a href="http://motweb2019d.mot.gov.my/en/maritime/operators-and-licenses/dsl">Domestic Shipping License</a></li>
+          <li><a href="http://motweb2019d.mot.gov.my/en/directory">Staff Directory</a></li>
+          <li><a href="#">Flying School</a></li>
+          <li><a href="http://motweb2019d.mot.gov.my/en/aviation/reports">Special Report Air Investigation</a></li>
+          <li><a href="http://motweb2019d.mot.gov.my/en/business/tender/schedules-quotation-tender">Tender & Quotation</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  
+
   <!-- Front Topic Code -->
   <div class="grid-container front-topic">
     <div class="row button-header-wrap">
@@ -156,7 +160,7 @@
   <!-- News and Development Code -->
   <div class="grid-container mot-news-developments" style="background-color:var(--banner-quicklinks-footer-bg-color);">
     <div class="row">
-      <div class="column small-12 medium-6">
+      <div class="column small-12 medium-8">
         <h2>MOT in the News</h2>
         <ul class="no-bullet">
           <li><span class="date">20/09</span> <a href="#"> Govt Gets Tough On Traffic Offences</a></li>
@@ -166,7 +170,7 @@
         </ul>
         <a href="#">More News</a>
       </div>
-      <div class="column small-12 medium-6">
+      <div class="column small-12 medium-4">
         <h2>Future Developments</h2>
         <ul class="no-bullet">
           <li><a href="#">MRT and LRT3 Project Status</a></li>
