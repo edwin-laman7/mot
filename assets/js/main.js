@@ -181,7 +181,7 @@ $( document ).ready(function() {
   
   $("#normal").on("click",function(){
     size=14;
-     $("p").css("font-size",size + "px");
+     $("body, h1, h2, h3, h4, p").css("font-size",size + "px");
   });
   
   
