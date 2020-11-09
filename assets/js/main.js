@@ -82,8 +82,8 @@ function toggleNav(){
     getSidebarMenu.style.display = "block";
     getToggleDarkMode.style.display = "none";
     getMOTHeader.style.color =  "white"; 
-    getMOTTitleSpan.style.color =  "white"; 
-    getMOTTitleP.style.color =  "white"; 
+    //getMOTTitleSpan.style.color =  "white"; 
+    //getMOTTitleP.style.color =  "white"; 
     getSearchContainer.style.visible =  "hidden"; 
     getBtnTglLanguage.style.visible =  "hidden";
 
@@ -107,7 +107,7 @@ function toggleNav(){
     getSearchContainer.style.visible =  "visible";
     getBtnTglLanguage.style.visible =  "visible";  
     getMOTHeader.style.color =  "#193B6A";
-    getMOTTitleSpan.style.color =  "var(--black)"; 
+    //getMOTTitleSpan.style.color =  "var(--black)"; 
     //getMOTTitleP.style.color =  "var(--black)"; 
     if (pcwidth <= 768){//search input for mobile
       getSearchContainer.style.display = "none";
