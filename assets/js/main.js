@@ -169,13 +169,13 @@ function modeSwitcher() {
 
 //TOGGLE INCREASE AND RESET FONT CODE
 $( document ).ready(function() {
-  size=parseInt($('body, h1, h2, h3, h4, p').css('font-size'));
+  size=parseInt($('body, h1, h2, h3, h4, p, a').css('font-size'));
 
   
   $("#big").on("click",function(){
    
     size+=4;
-     $("body, h1, h2, h3, h4, p").css("font-size",size + "px");
+     $("body, h1, h2, h3, h4, p, a").css("font-size",size + "px");
   });
   
 
@@ -185,7 +185,7 @@ $( document ).ready(function() {
   
   $("#normal").on("click",function(){
     size=14;
-     $("body, h1, h2, h3, h4, p").css("font-size",size + "px");
+     $("body, h1, h2, h3, h4, p, a").css("font-size",size + "px");
   });
   
   
