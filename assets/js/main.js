@@ -185,21 +185,20 @@ $( document ).ready(function() {
   
   $("#normal").on("click",function(){
     size=14;
-     $(".main h1, .main h2, .main h3, .main h4, .main p, .main a, .main li, footer h1, footer h2, footer h3, footer h4, footer p, footer a, footer li").css("font-size",size + "px");
+     $(".main h1, .main h2, .main h3, .main h4, .main p, .main a, .main li, footer h1, footer h2, footer h3, footer h4, footer p, footer a, footer li").css("font-size","");
   });
   
-  
-  $("#small").on("click",function(){
-    
-    size-=2;
-    if(size>=0){
-     $("p").css("font-size",size+ "px");
-    }else{
-      alert("VLAUE IS MINUS SO RESET TO 14px");
-      size=14
-      $("p").css("font-size",size+ "px");
-    }
-  });
+ // We dont need to make it smaller
+//   $("#small").on("click",function(){
+//     size-=2;
+//     if(size>=0){
+//      $("p").css("font-size",size+ "px");
+//     }else{
+//       alert("VLAUE IS MINUS SO RESET TO 14px");
+//       size=14
+//       $("p").css("font-size",size+ "px");
+//     }
+//  });
 });
 
 
