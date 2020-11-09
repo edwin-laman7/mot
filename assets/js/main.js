@@ -201,33 +201,38 @@ function modeSwitcher() {
   
 // }
 
-size=parseInt($('body, h1, h2, h3, h4, p').css('font-size'));
+
+
+$( document ).ready(function() {
+  size=parseInt($('body, h1, h2, h3, h4, p').css('font-size'));
 
   
-$("#big").on("click",function(){
- 
-  size+=4;
-   $("body, h1, h2, h3, h4, p").css("font-size",size + "px");
-});
-
-
-$("#normal").on("click",function(){
-  size=14;
-   $("p").css("font-size",size + "px");
-});
-
-
-$("#small").on("click",function(){
+  $("#big").on("click",function(){
+   
+    size+=4;
+     $("body, h1, h2, h3, h4, p").css("font-size",size + "px");
+  });
   
-  size-=2;
-  if(size>=0){
-   $("p").css("font-size",size+ "px");
-  }else{
-    alert("VLAUE IS MINUS SO RESET TO 14px");
-    size=14
-    $("p").css("font-size",size+ "px");
-  }
+  
+  $("#normal").on("click",function(){
+    size=14;
+     $("p").css("font-size",size + "px");
+  });
+  
+  
+  $("#small").on("click",function(){
+    
+    size-=2;
+    if(size>=0){
+     $("p").css("font-size",size+ "px");
+    }else{
+      alert("VLAUE IS MINUS SO RESET TO 14px");
+      size=14
+      $("p").css("font-size",size+ "px");
+    }
+  });
 });
+
 
 
 
@@ -255,18 +260,10 @@ else if (pcwidth<=768){//Mobile Menu Button
 
 $(document).ready(function(){
 
-  // $(window).scroll(function(){
-  //   if($(this).scrollTop()>108){
-  //     // $(".nav-main").css({position: "fixed"});
-  //     console.log(position);
-  //   }
-  // });
-
-
-  var breadcrumbPos = $('.breadcrumb-wrap');
-  var distance = breadcrumbPos.offset().top;
 
   $(window).scroll(function() {
+    var breadcrumbPos = $('.breadcrumb-wrap');
+    var distance = breadcrumbPos.offset().top;
 
       if ( $(this).scrollTop() >= distance ) {
           // console.log('is in top');
