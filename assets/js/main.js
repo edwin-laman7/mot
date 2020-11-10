@@ -203,7 +203,7 @@ $( document ).ready(function() {
 
 
 
-LIGHTBOX FOR BANNER ANNOUNCEMENT CODE
+//LIGHTBOX FOR BANNER ANNOUNCEMENT CODE
 $( document ).ready(function() {
   $('.banner-announcements').magnificPopup({
     delegate: 'a.popup',
