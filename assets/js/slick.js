@@ -19,7 +19,7 @@ $(document).ready(function() {
 var windowsize = $(window).width();
 var windowsize2 = windowsize - 15;
 //console.log(windowsize);
-$(".banner-announcements").css("width",windowsize2+"px");
+$(".banner-announcements").css("width",windowsize+"px");
      });
 
 //Slick
