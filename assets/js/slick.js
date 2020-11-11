@@ -17,9 +17,9 @@ $(document).ready(function() {
        }
 //Check window width and inject into .banner-announcements
 var windowsize = $(window).width();
-var windowsize2 = windowsize - 15;
+var windowsize2 = windowsize - 17;
 //console.log(windowsize);
-    if(window.matchMedia("(max-width: 1000px)").matches){
+    if(window.matchMedia("(max-width: 767px)").matches){
         $(".banner-announcements").css("width",windowsize+"px"); //its mobile
     } else{
         $(".banner-announcements").css("width",windowsize2+"px"); //its desktop
