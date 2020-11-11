@@ -19,7 +19,12 @@ $(document).ready(function() {
 var windowsize = $(window).width();
 var windowsize2 = windowsize - 15;
 //console.log(windowsize);
-$(".banner-announcements").css("width",windowsize+"px");
+    if(window.matchMedia("(max-width: 1000px)").matches){
+        $(".banner-announcements").css("width",windowsize+"px"); //its mobile
+    } else{
+        $(".banner-announcements").css("width",windowsize2+"px"); //its desktop
+    }
+
      });
 
 //Slick
