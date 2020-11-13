@@ -169,10 +169,10 @@ function modeSwitcher() {
 //Get the current year
 
 
-  var currentYear = (new Date).getFullYear();
-  $(document).ready(function() {
-  $("#year").text( (new Date).getFullYear() );
-  });
+  // var currentYear = (new Date).getFullYear();
+  // $(document).ready(function() {
+  // $("#year").text( (new Date).getFullYear() );
+  // });
 
 
 //TOGGLE INCREASE AND RESET FONT CODE
