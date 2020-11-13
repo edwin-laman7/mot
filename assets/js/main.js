@@ -66,8 +66,6 @@ $("li.item").each(function(index){
   });
 });
 
-// document.getElementById("year").innerHTML = new Date().getFullYear();
-// console.log(new Date().getFullYear());
 
 //DECLAIRE VARIABLE FOR SCREEN WIDTH
 var pcwidth = $(window).width();
@@ -168,7 +166,10 @@ function modeSwitcher() {
 	}
 }
 
-
+//Get the current year
+$( document ).ready(function() {
+$("#year").text( (new Date).getFullYear() );
+});
 //TOGGLE INCREASE AND RESET FONT CODE
 $( document ).ready(function() {
   size=parseInt($(".main h1, .main h2, .main h3, .main h4, .main p, .main a, .main li, footer h1, footer h2, footer h3, footer h4, footer p, footer a, footer li").css('font-size'));
