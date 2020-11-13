@@ -67,6 +67,7 @@ $("li.item").each(function(index){
 });
 
 document.getElementById("year").innerHTML = new Date().getFullYear();
+console.log(new Date().getFullYear());
 
 //DECLAIRE VARIABLE FOR SCREEN WIDTH
 var pcwidth = $(window).width();
