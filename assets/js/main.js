@@ -15,6 +15,7 @@ let getSearchContainer = document.querySelector(".search-input-container");
 let getBtnTglLanguage = document.querySelector(".btn-toggle-language");
 let getFooter = document.querySelector("footer");
 const menuBtn =  document.querySelector(".menu-btn"); 
+let currentMode = document.documentElement.getAttribute('data-theme');
 
 
 
@@ -88,7 +89,12 @@ function toggleNav(){
     $('li.item.topic-9').css('display','none');
     $(".mot-header").css("color","white");
 
-    if (theme === "light"){document.documentElement.setAttribute("style", " --dark-blue-logo: #ffffff");}
+    if (currentMode=== "light"){
+      document.documentElement.setAttribute("style", " --dark-blue-logo:  #ffffff");
+    }
+    else if (currentMode=== "dark"){
+      document.documentElement.setAttribute("style", " --dark-blue-logo:  #ffffff");
+    }
     
 	
     if (pcwidth <= 768){//search input for mobile
@@ -110,7 +116,12 @@ function toggleNav(){
     getBtnTglLanguage.style.visible =  "visible";  
     getMOTHeader.style.color =  "#193B6A";
     $('li.item.topic-9').css('display','block');
-    if (theme === "light"){document.documentElement.setAttribute("style", " --dark-blue-logo:  #00122a");}
+    if (currentMode=== "light"){
+      document.documentElement.setAttribute("style", " --dark-blue-logo:  #00122a");
+    }
+    else if (currentMode=== "dark"){
+      document.documentElement.setAttribute("style", " --dark-blue-logo:  #ffffff");
+    }
 
     //getMOTTitleSpan.style.color =  "var(--black)"; 
     //getMOTTitleP.style.color =  "var(--black)"; 
@@ -162,7 +173,7 @@ if (theme === "dark") {
 }
 
 function modeSwitcher() {
-	let currentMode = document.documentElement.getAttribute('data-theme');
+	
 	if (currentMode === "dark") {
 		document.documentElement.setAttribute('data-theme', 'light');
     setCookie('theme','light',360); 
