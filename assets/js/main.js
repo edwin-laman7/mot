@@ -173,7 +173,7 @@ if (theme === "dark") {
 }
 
 function modeSwitcher() {
-	
+	let currentMode = document.documentElement.getAttribute('data-theme');
 	if (currentMode === "dark") {
 		document.documentElement.setAttribute('data-theme', 'light');
     setCookie('theme','light',360); 
