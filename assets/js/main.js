@@ -88,6 +88,7 @@ function toggleNav(){
     getBtnTglLanguage.style.visible =  "hidden";
     $('li.item.topic-9').css('display','none');
     $(".mot-header").css("color","white");
+    $(".mot-title").css("color","white");
 
     // if (currentMode=== "light"){
     //   document.documentElement.setAttribute("style", " --dark-blue-logo:  #ffffff");
@@ -116,6 +117,7 @@ function toggleNav(){
     getBtnTglLanguage.style.visible =  "visible";  
     getMOTHeader.style.color =  "#193B6A";
     $('li.item.topic-9').css('display','block');
+    $(".mot-title").css("color","--dark-blue-logo");
     // if (currentMode=== "light"){
     //   document.documentElement.setAttribute("style", " --dark-blue-logo:  #00122a");
     // }
@@ -175,10 +177,12 @@ if (theme === "dark") {
 function modeSwitcher() {
 	let currentMode = document.documentElement.getAttribute('data-theme');
 	if (currentMode === "dark") {
-		document.documentElement.setAttribute('data-theme', 'light');
+    document.documentElement.setAttribute('data-theme', 'light');
+    $(".mot-title").css("color","--dark-blue-logo");
     setCookie('theme','light',360); 
 	} else {
-		document.documentElement.setAttribute('data-theme', 'dark');
+    document.documentElement.setAttribute('data-theme', 'dark');
+    $(".mot-title").css("color","--dark-blue");
     setCookie('theme','dark',360); 
 	}
 }
