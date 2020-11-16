@@ -89,12 +89,12 @@ function toggleNav(){
     $('li.item.topic-9').css('display','none');
     $(".mot-header").css("color","white");
 
-    if (currentMode=== "light"){
-      document.documentElement.setAttribute("style", " --dark-blue-logo:  #ffffff");
-    }
-    else if (currentMode=== "dark"){
-      document.documentElement.setAttribute("style", " --dark-blue-logo:  #ffffff");
-    }
+    // if (currentMode=== "light"){
+    //   document.documentElement.setAttribute("style", " --dark-blue-logo:  #ffffff");
+    // }
+    // else if (currentMode=== "dark"){
+    //   document.documentElement.setAttribute("style", " --dark-blue-logo:  #ffffff");
+    // }
     
 	
     if (pcwidth <= 768){//search input for mobile
@@ -116,12 +116,12 @@ function toggleNav(){
     getBtnTglLanguage.style.visible =  "visible";  
     getMOTHeader.style.color =  "#193B6A";
     $('li.item.topic-9').css('display','block');
-    if (currentMode=== "light"){
-      document.documentElement.setAttribute("style", " --dark-blue-logo:  #00122a");
-    }
-    else if (currentMode=== "dark"){
-      document.documentElement.setAttribute("style", " --dark-blue-logo:  #ffffff");
-    }
+    // if (currentMode=== "light"){
+    //   document.documentElement.setAttribute("style", " --dark-blue-logo:  #00122a");
+    // }
+    // else if (currentMode=== "dark"){
+    //   document.documentElement.setAttribute("style", " --dark-blue-logo:  #ffffff");
+    // }
 
     //getMOTTitleSpan.style.color =  "var(--black)"; 
     //getMOTTitleP.style.color =  "var(--black)"; 
