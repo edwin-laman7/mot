@@ -15,7 +15,6 @@ let getSearchContainer = document.querySelector(".search-input-container");
 let getBtnTglLanguage = document.querySelector(".btn-toggle-language");
 let getFooter = document.querySelector("footer");
 const menuBtn =  document.querySelector(".menu-btn"); 
-let currentMode = document.documentElement.getAttribute('data-theme');
 
 
 
@@ -87,16 +86,7 @@ function toggleNav(){
     getSearchContainer.style.visible =  "hidden"; 
     getBtnTglLanguage.style.visible =  "hidden";
     $('li.item.topic-9').css('display','none');
-    $(".mot-header").css("color","white");
-    $(".mot-title").css("color","white");
-
-    // if (currentMode=== "light"){
-    //   document.documentElement.setAttribute("style", " --dark-blue-logo:  #ffffff");
-    // }
-    // else if (currentMode=== "dark"){
-    //   document.documentElement.setAttribute("style", " --dark-blue-logo:  #ffffff");
-    // }
-    
+		$(".mot-header").css("color","white");
 	
     if (pcwidth <= 768){//search input for mobile
       getSearchContainer.style.display = "block";
@@ -117,14 +107,6 @@ function toggleNav(){
     getBtnTglLanguage.style.visible =  "visible";  
     getMOTHeader.style.color =  "#193B6A";
     $('li.item.topic-9').css('display','block');
-    $(".mot-title").css("color","--dark-blue-logo");
-    // if (currentMode=== "light"){
-    //   document.documentElement.setAttribute("style", " --dark-blue-logo:  #00122a");
-    // }
-    // else if (currentMode=== "dark"){
-    //   document.documentElement.setAttribute("style", " --dark-blue-logo:  #ffffff");
-    // }
-
     //getMOTTitleSpan.style.color =  "var(--black)"; 
     //getMOTTitleP.style.color =  "var(--black)"; 
     if (pcwidth <= 768){//search input for mobile
@@ -147,7 +129,7 @@ function toggleNav(){
   
   //CHANGE BUTTON AND ICON FROM MENU TO CLOSE  
     var curText = document.getElementById("btn-toggle-nav");
-  	// console.log('3');
+  	//console.log('3');
   	if(toggleNavStatus === true){
   		curText.innerHTML = 'CLOSE';
   	} else {
@@ -164,8 +146,7 @@ const userPrefers = getComputedStyle(document.documentElement).getPropertyValue(
 if (theme === "dark") {
 	// document.getElementById("theme-toggle").innerHTML = "Light Mode";
 } else if (theme === "light") {
-  // document.getElementById("theme-toggle").innerHTML = "Dark Mode";
-
+	// document.getElementById("theme-toggle").innerHTML = "Dark Mode";
 } else if  (userPrefers === "dark") {
 	document.documentElement.setAttribute('data-theme', 'dark');
   setCookie('theme','dark',360); 
@@ -177,17 +158,21 @@ if (theme === "dark") {
 function modeSwitcher() {
 	let currentMode = document.documentElement.getAttribute('data-theme');
 	if (currentMode === "dark") {
-    document.documentElement.setAttribute('data-theme', 'light');
-    $(".mot-title").css("color","--dark-blue-logo");
+		document.documentElement.setAttribute('data-theme', 'light');
     setCookie('theme','light',360); 
 	} else {
-    document.documentElement.setAttribute('data-theme', 'dark');
-    $(".mot-title").css("color","--dark-blue");
+		document.documentElement.setAttribute('data-theme', 'dark');
     setCookie('theme','dark',360); 
 	}
 }
 
+//Get the current year
 
+
+  // var currentYear = (new Date).getFullYear();
+  // $(document).ready(function() {
+  // $("#year").text( (new Date).getFullYear() );
+  // });
 
 
 //TOGGLE INCREASE AND RESET FONT CODE
