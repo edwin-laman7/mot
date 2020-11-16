@@ -145,7 +145,7 @@ function toggleNav(){
   
   //CHANGE BUTTON AND ICON FROM MENU TO CLOSE  
     var curText = document.getElementById("btn-toggle-nav");
-  	console.log('3');
+  	// console.log('3');
   	if(toggleNavStatus === true){
   		curText.innerHTML = 'CLOSE';
   	} else {
