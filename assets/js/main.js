@@ -285,6 +285,13 @@ $(document).ready(function(){
 });
 
 //Link with pdf will open new tab,
-$(function(){
-  $('a[href$=".pdf"]').prop('target','_blank');
-});
+$('a').click(
+  function(e){
+      e.preventDefault();
+      if (this.href.split('.').pop() === 'pdf') {
+          window.open(this.href);
+      }
+      else {
+          window.location = this.href;
+      }
+  });
