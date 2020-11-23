@@ -285,16 +285,9 @@ $(document).ready(function(){
 });
 
 //Link with pdf will open new tab,
-// $('a').click(
-//   function(e){
-//       // e.preventDefault();
-//       if (this.href.split('.').pop() === 'pdf') {
-//           window.open(this.href);
-//           console.log("pdf");
-//       }
-//       else {
-//           window.location = this.href;
-//           console.log("non-pdf");
-      
-//       }
-//   });
+$('a').click(
+  function(e){
+      if (this.href.split('.').pop() === 'pdf') {
+          window.open(this.href);
+      }
+  });
