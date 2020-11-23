@@ -288,6 +288,7 @@ $(document).ready(function(){
 $('a').click(
   function(e){
       if (this.href.split('.').pop() === 'pdf') {
-          window.open(this.href);
+        e.preventDefault();
+        window.open(this.href);
       }
   });
