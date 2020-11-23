@@ -283,3 +283,8 @@ $(document).ready(function(){
 
   });
 });
+
+//Link with pdf will open new tab,
+$(function(){
+  $('a[href$=".pdf"]').prop('target','_blank');
+});
