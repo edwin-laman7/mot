@@ -285,13 +285,13 @@ $(document).ready(function(){
 });
 
 //Link with pdf will open new tab,
-$('a').click(
-  function(e){
-      e.preventDefault();
-      if (this.href.split('.').pop() === 'pdf') {
-          window.open(this.href);
-      }
-      else {
-          window.location = this.href;
-      }
-  });
+// $('a').click(
+//   function(e){
+//       e.preventDefault();
+//       if (this.href.split('.').pop() === 'pdf') {
+//           window.open(this.href);
+//       }
+//       else {
+//           window.location = this.href;
+//       }
+//   });
