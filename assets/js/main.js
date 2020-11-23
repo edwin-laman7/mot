@@ -290,8 +290,11 @@ $('a').click(
       // e.preventDefault();
       if (this.href.split('.').pop() === 'pdf') {
           window.open(this.href);
+          console.log("pdf");
       }
       else {
           window.location = this.href;
+          console.log("non-pdf");
+      
       }
   });
