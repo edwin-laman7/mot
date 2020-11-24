@@ -81,8 +81,6 @@ function toggleNav(){
     getSidebarMenu.style.display = "block";
     getToggleDarkMode.style.display = "none";
     getMOTHeader.style.color =  "white"; 
-    //getMOTTitleSpan.style.color =  "white"; 
-    //getMOTTitleP.style.color =  "white"; 
     getSearchContainer.style.visible =  "hidden"; 
     getBtnTglLanguage.style.visible =  "hidden";
     $('li.item.topic-9').css('display','none');
@@ -107,8 +105,6 @@ function toggleNav(){
     getBtnTglLanguage.style.visible =  "visible";  
     getMOTHeader.style.color =  "#193B6A";
     $('li.item.topic-9').css('display','block');
-    //getMOTTitleSpan.style.color =  "var(--black)"; 
-    //getMOTTitleP.style.color =  "var(--black)"; 
     if (pcwidth <= 768){//search input for mobile
       getSearchContainer.style.display = "none";
       getSearchContainer.style.visible = "hidden";
@@ -129,7 +125,6 @@ function toggleNav(){
   
   //CHANGE BUTTON AND ICON FROM MENU TO CLOSE  
     var curText = document.getElementById("btn-toggle-nav");
-  	//console.log('3');
   	if(toggleNavStatus === true){
   		curText.innerHTML = 'CLOSE';
   	} else {
@@ -166,15 +161,6 @@ function modeSwitcher() {
 	}
 }
 
-//Get the current year
-
-
-  // var currentYear = (new Date).getFullYear();
-  // $(document).ready(function() {
-  // $("#year").text( (new Date).getFullYear() );
-  // });
-
-
 //TOGGLE INCREASE AND RESET FONT CODE
 $( document ).ready(function() {
   size=parseInt($(".main h1, .main h2, .main h3, .main h4, .main p, .main a, .main li, footer h1, footer h2, footer h3, footer h4, footer p, footer a, footer li").css('font-size'));
@@ -185,12 +171,7 @@ $( document ).ready(function() {
     size+=4;
      $(".main h1, .main h2, .main h3, .main h4, .main p, .main a, .main li, footer h1, footer h2, footer h3, footer h4, footer p, footer a, footer li").css("font-size",size + "px");
   });
-  
-
-// let fontSize = parseInt(window.getComputedStyle(body, null).fontSize);
-// sessionStorage.setItem("defaultFontSize", fontSize);
-// let defaultFontSize = sessionStorage.getItem("defaultFontSize");
-  
+    
   $("#normal").on("click",function(){
     size=14;
      $(".main h1, .main h2, .main h3, .main h4, .main p, .main a, .main li, footer h1, footer h2, footer h3, footer h4, footer p, footer a, footer li").css("font-size","");
@@ -251,15 +232,7 @@ else if (pcwidth<=768){//Mobile Menu Button
 
 $(document).ready(function(){
 
-  // $(window).scroll(function(){
-  //   if($(this).scrollTop()>108){
-  //     // $(".nav-main").css({position: "fixed"});
-  //     console.log(position);
-  //   }
-  // });
-
-
-
+  //Breadcrumb stick on when scroll
   $(window).scroll(function() {
     var breadcrumbPos = $('.breadcrumb-wrap');
     var distance = breadcrumbPos.offset().top();
