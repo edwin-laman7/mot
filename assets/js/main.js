@@ -267,10 +267,3 @@ $('a').click(
   });
 
 
-//Get today's Date  
-var d = new Date();
-
-var month = d.getMonth()+1;
-var day = d.getDate();
-
-document.getElementById("todaysDate").innerHTML = ((''+day).length<2 ? '0' : '') + day + '/' + ((''+month).length<2 ? '0' : '') + month + '/' + d.getFullYear() ;
