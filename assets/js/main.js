@@ -267,12 +267,3 @@ $('a').click(
   });
 
 
-  $(document).ready(function(){
-    $('.normal-slick').slick({
-      dots: true,
-      infinite: true,
-      speed: 500,
-      fade: true,
-      cssEase: 'linear'
-    });
-  });
