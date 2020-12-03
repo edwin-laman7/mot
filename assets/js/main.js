@@ -169,7 +169,6 @@ $( document ).ready(function() {
   $("#big").on("click",function(){
     if (sizeCounter != 4){
       sizeCounter+=1;
-      console.log(sizeCounter);
       size+=4;
       $(".main h1, .main h2, .main h3, .main h4, .main p, .main a, .main li, footer h1, footer h2, footer h3, footer h4, footer p, footer a, footer li").css("font-size",size + "px");
       
