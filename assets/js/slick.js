@@ -79,6 +79,7 @@ $('.multiple-items').slick({
   slidesToScroll: 3
 });
 
+$('.single-item').slick();
 
 
 
