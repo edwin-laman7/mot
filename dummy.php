@@ -1,5 +1,5 @@
 <?php include('header.php'); ?>
-<div class="row">
+<p class="row">
   <div class="column text-center">  
     <div class="responsive">
       <div class="column">
@@ -32,7 +32,7 @@
       </div>
     </div>
   </div>
-</div>
+</p>
 
 
 
