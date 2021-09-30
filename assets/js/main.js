@@ -163,21 +163,21 @@ function modeSwitcher() {
 
 //TOGGLE INCREASE AND RESET FONT CODE
 $( document ).ready(function() {
-  size=parseInt($(".main h1, .main h2, .main h3, .main h4, .main p, .main a, .main li, footer h1, footer h2, footer h3, footer h4, footer p, footer a, footer li").css('font-size'));
+  size=parseInt($("main h1, main h2, main h3, main h4, main p, main a, main li, footer h1, footer h2, footer h3, footer h4, footer p, footer a, footer li").css('font-size'));
 
   sizeCounter = 0;
   $("#big").on("click",function(){
     if (sizeCounter != 4){
       sizeCounter+=1;
       size+=4;
-      $(".main h1, .main h2, .main h3, .main h4, .main p, .main a, .main li, footer h1, footer h2, footer h3, footer h4, footer p, footer a, footer li").css("font-size",size + "px");
+      $("main h1, main h2, main h3, main h4, main p, main a, main li, footer h1, footer h2, footer h3, footer h4, footer p, footer a, footer li").css("font-size",size + "px");
       
     }
   });
     
   $("#normal").on("click",function(){
     size=14;
-     $(".main h1, .main h2, .main h3, .main h4, .main p, .main a, .main li, footer h1, footer h2, footer h3, footer h4, footer p, footer a, footer li").css("font-size","");
+     $("main h1, main h2, main h3, main h4, main p, main a, main li, footer h1, footer h2, footer h3, footer h4, footer p, footer a, footer li").css("font-size","");
      sizeCounter = 0;
   });
   
@@ -239,7 +239,7 @@ $(document).ready(function(){
   //Breadcrumb stick on when scroll
   $(window).scroll(function() {
     var breadcrumbPos = $('.breadcrumb-wrap');
-    var distance = breadcrumbPos.offset().top();
+    var distance = breadcrumbPos.offset({top:0});
       if ( $(this).scrollTop() >= distance ) {
           // console.log('is in top');
           $(".breadcrumb-menu-btn").css({display: "block"});
