@@ -1,4 +1,4 @@
-//VARIABLE TO DECLAIRE STATUS CODE
+//VARIABLE TO DECLAIRE STATUS CODE EDWIN
 let toggleNavStatus = false;
 let toggleDarkModeStatus = false;
 
